@@ -1,0 +1,9 @@
+{
+  "components": {
+    "bot": {
+      "version": "1.0.0",
+      "tag": "bot/v1.0.0",
+      "changelog": "changelog/bot.md"
+    }
+  }
+}
