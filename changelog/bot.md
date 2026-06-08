@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.2.0] - 2026-06-08
+
+_Internal changes only; no public notes for this release._
+
 ## [1.1.0] - 2026-06
 
 - **X Intelligence** added: a read on a token's X (Twitter) account.
