@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.3.0] - 2026-06-14
+
+- **Fixed:** the bot stays responsive while longer requests are running.
+
 ## [1.2.0] - 2026-06-08
 
 _Internal changes only; no public notes for this release._
