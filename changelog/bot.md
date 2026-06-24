@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.12.0] - 2026-06-24
+
+_Internal changes only; no public notes for this release._
+
 ## [1.10.0 – 1.11.1] - 2026-06-23/24
 
 _Internal changes only; no public notes for this release._
