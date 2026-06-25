@@ -3,6 +3,16 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.14.0 – 1.14.1] - 2026-06-25/28
+
+- `/don` reads more price history, and the long-term entry zone now always
+  sits at or below the short-term entry zone.
+
+## [1.13.0] - 2026-06-25
+
+- **`/don`** recognises five new chart patterns and looks back over 60
+  candles instead of 30.
+
 ## [1.12.0] - 2026-06-24
 
 _Internal changes only; no public notes for this release._
