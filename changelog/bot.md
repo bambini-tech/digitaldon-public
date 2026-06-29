@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.18.0] - 2026-06-29
+
+- **X Intelligence** reads the 25 most recent posts and tells original posts
+  apart from retweets and replies.
+
+## [1.15.0 – 1.17.0] - 2026-06-29
+
+_Internal changes only; no public notes for this release._
+
 ## [1.14.0 – 1.14.1] - 2026-06-25/28
 
 - `/don` reads more price history, and the long-term entry zone now always
