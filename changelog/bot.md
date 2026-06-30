@@ -3,6 +3,16 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.20.0] - 2026-06-30
+
+- **X Intelligence** scores account age on a tiered scale calibrated for
+  crypto projects.
+
+## [1.19.0 – 1.19.6] - 2026-06-30
+
+- **X Intelligence** lookups run server-side and are more reliable; several
+  fixes.
+
 ## [1.18.0] - 2026-06-29
 
 - **X Intelligence** reads the 25 most recent posts and tells original posts
