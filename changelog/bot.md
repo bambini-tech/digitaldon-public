@@ -3,6 +3,21 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.22.0] - 2026-07-01
+
+- **Long-term take-profit** in `/don` is now derived from resistance levels
+  on the 4h chart.
+
+## [1.21.4] - 2026-07-01
+
+- **Fixed:** long-term upside could read lower than short-term upside when a
+  token traded near its all-time high.
+
+## [1.21.0 – 1.21.3] - 2026-07-01
+
+- **X Intelligence** message redesigned with cleaner formatting and a
+  mobile-friendly breakdown.
+
 ## [1.20.0] - 2026-06-30
 
 - **X Intelligence** scores account age on a tiered scale calibrated for

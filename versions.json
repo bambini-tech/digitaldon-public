@@ -1,8 +1,8 @@
 {
   "components": {
     "bot": {
-      "version": "1.20.0",
-      "tag": "bot/v1.20.0",
+      "version": "1.22.0",
+      "tag": "bot/v1.22.0",
       "changelog": "changelog/bot.md"
     }
   }
