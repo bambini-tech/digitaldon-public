@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.1.0] - 2026-07-05
+
+- The Web Analyzer can now show X (Twitter) account intelligence for a
+  token, served by the bot.
+
 ## [1.24.1] - 2026-07-03
 
 _Internal changes only; no public notes for this release._
