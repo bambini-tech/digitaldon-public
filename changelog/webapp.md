@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.1.1] - 2026-07-06
+
+- The "run x intel" button is now connected to the live service and returns
+  real results.
+
 ## [1.1.0] - 2026-07-05
 
 - **X Intelligence:** when a token lists an X account, a "run x intel" button

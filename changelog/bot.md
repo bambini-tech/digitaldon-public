@@ -3,6 +3,55 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.6.1] - 2026-07-06
+
+- **Snipers and Bundle** supply shares were reported far too low on many
+  tokens; the amount bought at launch is now measured correctly.
+
+## [2.6.0] - 2026-07-06
+
+- **Snipers and Bundle** now show the share of supply bought at launch and
+  what is still held today (e.g. "sniped 32% → 0% now").
+
+## [2.5.0] - 2026-07-06
+
+_Internal changes only; no public notes for this release._
+
+## [2.4.4] - 2026-07-06
+
+- The holder line now reads `Largest wallet` instead of `Largest owner`.
+
+## [2.4.3] - 2026-07-06
+
+_Internal changes only; no public notes for this release._
+
+## [2.4.2] - 2026-07-06
+
+- **Fixed:** wallet clusters no longer shrink when the same token is scanned
+  repeatedly.
+
+## [2.4.1] - 2026-07-06
+
+- **Fixed:** the fresh-wallet signal no longer reads 0% on tokens that had
+  been scanned before.
+
+## [2.4.0] - 2026-07-06
+
+- **Holder analysis** adds a Launch Signals line on Solana: fresh wallets,
+  insiders, snipers and bundles among the largest holders.
+
+## [2.3.0] - 2026-07-06
+
+- **Holder analysis** now covers the full holder set, which fixes the holder
+  count and finds bundles among mid-ranked wallets.
+- Concentration figures exclude the liquidity pool by design.
+
+## [2.2.0] - 2026-07-06
+
+- **`/don` Holder Analysis** now works per owner rather than per token
+  account and detects wallet clusters ("bubbles") with a Bubble risk grade
+  (Solana).
+
 ## [2.1.0] - 2026-07-05
 
 - The Web Analyzer can now show X (Twitter) account intelligence for a
