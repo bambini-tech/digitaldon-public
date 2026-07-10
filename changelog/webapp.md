@@ -3,6 +3,31 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.3.0] - 2026-07-10
+
+- **A richer holder map.** Wallets are tagged by role (sniper, bundle, insider
+  or dev-funded, fresh) with pale tints. Funder wallets get a double ring,
+  bubbles show their share of supply, and links separate direct funding (solid
+  arrows) from wallets grouped by a shared funder (dashed).
+- A legend that highlights matching bubbles and links on hover or keyboard
+  focus, zoom buttons with a live percentage, a fullscreen toggle, and PNG and
+  CSV export generated entirely in your browser.
+- An optional liquidity-pool bubble and a "supply mapped" tile that shows how
+  much of the total supply the map covers.
+- The "funder of N wallets" count now includes only real funding links, so it
+  is more accurate.
+
+## [1.2.0] - 2026-07-10
+
+- **Holder Intelligence for Solana tokens.** A "run holder scan" button under
+  the result shows the holder distribution, wallet clusters and launch
+  signals, the same analysis as the Telegram bot's Holder Analysis. The
+  distribution appears first, followed by the clusters.
+- An interactive wallet-cluster bubble map with tooltips, click-to-select
+  clusters, a detail card with copyable addresses, draggable bubbles, zoom and
+  pan by wheel or pinch, and full keyboard support. The map and cluster list
+  stay in sync, and both light and dark themes are supported.
+
 ## [1.1.1] - 2026-07-06
 
 - The "run x intel" button is now connected to the live service and returns

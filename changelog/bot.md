@@ -3,6 +3,18 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.8.0] - 2026-07-10
+
+- **Web Analyzer bubble map** now tags wallets by role (sniper, bundle,
+  insider, fresh, dev) and shows which wallet funded each cluster.
+- The share of supply held in the liquidity pool is reported as well.
+
+## [2.7.0] - 2026-07-10
+
+- **The Web Analyzer** now shows holder analysis: holder distribution,
+  wallet clusters, bubble risk and launch signals, with an interactive
+  cluster map. Same analysis as the Telegram Holder Analysis button.
+
 ## [2.6.1] - 2026-07-06
 
 - **Snipers and Bundle** supply shares were reported far too low on many
