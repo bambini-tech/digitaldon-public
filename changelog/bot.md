@@ -3,6 +3,59 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.16.0] - 2026-07-11
+
+- **BSC tokens can now be found and scanned with `/don`.**
+- Charts and analysis now work for more tokens whose price history was
+  missing from the main market data.
+
+## [2.15.0] - 2026-07-11
+
+- **The Web Analyzer's holder analysis now covers Ethereum, Base, BSC and
+  Robinhood Chain**, with the same holder distribution, wallet clusters and
+  security block as the Telegram bot.
+
+## [2.14.0] - 2026-07-11
+
+- **Holder Analysis now includes a security block**: honeypot status,
+  buy/sell tax, a rug-risk score, mint/freeze renounced, and sniper, insider,
+  bundle and smart-money figures.
+- A token reported as a honeypot gets a warning at the top: `⛔ HONEYPOT —
+  sells are blocked. Do not buy.`
+- The Social Sentiment button now shows for more EVM tokens.
+
+## [2.13.0] - 2026-07-11
+
+- **The `👥 Holder Analysis` button now works for Ethereum, Base and BSC
+  tokens**, not just Solana: holder distribution, wallet clusters and
+  sniper, bundler and insider signals.
+
+## [2.12.0] - 2026-07-11
+
+_Internal changes only; no public notes for this release._
+
+## [2.11.0] - 2026-07-11
+
+- **Price charts** no longer report "no data" when market data is briefly
+  unavailable; short-lived failures are now retried before giving up.
+
+## [2.10.0] - 2026-07-11
+
+- **Holder analysis** marks each wallet cluster as strong or weak evidence,
+  and the summary shows how much of the supply sits in strong clusters.
+- **Bubble risk** is now graded on strong-evidence clusters only; weak links
+  can raise Low to Mid but never to High on their own.
+- Snipers and Bundle signals are no longer dropped on popular, long-lived
+  pools, and exchange wallets are recognised more reliably.
+
+## [2.9.0] - 2026-07-11
+
+- **Launch signals** are more precise: on tokens with a long trading history,
+  later buyers are no longer mislabelled as snipers or bundles.
+- Sells into the pool are no longer counted as launch buys, and the dev
+  wallet is only named when it can be identified with certainty.
+- Clusters built only on weak links need more wallets before they are shown.
+
 ## [2.8.0] - 2026-07-10
 
 - **Web Analyzer bubble map** now tags wallets by role (sniper, bundle,
