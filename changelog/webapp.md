@@ -3,6 +3,17 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.4.0] - 2026-07-12
+
+- **New chains: BNB Chain and Robinhood Chain.** The analyzer now finds and
+  scores tokens on five chains (Solana, Ethereum, Base, BNB Chain and
+  Robinhood Chain), the same set as the Telegram bot.
+- Holder Intelligence and the holder cluster map now work on every supported
+  chain, not just Solana.
+- The intro text and the "no token found" message list all five chains, and
+  the footer shows the correct version.
+- Restored the analyzer after a faulty update had briefly taken it offline.
+
 ## [1.3.0] - 2026-07-10
 
 - **A richer holder map.** Wallets are tagged by role (sniper, bundle, insider

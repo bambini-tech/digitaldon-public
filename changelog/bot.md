@@ -3,6 +3,26 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.18.2] - 2026-07-12
+
+_Internal changes only; no public notes for this release._
+
+## [2.18.1] - 2026-07-12
+
+- Fewer `/don` scans fail with "No OHLCV data" when market data is busy.
+  The bot now waits and retries more carefully.
+
+## [2.18.0] - 2026-07-12
+
+- **Holder analysis on Ethereum, Base and Robinhood Chain** no longer
+  fails with "Could not fetch holder data" when the main holder data is
+  unavailable. Wallet clusters still form.
+
+## [2.17.0] - 2026-07-12
+
+- **Robinhood Chain is now supported** in `/don`: search, charts and TA,
+  plus holder and cluster analysis.
+
 ## [2.16.0] - 2026-07-11
 
 - **BSC tokens can now be found and scanned with `/don`.**
