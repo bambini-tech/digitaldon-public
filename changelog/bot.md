@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.18.3] - 2026-07-13
+
+- **Holder analysis on EVM chains now shows the real total holder count**
+  (e.g. 23,958 instead of `97+`). The `+` suffix appears only when the
+  total is not known.
+
 ## [2.18.2] - 2026-07-12
 
 _Internal changes only; no public notes for this release._

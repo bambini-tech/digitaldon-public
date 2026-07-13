@@ -3,6 +3,21 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.5.1] - 2026-07-13
+
+- Small wording fixes: the Holder Intelligence description now uses the same
+  casing as the other panels, and the header button reads "telegram bot" like
+  the rest of the app.
+
+## [1.5.0] - 2026-07-13
+
+- Links to DigitalDon on X in the header and footer, as on the website.
+- An animated DigitalDon logo above the headline. It follows the light or dark
+  theme and stays still for visitors who prefer reduced motion.
+- The tab title is now "DigitalDon - DeFi Analyzer" with a new icon, and the
+  intro text, panel descriptions and closing call to action have been
+  rewritten for clarity.
+
 ## [1.4.0] - 2026-07-12
 
 - **New chains: BNB Chain and Robinhood Chain.** The analyzer now finds and
