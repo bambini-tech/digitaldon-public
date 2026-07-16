@@ -3,6 +3,18 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.5.3] - 2026-07-16
+
+- Fixed the header logo on some mobile browsers, which could show an old,
+  different mark instead of the current DigitalDon mascot.
+
+## [1.5.2] - 2026-07-16
+
+- **Security fix:** links taken from a token's own metadata, such as its X
+  profile, now open only if they are ordinary web addresses. A token could
+  previously set a link that ran code when clicked; such links are no longer
+  shown.
+
 ## [1.5.1] - 2026-07-13
 
 - Small wording fixes: the Holder Intelligence description now uses the same
