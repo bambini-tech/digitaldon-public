@@ -3,6 +3,12 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.5.4] - 2026-07-20
+
+- On phones, the small logo in the header navigation is hidden. It was being
+  stretched out of shape, and the full-size logo appears just below. Desktop
+  is unchanged.
+
 ## [1.5.3] - 2026-07-16
 
 - Fixed the header logo on some mobile browsers, which could show an old,
