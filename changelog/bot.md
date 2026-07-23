@@ -3,6 +3,42 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.24.0] - 2026-07-23
+
+_Internal changes only; no public notes for this release._
+
+## [2.23.0] - 2026-07-23
+
+_Internal changes only; no public notes for this release._
+
+## [2.22.0] - 2026-07-23
+
+_Internal changes only; no public notes for this release._
+
+## [2.21.0] - 2026-07-23
+
+- A slow scan no longer holds up other users' commands, and many people
+  scanning the same trending token at once get their results faster.
+- `/don` now limits how many scans one user can run per minute.
+
+## [2.20.2] - 2026-07-23
+
+- The `/pnl` caption now ends with a tappable mention of the bot, so people
+  who see a shared card can open it and try `/don` right away.
+
+## [2.20.1] - 2026-07-23
+
+- **`/pnl` no longer replies in groups when there is nothing to show**
+  (no argument, or a token the group never scanned).
+- The PNL card drops the duplicate percent badge beside the multiplier.
+
+## [2.20.0] - 2026-07-23
+
+- **New `/pnl` command (groups only).** The bot remembers the first `/don`
+  scan of each token in a group. `/pnl <token>` then posts a shareable card
+  with the multiplier since that scan, First Scan / ATH / Profit, and who
+  scanned it first.
+
 ## [2.19.0] - 2026-07-21
 
 _Internal changes only; no public notes for this release._

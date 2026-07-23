@@ -3,6 +3,26 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.6.4] - 2026-07-23
+
+- The favicon figure is sized to fill the black circle right up to its edge
+  without clipping.
+
+## [1.6.3] - 2026-07-23
+
+- The figure inside the black-circle favicon is slightly smaller, for a more
+  balanced margin.
+
+## [1.6.2] - 2026-07-23
+
+- The figure inside the black-circle favicon is larger, so it reads more
+  clearly in the browser tab.
+
+## [1.6.1] - 2026-07-23
+
+- The favicon is now a white DigitalDon figure on a black circle, so it stays
+  visible on both light and dark browser tabs.
+
 ## [1.6.0] - 2026-07-16
 
 - The chains section now opens with a short paragraph on DigitalDon's aim of

@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.5.5] - 2026-07-23
+
+- The browser-tab icon is now the white DigitalDon figure inside a black
+  circle, so it stays visible on light browser tabs as well as dark ones.
+
 ## [1.5.4] - 2026-07-20
 
 - On phones, the small logo in the header navigation is hidden. It was being
