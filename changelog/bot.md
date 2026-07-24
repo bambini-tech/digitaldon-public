@@ -3,6 +3,24 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.28.0] - 2026-07-24
+
+_Internal changes only; no public notes for this release._
+
+## [2.27.0] - 2026-07-24
+
+_Internal changes only; no public notes for this release._
+
+## [2.26.0] - 2026-07-24
+
+- **In a private chat with the bot, just paste a contract address or
+  ticker** to scan it, no `/don` needed. In groups, `/don` is still
+  required.
+
+## [2.25.0] - 2026-07-24
+
+_Internal changes only; no public notes for this release._
+
 ## [2.24.0] - 2026-07-23
 
 _Internal changes only; no public notes for this release._
