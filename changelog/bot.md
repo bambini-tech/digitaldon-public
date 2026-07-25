@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.30.0] - 2026-07-25
+
+- **Holder analysis on Solana is faster** and handles more users at once.
+- Sniper and bundler figures now show what those wallets hold **now**.
+
+## [2.29.0] - 2026-07-25
+
+_Internal changes only; no public notes for this release._
+
 ## [2.28.0] - 2026-07-24
 
 _Internal changes only; no public notes for this release._
