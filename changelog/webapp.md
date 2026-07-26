@@ -3,6 +3,21 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.7.0] - 2026-07-26
+
+- The short-term plan panel no longer disappears when there is no tradable
+  setup. It now stays on screen with the reason, for example "No tradable
+  range — 72h band is only 0.2% wide.", worded the same way as in the Telegram
+  bot.
+
+## [1.6.0] - 2026-07-26
+
+- The optional X intelligence and holder intelligence panels now appear only
+  when those features are live. They are switched on and off together with the
+  Telegram bot, and stay hidden if their service cannot be reached.
+- If a feature is switched off while the page is open, its panel says it is
+  not live yet and asks you to reload, instead of showing a generic error.
+
 ## [1.5.5] - 2026-07-23
 
 - The browser-tab icon is now the white DigitalDon figure inside a black

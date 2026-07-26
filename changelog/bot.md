@@ -3,6 +3,56 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.35.0] - 2026-07-26
+
+- **Short-term entry/exit zones can no longer invert.** When the 72h range
+  is too narrow to trade, the card now says so, e.g. `No tradable range —
+  72h band is only 0.2% wide.`, instead of printing crossed zones.
+
+## [2.34.2] - 2026-07-26
+
+- The group short card uses new emojis for the market line and the
+  short-term and long-term sections, so the two horizons are easier to tell
+  apart.
+
+## [2.34.1] - 2026-07-26
+
+- **The group short card now shows price, market cap and liquidity**, e.g.
+  `$0.000400 · MCap $4.2M · Liq $310K`. Missing values are left out, and
+  market cap falls back to FDV.
+
+## [2.34.0] - 2026-07-26
+
+- **Group auto-scan:** paste a contract address in a group and the bot
+  answers with a short card (score, entry/exit zones for both horizons,
+  estimated upside) and a `📊 Full Analysis` button, with no `/don` needed.
+- `📊 Full Analysis` replaces the short card with the full card and chart.
+  Private chats and `/don <token>` still return the full analysis.
+- `/autoscan on|off` lets group admins turn it off. The bot needs admin
+  rights in the group to see pasted addresses.
+
+## [2.33.0] - 2026-07-26
+
+- Groups now have an hourly scan limit in addition to the per-minute one.
+  Short bursts still work. When a group hits the limit, the reply suggests
+  scanning in a direct message, and long waits are shown in minutes.
+
+## [2.32.1] - 2026-07-26
+
+_Internal changes only; no public notes for this release._
+
+## [2.32.0] - 2026-07-26
+
+- **`/don` now has per-user and per-group rate limits**: by default 3 scans
+  a minute and 20 an hour per user, and 8 a minute per group. Private chats
+  count only against the per-user limits.
+- Many people scanning the same token at the same time now get their results
+  faster.
+
+## [2.31.0] - 2026-07-26
+
+_Internal changes only; no public notes for this release._
+
 ## [2.30.0] - 2026-07-25
 
 - **Holder analysis on Solana is faster** and handles more users at once.
