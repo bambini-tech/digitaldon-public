@@ -3,6 +3,44 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.10.0] - 2026-07-27
+
+- **Token age is now accurate to the minute.** A 33-minute-old pool used to
+  read "1h old" and anything under half an hour "0h old". Ages now show two
+  units, for example "33m old", "1h 35m old", "4d 7h old" or "6mo 12d old",
+  rounded down, and match the Telegram bot exactly.
+
+## [1.9.1] - 2026-07-27
+
+- Charts for brand-new tokens now appear from 5 one-minute candles instead of
+  10, so a pool a few minutes old already shows its price action. The Telegram
+  bot uses the same rule.
+- When there is still too little data to draw a chart, the chart panel stays
+  visible and says why: either the pool is not indexed yet, or only a few
+  candles exist so far. Both suggest running the scan again shortly.
+
+## [1.9.0] - 2026-07-27
+
+- **One-minute candle chart for fresh launches.** The fresh-launch view now
+  includes a chart of the pool's first minutes of trading. Its caption states
+  the candle size and the real time span, and notes that there are no entry or
+  exit zones yet. It matches the chart on the Telegram bot's fresh-launch
+  card.
+
+## [1.8.0] - 2026-07-27
+
+- **Freshly launched tokens now get a result instead of an error.** A pool too
+  young for chart analysis gets a dedicated fresh-launch view: no signal score
+  and no trade plan, but an on-chain read of liquidity ratio, unlock overhang
+  and buy/sell pressure, each with a risk marker. It matches the Telegram
+  bot's fresh-launch card, down to the wording.
+- Holder intelligence and X intelligence are available on the fresh-launch
+  view too, since "who holds this, and was it bundled" is the key question for
+  a new token.
+- An older token with missing chart data still shows an error rather than
+  being presented as a new launch.
+- The dashes in the on-chain notes now match the rows above them.
+
 ## [1.7.0] - 2026-07-26
 
 - The short-term plan panel no longer disappears when there is no tradable

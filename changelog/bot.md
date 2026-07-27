@@ -3,6 +3,49 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.40.0] - 2026-07-27
+
+- **The `/don` chart labels its window high honestly** (e.g. "3W HIGH") and
+  says ATH only when it can prove it; a lifetime rail shows the full ATL to ATH
+  range beside the chart.
+- The chart now matches the Web Analyzer's design, with legible candles and
+  non-overlapping price labels, and renders several times faster.
+
+## [2.39.0] - 2026-07-27
+
+- **Token age is now shown to the minute**: `33m old`, `1h 35m old`,
+  `4d 7h old`. Ages round down, so a 33-minute-old pair no longer reads
+  `1h old` and a very fresh one no longer reads `0h old`.
+- The bot and the Web Analyzer use the same age label.
+
+## [2.38.0] - 2026-07-27
+
+- **The bot introduces itself when added to a group** with a setup card:
+  what it does, whether it has the admin rights it needs, and a button to
+  re-check them.
+- Admins can switch **auto-scan** (on by default) and **PNL cards** per group
+  with a tap. `/setup` reopens the menu; `/autoscan on|off` still works.
+
+## [2.37.1] - 2026-07-27
+
+- Charts for fresh launches now appear from about five minutes after the
+  pool opens, instead of only after ten minutes.
+
+## [2.37.0] - 2026-07-27
+
+- **The fresh-launch card now includes a 1-minute price chart.** It shows
+  candles and the current price only: no score, no entry/exit zones and no
+  support/resistance lines, since a few minutes of data cannot support them.
+- Chart headers and axis labels now match the actual timeframe and span.
+
+## [2.36.0] - 2026-07-27
+
+- **Freshly launched tokens now get a card** in `/don` and group auto-scan
+  instead of "No OHLCV data". It shows an on-chain read (liquidity ratio,
+  unlock overhang, buy/sell pressure) and no TA score.
+- The liquidity verdict now falls back to FDV when no market cap is
+  reported, so thin launches still get a liquidity warning.
+
 ## [2.35.0] - 2026-07-26
 
 - **Short-term entry/exit zones can no longer invert.** When the 72h range
