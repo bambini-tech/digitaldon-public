@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.40.1] - 2026-07-28
+
+- The `/pnl` card caption is one line again, without the promo line.
+
 ## [2.40.0] - 2026-07-27
 
 - **The `/don` chart labels its window high honestly** (e.g. "3W HIGH") and

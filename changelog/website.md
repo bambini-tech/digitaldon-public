@@ -3,6 +3,29 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.0] - 2026-07-28
+
+- **The chains section is rebuilt.** Each chain sits on a raised round coin
+  like the cards elsewhere on the page, with logos about 25% larger.
+- The coins rise in one by one on scroll, then a highlight moves along the
+  row, one chain at a time with a ring pulsing off it. The loop runs only
+  while the row is on screen.
+- A blinking "live on 5 chains" marker and a closing "one command, same
+  engine, same score" line frame the row, and the heading and spacing now
+  match the other sections.
+
+## [1.7.0] - 2026-07-28
+
+- **New section: holder intelligence.** It shows a bubble map of the top
+  wallets, a stat strip (holders, top 10, largest), a legend, and a readout
+  with the clustered-supply figure, the connected clusters and the launch
+  signals the scan looks for.
+- The map assembles itself on scroll: wallets drop in, move into their
+  clusters and funding links draw last, then the clusters drift gently. It
+  uses the same encoding as the Web Analyzer's holder map.
+- A `holders` link joins the navigation, and the later sections are
+  renumbered.
+
 ## [1.6.4] - 2026-07-23
 
 - The favicon figure is sized to fill the black circle right up to its edge
