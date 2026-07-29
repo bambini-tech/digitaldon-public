@@ -3,6 +3,10 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.1] - 2026-07-29
+
+_Internal changes only; no public notes for this release._
+
 ## [1.8.0] - 2026-07-28
 
 - **The chains section is rebuilt.** Each chain sits on a raised round coin

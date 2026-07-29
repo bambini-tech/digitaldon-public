@@ -3,6 +3,15 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.11.0] - 2026-07-29
+
+- **Security fix:** a specially crafted link to the analyzer could make it
+  show results supplied by an outside server under DigitalDon's name. That is
+  no longer possible on the live site, which only uses DigitalDon's own
+  services.
+- A stricter browser security policy now limits which servers the page can
+  talk to, as an extra layer of protection.
+
 ## [1.10.0] - 2026-07-27
 
 - **Token age is now accurate to the minute.** A 33-minute-old pool used to

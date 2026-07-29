@@ -3,6 +3,18 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.42.0] - 2026-07-29
+
+_Internal changes only; no public notes for this release._
+
+## [2.41.1] - 2026-07-29
+
+_Internal changes only; no public notes for this release._
+
+## [2.41.0] - 2026-07-29
+
+_Internal changes only; no public notes for this release._
+
 ## [2.40.1] - 2026-07-28
 
 - The `/pnl` card caption is one line again, without the promo line.
