@@ -3,6 +3,45 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.12.0] - 2026-07-31
+
+- **The holder cluster map frames itself.** The camera fits the map to its
+  panel and keeps it framed while the layout settles, then hands control back
+  as soon as you zoom, pan or drag. "Reset view" or a double-click refits it,
+  and 100% zoom now means the whole map fitted.
+- Clicking a cluster, on the map or in the cluster list, flies the camera to
+  it. Groups of connected wallets sit inside a soft outline with their letter
+  and share of supply. Hovering a wallet lights up everything it funded or was
+  funded by, plus the rest of its cluster.
+- A refreshed look: shaded bubbles, curved and animated funding links, a
+  layout that spreads clusters across the panel, fullscreen that uses the
+  whole screen, and a tooltip that no longer gets clipped at the edges.
+- Fixed: clicking a bubble now highlights its row in the cluster list,
+  dragging while zoomed keeps the bubble under the pointer, and the PNG export
+  is no longer cropped in fullscreen.
+
+## [1.11.3] - 2026-07-31
+
+_Internal changes only; no public notes for this release._
+
+## [1.11.2] - 2026-07-31
+
+- **Fixed scans failing on every token and every chain.** A fault introduced
+  in 1.11.0 stopped each analysis at the last step. Scans work again. The
+  Telegram bot was not affected.
+- If the optional holder or X intelligence services cannot be reached, those
+  panels are now simply left out and the analysis still completes.
+- The error message no longer blames rate limiting when the cause is unknown.
+
+## [1.11.1] - 2026-07-31
+
+- **The analyzer no longer hangs on "loading".** Some scans that worked in the
+  Telegram bot could spin forever on the web with no result or error.
+  Market-data requests now time out and retry once on temporary failures, and
+  any unexpected problem during an analysis now shows a readable error instead
+  of an endless spinner.
+- The version shown in the page footer was out of date and has been corrected.
+
 ## [1.11.0] - 2026-07-29
 
 - **Security fix:** a specially crafted link to the analyzer could make it

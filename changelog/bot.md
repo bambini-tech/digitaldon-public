@@ -3,6 +3,22 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.43.0] - 2026-07-31
+
+- **Holder Analysis now includes a wallet cluster map image**: bubbles sized by
+  share of supply, clusters outlined, funder arrows, in black and white.
+- It uses the same layout as the Web Analyzer's map for the same token.
+
+## [2.42.2] - 2026-07-31
+
+- The Web Analyzer's holder analysis now shows a proper error on a server
+  failure instead of reporting that the service could not be reached.
+
+## [2.42.1] - 2026-07-31
+
+- Scan output no longer names third-party data providers: the holder security
+  block is headed "Security" and the footer link reads "View Chart".
+
 ## [2.42.0] - 2026-07-29
 
 _Internal changes only; no public notes for this release._
