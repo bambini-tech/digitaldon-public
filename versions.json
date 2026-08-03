@@ -11,8 +11,8 @@
       "changelog": "changelog/webapp.md"
     },
     "website": {
-      "version": "1.8.1",
-      "tag": "site/v1.8.1",
+      "version": "1.9.1",
+      "tag": "site/v1.9.1",
       "changelog": "changelog/website.md"
     }
   }
