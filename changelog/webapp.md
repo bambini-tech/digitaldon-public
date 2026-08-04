@@ -3,6 +3,10 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.13.0] - 2026-08-04
+
+_Internal changes only; no public notes for this release._
+
 ## [1.12.0] - 2026-07-31
 
 - **The holder cluster map frames itself.** The camera fits the map to its

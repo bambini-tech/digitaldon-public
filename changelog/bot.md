@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.44.0] - 2026-08-04
+
+_Internal changes only; no public notes for this release._
+
 ## [2.43.0] - 2026-07-31
 
 - **Holder Analysis now includes a wallet cluster map image**: bubbles sized by
