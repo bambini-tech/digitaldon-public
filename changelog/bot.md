@@ -3,6 +3,37 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.48.0] - 2026-08-08
+
+_Internal changes only; no public notes for this release._
+
+## [2.47.0] - 2026-08-08
+
+_Internal changes only; no public notes for this release._
+
+## [2.46.1] - 2026-08-08
+
+_Internal changes only; no public notes for this release._
+
+## [2.46.0] - 2026-08-08
+
+- **The first holder scan of a token is faster**, with no change to the wallets,
+  funders or clusters it reports.
+
+## [2.45.0] - 2026-08-08
+
+- **The Holder Analysis button is faster**, and several people tapping it on
+  the same token in a group now share one result instead of each waiting for
+  their own.
+
+## [2.44.1] - 2026-08-08
+
+- **Fixed cards that mixed two tokens.** On some pools the chart and zones
+  described the other asset in the pair, producing absurd entry zones and
+  upside figures. Candles now always match the scanned token.
+- A chart series that cannot match the token's price is rejected rather than
+  analysed.
+
 ## [2.44.0] - 2026-08-04
 
 _Internal changes only; no public notes for this release._

@@ -3,6 +3,17 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.13.1] - 2026-08-08
+
+- **Fixed an analysis that could describe the wrong token.** For some trading
+  pairs the chart and the whole analysis were built from the other token in
+  the pair, while the header showed the right price. One case produced entry
+  and exit zones in the hundreds of dollars for a coin trading well under a
+  cent. The analyzer now always reads the token you asked for, and rejects
+  chart data whose prices cannot belong to it.
+- The Web Analyzer and the Telegram bot received the same fix, so they agree
+  on these tokens again.
+
 ## [1.13.0] - 2026-08-04
 
 _Internal changes only; no public notes for this release._
