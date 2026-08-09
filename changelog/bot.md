@@ -3,6 +3,42 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.52.0] - 2026-08-09
+
+_Internal changes only; no public notes for this release._
+
+## [2.51.0] - 2026-08-09
+
+- **Auto-scan can skip fresh launches.** A new "Fresh launches" switch under
+  auto-scan (off by default) limits unprompted cards to tokens with enough chart
+  history for a full analysis. `/don` still answers everything.
+- `/autoscan` takes `on|all|ta|off`.
+
+## [2.50.2] - 2026-08-09
+
+- **`/help` now lists only commands you can use.** Owner-only commands are no
+  longer shown to group members or other users.
+
+## [2.50.1] - 2026-08-09
+
+- **Calls posted by a linked channel are credited to that channel** on `/lb`
+  and `/pnl`, instead of all landing on one "@Telegram" caller.
+- "@" is no longer added in front of display names that are not usernames.
+
+## [2.50.0] - 2026-08-09
+
+- **New: `/lb`, a per-group leaderboard** of who called what and how it did,
+  scored on the peak multiple since the call, with 1D / 1W / 2W / 1M / all-time
+  filters.
+- Groups can switch it off in `/setup`. `/pnl` and `/lb` share the same peak
+  figures.
+
+## [2.49.0] - 2026-08-09
+
+- **Holder analysis on BNB Chain is more resilient.** When the primary holder
+  data is unavailable, the distribution, wallet quality and security block
+  still load, without wallet clusters.
+
 ## [2.48.0] - 2026-08-08
 
 _Internal changes only; no public notes for this release._
