@@ -3,6 +3,17 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.13.2] - 2026-08-10
+
+- **Old tokens that have barely traded now get a result instead of an error.**
+  A months-old contract with only a couple of candles used to show "not enough
+  chart history" and the advice to wait a few hours. It now gets the reduced
+  view with the on-chain read and the minute chart, whatever its age. If no
+  chart data comes back at all, the error is still shown.
+- That reduced view is now titled "no chart history" instead of "fresh
+  launch", so a token that is months old no longer calls itself a new launch.
+  Genuine new launches look as before.
+
 ## [1.13.1] - 2026-08-08
 
 - **Fixed an analysis that could describe the wrong token.** For some trading

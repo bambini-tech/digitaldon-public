@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.51.1] - 2026-08-10
+
+- **Dormant tokens that wake up get a card again.** Old tokens with very thin
+  chart history are answered in groups and by `/don` instead of staying silent.
+- Such cards now read "No chart history" rather than calling a months-old
+  token a fresh launch.
+
 ## [2.52.0] - 2026-08-09
 
 _Internal changes only; no public notes for this release._
