@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.53.0] - 2026-08-11
+
+- **Holder Scan button on the group auto-scan card.** It posts the holder and
+  wallet-cluster report directly under the card, leaving the card in place.
+- The card's other button is renamed `TA Analysis`; it works as before.
+
 ## [2.51.1] - 2026-08-10
 
 - **Dormant tokens that wake up get a card again.** Old tokens with very thin

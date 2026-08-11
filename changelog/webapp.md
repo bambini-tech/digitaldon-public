@@ -3,6 +3,27 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.15.0] - 2026-08-11
+
+- A "docs" link now sits in the navigation and opens the DigitalDon
+  documentation in a new tab.
+- Under every result, a "how the score works" link goes straight to the page
+  that explains how the score is derived.
+
+## [1.14.0] - 2026-08-11
+
+- **The official $DON token appears in the analyzer.** A small ticker in the
+  top-left corner shows the $DON price in USD, refreshes once a minute while
+  the tab is open, and links to its market page. If an update fails, the last
+  known price stays on screen; on narrow screens the ticker drops the price
+  first, then hides.
+- The footer has a click-to-copy contract-address chip for $DON. It shows a
+  shortened address, copies the full one, confirms in place and announces the
+  copy to screen readers.
+- Both are about DigitalDon's own token only and do not affect the token being
+  analyzed.
+- The version shown in the footer was out of date and has been corrected.
+
 ## [1.13.2] - 2026-08-10
 
 - **Old tokens that have barely traded now get a result instead of an error.**

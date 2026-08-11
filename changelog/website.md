@@ -3,6 +3,25 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.11.0] - 2026-08-11
+
+- A `docs` link in the navigation opens the documentation in a new tab.
+- A `docs` button in the closing panel, next to `telegram bot` and `web app`,
+  keeps the documentation reachable on phones, where the navigation links are
+  hidden. The button row wraps on narrow screens.
+
+## [1.10.0] - 2026-08-11
+
+- **The official $DON token appears on the site.** A price pill in the
+  top-left corner shows the symbol and the USD price, refreshed every minute
+  while the tab is visible, and opens the token's market page when clicked. It
+  quotes the deepest pool and keeps the last good price if an update fails.
+- The price pill gives up its price, then hides, as space runs out, so it
+  never overlaps the navigation.
+- A click-to-copy contract address chip in the footer copies the full address,
+  shortens it on small screens, confirms in place and announces the result to
+  screen readers.
+
 ## [1.9.1] - 2026-08-03
 
 _Internal changes only; no public notes for this release._
