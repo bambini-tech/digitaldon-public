@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.54.0] - 2026-08-12
+
+_Internal changes only; no public notes for this release._
+
 ## [2.53.0] - 2026-08-11
 
 - **Holder Scan button on the group auto-scan card.** It posts the holder and
