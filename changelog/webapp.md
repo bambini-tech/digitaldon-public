@@ -3,6 +3,12 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.15.1] - 2026-08-13
+
+- The docs link in the navigation and the "how the score works" link under a
+  result were pointing at an address that no longer works. Both now open the
+  live documentation.
+
 ## [1.15.0] - 2026-08-11
 
 - A "docs" link now sits in the navigation and opens the DigitalDon

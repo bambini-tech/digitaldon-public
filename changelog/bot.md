@@ -3,6 +3,18 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.56.0] - 2026-08-13
+
+- **A Docs button** now sits on `/help`, the group setup menu, "How it works"
+  and `/setup` in a DM, each linking straight to the relevant handbook chapter.
+
+## [2.55.0] - 2026-08-13
+
+- **`/lb` reads as a column.** The call list sits in a quoted block, each row
+  led by a tier icon (10x, 5x, 2x, 1.2x, flat, below 1x), one call per line.
+- `/lb` now shows 10 calls instead of 6. Display names with line breaks can no
+  longer split a row.
+
 ## [2.54.0] - 2026-08-12
 
 _Internal changes only; no public notes for this release._

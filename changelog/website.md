@@ -3,6 +3,11 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.11.1] - 2026-08-13
+
+- Fixed the `docs` links in the navigation and the closing panel, which led to
+  a dead address. Both now open digitaldon.gitbook.io.
+
 ## [1.11.0] - 2026-08-11
 
 - A `docs` link in the navigation opens the documentation in a new tab.
