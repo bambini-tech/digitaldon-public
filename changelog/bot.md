@@ -3,6 +3,21 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.58.0] - 2026-08-14
+
+- **Fresh launches is now reserved for the bot owner.** Group admins see three
+  switches in `/setup`; minutes-old launches get no card in groups but are still
+  recorded for `/pnl` and `/lb`.
+- Groups that had the switch on were reset once. `/autoscan` for admins is now
+  `on|off`.
+
+## [2.57.0] - 2026-08-14
+
+- **Fresh launches are tracked as calls** even when the group has their cards
+  switched off, so `/pnl` and `/lb` can quote them later.
+- A token with no reported market cap at first scan still gets a baseline; the
+  first-scan market cap is filled in on the first `/pnl`.
+
 ## [2.56.0] - 2026-08-13
 
 - **A Docs button** now sits on `/help`, the group setup menu, "How it works"
