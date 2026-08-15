@@ -3,6 +3,18 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.60.1] - 2026-08-15
+
+_Internal changes only; no public notes for this release._
+
+## [2.60.0] - 2026-08-15
+
+_Internal changes only; no public notes for this release._
+
+## [2.59.0] - 2026-08-15
+
+_Internal changes only; no public notes for this release._
+
 ## [2.58.0] - 2026-08-14
 
 - **Fresh launches is now reserved for the bot owner.** Group admins see three
