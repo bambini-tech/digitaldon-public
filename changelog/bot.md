@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.62.0] - 2026-08-16
+
+- **The chart's all-time high is now the real all-time high.** It previously
+  only looked back about six months; older peaks now show up as the ATH.
+
+## [2.61.0] - 2026-08-16
+
+_Internal changes only; no public notes for this release._
+
 ## [2.60.1] - 2026-08-15
 
 _Internal changes only; no public notes for this release._
