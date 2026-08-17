@@ -3,6 +3,26 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.64.0] - 2026-08-17
+
+_Internal changes only; no public notes for this release._
+
+## [2.63.1] - 2026-08-17
+
+_Internal changes only; no public notes for this release._
+
+## [2.63.0] - 2026-08-17
+
+- Scans and holder analysis respond faster: repeated requests reuse open
+  connections instead of opening a new one each time.
+
+## [2.62.1] - 2026-08-17
+
+- **Fixed an occasional missing chart** on `/don` or the holder map when two
+  cards were drawn at the same moment, e.g. in a busy group.
+- EVM holder wallet quality (whale / mid / low) now uses the live native-coin
+  price instead of a fixed one.
+
 ## [2.62.0] - 2026-08-16
 
 - **The chart's all-time high is now the real all-time high.** It previously
