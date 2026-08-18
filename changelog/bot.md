@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.65.0] - 2026-08-18
+
+- `/don` no longer answers "No OHLCV data" for trading tokens whose deepest
+  pool has no candle history; the chart falls back to the token's other pools.
+- Liquidity, market cap, volume and price on the card still describe the
+  deepest pool.
+
 ## [2.64.0] - 2026-08-17
 
 _Internal changes only; no public notes for this release._
