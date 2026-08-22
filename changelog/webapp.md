@@ -3,6 +3,22 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.16.0] - 2026-08-22
+
+- **Share Intel:** a finished scan can be turned into a branded image for X
+  from a new panel at the foot of the result. Choose between three layouts,
+  and the choice is remembered: a ticket card with the full read and a score
+  stub, a portrait poster built around the score, and a tape card showing the
+  real hourly candles with the entry zone and both targets marked.
+- Copy the image, download it, or send it straight to X. Phones get the native
+  share sheet with the image attached; on desktop the image goes to the
+  clipboard and the X composer opens.
+- The preview and the exported image are identical, exported at double
+  resolution, and follow the light or dark theme (switching theme repaints the
+  card).
+- The version shown in the page footer was out of date and now matches the
+  release.
+
 ## [1.15.1] - 2026-08-13
 
 - The docs link in the navigation and the "how the score works" link under a
