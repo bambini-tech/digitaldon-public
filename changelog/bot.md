@@ -3,6 +3,43 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.69.1] - 2026-08-23
+
+- **X bot:** reply cards show the token's recent hourly price chart by
+  default, in a wider column.
+
+## [2.69.0] - 2026-08-23
+
+- **X bot:** entry and target zones on the reply card are plain labelled
+  rows again, with a graphic in its own column beside them.
+- Cards are rendered at 3600x2025, so they stay sharp when opened full size.
+
+## [2.68.0] - 2026-08-23
+
+- **X bot:** the reply card no longer grades a token `STRONG / MIXED / WEAK`;
+  it shows where price sits against the entry zone (`BELOW`, `AT`, `ABOVE
+  ENTRY`) and labels the score `TA SCORE`. Score and zones are unchanged.
+- The trade zones are drawn as a price scale, with a price sparkline behind.
+
+## [2.67.0] - 2026-08-23
+
+- **X bot:** the reply text is two short lines (token, chain, score) and the
+  zones live only on the card, which is now rendered at 2400x1350 for
+  sharper images. The card footer shows the bare domain.
+
+## [2.66.1] - 2026-08-23
+
+- **The X bot now answers mentions.** Replies with the scan card post reliably,
+  and mentions arriving in a burst are no longer skipped.
+- New and small X accounts are no longer ignored when they tag the bot.
+
+## [2.66.0] - 2026-08-23
+
+- **New: the X bot.** Tag it under any post on X with a contract address or a
+  chart link and it replies with a DigitalDon scan card.
+- It only replies where it was tagged, and the reply text carries no links;
+  the analyzer address is printed on the card image.
+
 ## [2.65.0] - 2026-08-18
 
 - `/don` no longer answers "No OHLCV data" for trading tokens whose deepest
