@@ -3,6 +3,27 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.72.0] - 2026-08-24
+
+- **The paid API and MCP tool accept real USDC payments on mainnet.**
+
+## [2.71.0] - 2026-08-24
+
+- **Fixed:** a failed token search no longer reports the token as
+  nonexistent. `/don` says the search failed; `/v1/analyze` answers
+  `internal` (502, retryable) instead of `token_not_found` (404).
+- Contract-address lookups are more reliable. `GET /` on the API returns an
+  index of the endpoints, and `/health` reports `service: "digitaldon-api"`.
+
+## [2.70.0] - 2026-08-24
+
+- **DigitalDon is callable by machines.** `POST /v1/analyze` returns the
+  analysis as JSON (`depth=basic|holders|social|full`), `POST /mcp` serves it
+  as an MCP tool, and the OpenAPI contract is at `/v1/openapi.json`.
+- Paid per call in USDC over x402 on Base or Solana, with a small free trial.
+  Payment settles only after a complete answer; incomplete depth is refused
+  with `depth_undeliverable` and nothing is charged.
+
 ## [2.69.1] - 2026-08-23
 
 - **X bot:** reply cards show the token's recent hourly price chart by

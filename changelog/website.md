@@ -3,6 +3,48 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.14.0] - 2026-08-24
+
+- **New section: for agents.** DigitalDon now answers machines as well as
+  people: a REST endpoint and an MCP tool server, paid per call in USDC over
+  x402. A matching link joins the navigation.
+- The section shows the request-then-pay exchange and the MCP tool list in two
+  terminal panels, a price table by analysis depth, and notes on billing:
+  payment is checked before the analysis runs, settled only after it succeeds,
+  and an incomplete answer is never charged. Links lead to the docs.
+- The terminal panels scroll inside themselves on phones instead of widening
+  the whole page.
+
+## [1.13.1] - 2026-08-24
+
+- The X links in the navigation and the closing panel now read `x bot` instead
+  of `on x`, so they no longer look like a link to our X profile. The section
+  heading was renamed to match.
+
+## [1.13.0] - 2026-08-24
+
+- **The X section now shows the real scan card the bot posts:** header, token
+  name and ticker, market cap, liquidity and volume, the thesis, both time
+  horizons with entry and target zones, a price chart and the score gauge. It
+  stays white on near-black in both themes, as it appears on X.
+- A short three-step row (someone posts a call, you reply to the bot, the card
+  arrives) replaces the longer thread mock-up.
+- The section animates once on scroll: steps appear one by one, the card
+  lands, the gauge sweeps up and the price line draws. Reduced-motion settings
+  skip the animation.
+- Fixed the card overflowing its panel on phones. It now scales to the space
+  available; on narrow screens the score becomes a strip along the bottom and
+  the chart is hidden.
+
+## [1.12.0] - 2026-08-24
+
+- **New section: the X bot.** A recreated thread shows someone replying to the
+  bot with a contract address and the bot answering with a scan card. It is
+  built in the page, so it follows the day/night theme.
+- An `on x` link in the navigation and an `on x` button in the closing panel,
+  next to the Telegram bot and the web app. The chains section is renumbered
+  to 07.
+
 ## [1.11.1] - 2026-08-13
 
 - Fixed the `docs` links in the navigation and the closing panel, which led to
