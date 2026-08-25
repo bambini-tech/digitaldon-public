@@ -3,6 +3,24 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.73.1] - 2026-08-25
+
+- **API:** a payment the facilitator rejects (e.g. insufficient funds) now
+  answers `402 payment_required` with the reason and the accept list, instead
+  of `503 payment_unavailable`. Our own outages still answer `503`.
+
+## [2.73.0] - 2026-08-25
+
+- **The free API trial is one call per day** (was three), at the cheapest
+  depth.
+
+## [2.72.1] - 2026-08-25
+
+- **Fixed:** the age label for tokens 60 to 90 days old now reads
+  `Established (60d+)` instead of `(>90d)`, on `/don`, the API and the X
+  reply. Scores are unchanged.
+- **API:** the x402 challenge now advertises an `https://` resource URL.
+
 ## [2.72.0] - 2026-08-24
 
 - **The paid API and MCP tool accept real USDC payments on mainnet.**

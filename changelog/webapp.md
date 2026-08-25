@@ -3,6 +3,12 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.16.1] - 2026-08-25
+
+- The token-age profile formerly shown as "Established (>90d)" now reads
+  "Established (60d+)", which is the range it has always covered. Tokens aged
+  60 to 90 days were mislabelled; scores are unchanged.
+
 ## [1.16.0] - 2026-08-22
 
 - **Share Intel:** a finished scan can be turned into a branded image for X
