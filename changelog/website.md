@@ -3,6 +3,16 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.15.0] - 2026-08-26
+
+- The $DON price ticker and the copy-address chip in the footer are removed
+  ahead of the token's relaunch, so the site shows no address or price for it
+  for now.
+- The for agents section is taken off the page until launch.
+- Fixed the logo in the navigation collapsing into a thin sliver on screens
+  narrower than about 1500px. It now stays square at every width, in both
+  themes.
+
 ## [1.14.0] - 2026-08-24
 
 - **New section: for agents.** DigitalDon now answers machines as well as

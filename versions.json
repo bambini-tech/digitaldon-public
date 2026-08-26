@@ -6,13 +6,13 @@
       "changelog": "changelog/bot.md"
     },
     "webapp": {
-      "version": "1.16.1",
-      "tag": "webapp/v1.16.1",
+      "version": "1.17.0",
+      "tag": "webapp/v1.17.0",
       "changelog": "changelog/webapp.md"
     },
     "website": {
-      "version": "1.14.0",
-      "tag": "site/v1.14.0",
+      "version": "1.15.0",
+      "tag": "site/v1.15.0",
       "changelog": "changelog/website.md"
     }
   }

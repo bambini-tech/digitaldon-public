@@ -3,6 +3,15 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.17.0] - 2026-08-26
+
+- **The $DON price ticker and contract-address chip were removed** ahead of
+  the token's relaunch on Robinhood Chain. Analysing any other token is
+  unchanged.
+- **Fixed: the logo in the navigation collapsed into a thin sliver** on
+  screens narrower than about 1500px. It now stays square at every width, in
+  both themes.
+
 ## [1.16.1] - 2026-08-25
 
 - The token-age profile formerly shown as "Established (>90d)" now reads
