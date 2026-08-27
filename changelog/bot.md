@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.74.0] - 2026-08-27
+
+- **EVM holder clusters are more accurate**: wallets that were split by an
+  address-format mismatch now join, and groups linked only by a chain's
+  shared on-ramp are dropped instead of shown as weak clusters.
+- Snipers and bundle rows are hidden rather than shown as 0% when not
+  measured; fresh wallets and insiders are reported on more EVM chains.
+- Cold holder scans on EVM chains are considerably faster.
+
 ## [2.73.1] - 2026-08-25
 
 - **API:** a payment the facilitator rejects (e.g. insufficient funds) now
