@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.75.0] - 2026-08-28
+
+- **Holder analysis on EVM chains looks at a wider set of top holders**, and
+  a wallet whose funding could not be traced once is retried later instead of
+  being left out of clusters for good.
+
 ## [2.74.0] - 2026-08-27
 
 - **EVM holder clusters are more accurate**: wallets that were split by an
