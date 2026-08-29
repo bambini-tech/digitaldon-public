@@ -3,6 +3,20 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.19.0] - 2026-08-29
+
+- **Arbitrum tokens can now be analysed**, with chart, score and holder panel
+  like other EVM chains, tagged ARB on the card. Arbitrum appears in the
+  multi-chain picker and in the page's chain list, matching the Telegram bot.
+
+## [1.18.0] - 2026-08-29
+
+- **A Telegram link in the footer**, beside the X link, pointing to the
+  official community.
+- **The $DON price ticker and copy-contract chip are back**, now quoting the
+  official Robinhood Chain token (0x0B551573D731090B3F57129c11B0A4A9e4D0A69c)
+  and linking to its pool.
+
 ## [1.17.0] - 2026-08-26
 
 - **The $DON price ticker and contract-address chip were removed** ahead of

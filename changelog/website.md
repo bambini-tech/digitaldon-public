@@ -3,6 +3,22 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.17.0] - 2026-08-29
+
+- **Arbitrum joins the supported-chains strip** as a sixth tile, in the same
+  monochrome style as the others. On phones the strip now wraps into two rows
+  of three.
+- The chain counter reads 6 chains, and the page description, hero line and
+  footer name Arbitrum.
+
+## [1.16.0] - 2026-08-29
+
+- **The $DON price ticker and the copy-address chip are back**, now for the
+  official token on Robinhood Chain. The ticker links to the official pool
+  from the moment the page loads, before the price arrives.
+- A Telegram icon in the footer, next to the X mark, links to the official
+  community.
+
 ## [1.15.0] - 2026-08-26
 
 - The $DON price ticker and the copy-address chip in the footer are removed

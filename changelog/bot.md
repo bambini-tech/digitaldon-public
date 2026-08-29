@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.76.0] - 2026-08-29
+
+- **Arbitrum One is a supported chain** (`ARB`): `/don`, group auto-scan,
+  the API (`chain=arb`), the MCP server and holder analysis.
+- Chain lists shown to users follow the chains actually enabled, and the bot
+  card prints the same chain tag as the Web Analyzer (e.g. `RH`).
+
 ## [2.75.0] - 2026-08-28
 
 - **Holder analysis on EVM chains looks at a wider set of top holders**, and
