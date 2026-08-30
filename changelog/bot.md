@@ -3,6 +3,14 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.77.0] - 2026-08-30
+
+- **v4.fun ecosystem channel**: every token deployed on v4.fun is announced,
+  followed by scheduled updates, milestone posts from 2x, pinned runners and
+  a daily recap. Losses are reported as plainly as runs.
+- **Fixed:** a group upgraded to a supergroup keeps its `/pnl` and
+  leaderboard history.
+
 ## [2.76.0] - 2026-08-29
 
 - **Arbitrum One is a supported chain** (`ARB`): `/don`, group auto-scan,
