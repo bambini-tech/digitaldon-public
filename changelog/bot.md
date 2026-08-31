@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.77.1] - 2026-08-31
+
+- **API:** Solana USDC is offered again in every x402 payment challenge; for
+  a short time only Base was quoted.
+
 ## [2.77.0] - 2026-08-30
 
 - **v4.fun ecosystem channel**: every token deployed on v4.fun is announced,

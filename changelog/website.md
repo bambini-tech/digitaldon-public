@@ -3,6 +3,12 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.17.1] - 2026-08-31
+
+- The scrolling ticker in the hero runs continuously again. A markup error
+  made part of it drift during each cycle, opening a gap that snapped shut at
+  the restart.
+
 ## [1.17.0] - 2026-08-29
 
 - **Arbitrum joins the supported-chains strip** as a sixth tile, in the same

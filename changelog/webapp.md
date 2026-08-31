@@ -3,6 +3,19 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.19.2] - 2026-08-31
+
+- **A finished analysis is no longer held back while optional panels wait on a
+  slow backend.** The result now appears promptly; the holder and X panels are
+  skipped for that scan if the backend has not answered in time, and return on
+  the next scan.
+
+## [1.19.1] - 2026-08-31
+
+- **The holder intelligence panel no longer disappears when the backend is
+  slow to wake.** The page now retries before giving up, so the first visitor
+  after a quiet period still gets holder and X intelligence.
+
 ## [1.19.0] - 2026-08-29
 
 - **Arbitrum tokens can now be analysed**, with chart, score and holder panel
