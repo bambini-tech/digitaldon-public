@@ -3,6 +3,52 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.83.1] - 2026-09-01
+
+- **v4.fun channel:** milestone captions quote the same peak multiple the
+  card shows, and the card's launch cap, multiple and ATH now agree.
+
+## [2.83.0] - 2026-09-01
+
+- **v4.fun channel:** multiples are measured from the price after the
+  deployer's own buy in the deploy transaction, the first price an outside
+  buyer could pay. Sniper and early moves still count.
+
+## [2.82.0] - 2026-09-01
+
+- **v4.fun channel:** milestone posts start at 3x instead of 2x, so a
+  deployer's own buy alone rarely triggers one.
+
+## [2.81.0] - 2026-09-01
+
+- **v4.fun channel:** milestone posts reply to their launch post, so a
+  ticker shared by two tokens is never ambiguous.
+- The ticker on updates, milestones and card captions links to the token's
+  chart page.
+
+## [2.80.0] - 2026-09-01
+
+- **Fixed:** `/pnl`, the leaderboard and the v4.fun channel missed a price
+  spike in the first partial hour after a call; short windows are now read
+  at minute resolution.
+- v4.fun milestones are also claimed from each launch's price high, so a
+  one-minute spike is not missed.
+
+## [2.79.1] - 2026-09-01
+
+_Internal changes only; no public notes for this release._
+
+## [2.79.0] - 2026-09-01
+
+- **v4.fun channel:** milestones are checked every minute instead of only
+  at scheduled updates, so a quick run is announced while it happens.
+
+## [2.78.0] - 2026-09-01
+
+- **Mantle is a supported chain** (`MNT`): `/don`, group auto-scan, the
+  picker, `/v1/analyze` (`chain: mnt`) and the MCP tool, with full chart and
+  score. Holder analysis covers Mantle; sniper and bundle rows are not shown.
+
 ## [2.77.1] - 2026-08-31
 
 - **API:** Solana USDC is offered again in every x402 payment challenge; for

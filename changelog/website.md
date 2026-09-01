@@ -3,6 +3,13 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.18.0] - 2026-09-01
+
+- **Mantle joins the supported-chains strip** as a seventh tile, in the same
+  monochrome style as the others and legible in both themes.
+- The chain counter reads 7 chains, and the page description, hero line and
+  footer name Mantle.
+
 ## [1.17.1] - 2026-08-31
 
 - The scrolling ticker in the hero runs continuously again. A markup error

@@ -3,6 +3,18 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.20.1] - 2026-09-01
+
+- **Fixed: holder intelligence and X intelligence were missing from every
+  scan.** The page was calling a retired address; it now uses
+  api.digitaldon.net and both panels are back.
+
+## [1.20.0] - 2026-09-01
+
+- **Mantle tokens can now be analysed**, tagged MNT on the card as in the
+  Telegram bot, and Mantle is named in the page's chain list and the "no token
+  found" message.
+
 ## [1.19.2] - 2026-08-31
 
 - **A finished analysis is no longer held back while optional panels wait on a

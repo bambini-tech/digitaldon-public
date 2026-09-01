@@ -1,18 +1,18 @@
 {
   "components": {
     "bot": {
-      "version": "2.77.1",
-      "tag": "bot/v2.77.1",
+      "version": "2.83.1",
+      "tag": "bot/v2.83.1",
       "changelog": "changelog/bot.md"
     },
     "webapp": {
-      "version": "1.19.2",
-      "tag": "webapp/v1.19.2",
+      "version": "1.20.1",
+      "tag": "webapp/v1.20.1",
       "changelog": "changelog/webapp.md"
     },
     "website": {
-      "version": "1.17.1",
-      "tag": "site/v1.17.1",
+      "version": "1.18.0",
+      "tag": "site/v1.18.0",
       "changelog": "changelog/website.md"
     }
   }
