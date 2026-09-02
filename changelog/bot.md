@@ -3,6 +3,31 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.86.0] - 2026-09-02
+
+- **Opening `/mcp` in a browser** now explains what the endpoint is, with the
+  `claude mcp add` line, the `mcpServers` JSON and a docs link (MCP clients
+  still get `405`).
+- A Solana payment that fails on our side now answers `503` saying so, rather
+  than asking a funded caller to fund their wallet again.
+
+## [2.85.1] - 2026-09-02
+
+_Internal changes only; no public notes for this release._
+
+## [2.85.0] - 2026-09-02
+
+- **API:** `depth=holders` and `depth=full` are sold on Solana only for now.
+  On another named chain the request is refused before payment; with
+  `chain=auto` it fails with `holders_unsupported` and nothing is charged.
+- `/don`, the Web Analyzer and holder analysis on EVM chains stay free.
+
+## [2.84.0] - 2026-09-02
+
+- **v4.fun channel:** a pinned runner that climbs well past its pinned
+  multiple gets a fresh card posted and pinned in its place, so the board of
+  runners stays current.
+
 ## [2.83.1] - 2026-09-01
 
 - **v4.fun channel:** milestone captions quote the same peak multiple the

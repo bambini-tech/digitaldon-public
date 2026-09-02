@@ -3,6 +3,36 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.21.0] - 2026-09-02
+
+- **Two sections are withdrawn while their features are not live:** the X
+  account-intelligence radar and the X reply bot, together with their
+  navigation links and the X bot button in the closing panel.
+- The remaining sections are renumbered 01 to 06 with no gap.
+- The hero now lists holder distribution as a scored signal in place of social
+  credibility, which the shipped score does not include.
+- The `docs` link in the navigation is set apart from the in-page links and
+  marked with an arrow as opening in a new tab, with a matching hint for
+  screen readers.
+
+## [1.20.0] - 2026-09-02
+
+- The agent price table now marks the holders depth as Solana only, since that
+  is where the API offers it. The summary for AI assistants says the same.
+
+## [1.19.0] - 2026-09-02
+
+- **The for agents section is live**, with its navigation link: the REST
+  endpoint and the MCP tool server, priced per call.
+- The MCP panel now includes copy-paste setup: a one-line command for Claude
+  Code, the configuration snippet for Cursor, Windsurf and VS Code, and a copy
+  button on the endpoint address.
+- The page now states that the first call each day is free, so an agent can
+  see the output before any payment. A plain-text summary for AI assistants,
+  with endpoints, tools, prices and doc links, is published at the site root.
+- The price table no longer lists prices for the social and full depths, which
+  are not yet available; both now read `soon`.
+
 ## [1.18.0] - 2026-09-01
 
 - **Mantle joins the supported-chains strip** as a seventh tile, in the same
