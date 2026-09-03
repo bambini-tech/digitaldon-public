@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.87.0] - 2026-09-03
+
+- **The API and MCP tool are listed in the x402 Bazaar**, the catalogue
+  agents search for paid APIs, with `/v1/analyze` and `analyze_token`
+  described in full.
+- The MCP server is published to the official MCP registry.
+
 ## [2.86.0] - 2026-09-02
 
 - **Opening `/mcp` in a browser** now explains what the endpoint is, with the

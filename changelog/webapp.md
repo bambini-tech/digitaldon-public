@@ -3,6 +3,21 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.21.0] - 2026-09-03
+
+- **Tokenized stocks.** A tokens | stocks switch at the top of the page opens
+  a board of official tokenized equities from xStocks (Solana) and Robinhood
+  (Robinhood Chain), sorted by liquidity and filterable by kind, issuer or
+  typing. One click analyses the deepest listing; stocks listed by both
+  issuers get a switch in the card header.
+- **Searching a stock ticker finds the official token first**, ahead of
+  copycats with faked liquidity; tokens sharing the ticker remain reachable
+  below it.
+- The card tags the stock and its issuer and shows whether the US market is
+  open or closed. Holder analysis is not offered for stocks, and the panel
+  explains why.
+- Link straight to stocks with ?view=stocks or ?view=stocks&q=TSLA.
+
 ## [1.20.1] - 2026-09-01
 
 - **Fixed: holder intelligence and X intelligence were missing from every
