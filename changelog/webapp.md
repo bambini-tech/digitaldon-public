@@ -3,6 +3,14 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.22.0] - 2026-09-04
+
+- **The holder map shows direct token transfers between wallets** as heavy
+  arrows from sender to recipient, with their own legend entry that filters
+  the map on hover. A sender's tooltip says how many wallets it sent tokens
+  to, and group reasons can combine, for example "token transfer · shared
+  funder".
+
 ## [1.21.0] - 2026-09-03
 
 - **Tokenized stocks.** A tokens | stocks switch at the top of the page opens

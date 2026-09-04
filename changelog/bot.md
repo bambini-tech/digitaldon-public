@@ -3,6 +3,174 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.100.2] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.100.1] - 2026-09-04
+
+- An MCP payment placed in the wrong spot (outside `params._meta`) is now
+  named in the error with where it belongs, and does not use up the free
+  call.
+
+## [2.100.0] - 2026-09-04
+
+- **The free discovery call now works over MCP too**: one free `basic` call
+  per day, shared with the HTTP API. The answer shows `charged: "$0"` and
+  the remaining free calls.
+
+## [2.99.7] - 2026-09-04
+
+- A malformed MCP payment is no longer answered with "Payment required". The
+  error names the missing or invalid field, e.g.
+  `accepted.maxTimeoutSeconds: Field required`.
+
+## [2.99.6] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.99.5] - 2026-09-04
+
+- EVM holder analysis recognises high-volume routers and distributors as
+  services, so they no longer join unrelated holders into large weak groups.
+
+## [2.99.4] - 2026-09-04
+
+- EVM holder clusters are more precise: weak links no longer merge into a
+  strong group, so a strong cluster contains only strongly linked wallets.
+
+## [2.99.3] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.99.2] - 2026-09-04
+
+- Lockers and similar contracts no longer join a holder cluster just
+  because they received the token from a clustered wallet.
+- Shared routers no longer link the wallets that used them.
+
+## [2.99.1] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.99.0] - 2026-09-04
+
+- Holder transfer tracing on EVM tokens with a long history now reaches the
+  whole history of the analysed holders.
+
+## [2.98.2] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.98.1] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.98.0] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.97.2] - 2026-09-04
+
+- Holders whose wallets are smart-contract accounts (common on Robinhood
+  Chain) are no longer dropped from cluster detection.
+
+## [2.97.1] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.97.0] - 2026-09-04
+
+- EVM holder clusters now pick up links that appear after a wallet's first
+  scan, such as a later top-up from a shared funder.
+
+## [2.96.0] - 2026-09-04
+
+- Contracts and deposit addresses no longer pull unrelated holders into a
+  cluster, which removed some false groups on EVM tokens.
+- Transfer tracing on long-lived EVM tokens no longer stops after the first
+  slow response.
+
+## [2.95.1] - 2026-09-04
+
+- Holder clusters no longer disappear on EVM tokens where a holder's first
+  funding was large.
+
+## [2.95.0] - 2026-09-04
+
+- **Holder analysis works on brand-new EVM tokens** that holder data does
+  not cover yet: balances are rebuilt from the token's own on-chain transfers,
+  so the cluster map is drawn from the first minutes of a token's life.
+
+## [2.94.1] - 2026-09-04
+
+_Internal changes only; no public notes for this release._
+
+## [2.94.0] - 2026-09-04
+
+- **EVM clusters reach further.** Wallets that passed the token on to
+  holders are now checked like holders, and smaller holders are included, so
+  clusters linked through a go-between are no longer split apart.
+
+## [2.93.0] - 2026-09-04
+
+- **New cluster link on EVM: "via intermediary".** Two holders that received
+  the token through the same non-holder wallet are now joined in one cluster.
+
+## [2.92.0] - 2026-09-04
+
+- **New cluster link on EVM: "funded together".** Wallets funded by the same
+  sender at nearly the same time now form a cluster, catching coordinated
+  wallet setups that earlier maps showed as separate.
+
+## [2.91.0] - 2026-09-04
+
+- **Fixed:** EVM holder maps no longer show results computed by the previous
+  engine, which left every wallet unlinked right after an update.
+- A busy project wallet trading against the pool is no longer mistaken for the
+  pool itself, so its links to other holders stay on the map.
+
+## [2.90.0] - 2026-09-04
+
+- **EVM holder analysis reads the token's transfer graph.** Clusters now form
+  from direct token transfers, direct native transfers, a shared funder at any
+  time and a shared token source; transfers are drawn as arrows on the map.
+- **Snipers and bundles are measured on every EVM chain**, with launch% and
+  now%. The cluster `reason` is now a list such as "token transfer · shared
+  funder"; single-reason values are unchanged.
+
+## [2.89.0] - 2026-09-04
+
+- **API:** the OpenAPI document now carries tags (`crypto`, `analysis`,
+  `onchain`, `x402`), a link to the API reference, and an absolute `servers`
+  URL (`https://api.digitaldon.net`), so directories and crawlers can list it.
+
+## [2.88.3] - 2026-09-04
+
+- **API:** the x402 payment challenge names the endpoint itself
+  (`/v1/analyze`) as the resource, without the caller's query string, so
+  directories can register the GET form and payments bind to the endpoint.
+
+## [2.88.2] - 2026-09-04
+
+- **API:** the free routes (`/health`, `/openapi.json`, `/v1/openapi.json`)
+  are marked as needing no payment in the spec, so directories stop reporting
+  them as broken paid endpoints. The spec now carries a contact address.
+
+## [2.88.1] - 2026-09-04
+
+- **API:** the OpenAPI spec is also served at `/openapi.json`, where x402
+  directories look for it, and every query parameter carries a working
+  `example` so a crawler can reach the paywall.
+
+## [2.88.0] - 2026-09-04
+
+- **Tokenized stocks.** `/don TSLA`, a pasted ticker and `/v1/analyze`
+  resolve a stock ticker to its official on-chain listings first; `/stocks`
+  browses the catalogue. Cards show the issuer and US market hours.
+- Tokenized stocks get no holder analysis: their supply sits with the issuer
+  and custodians, which a cluster map would misread as whales.
+
 ## [2.87.0] - 2026-09-03
 
 - **The API and MCP tool are listed in the x402 Bazaar**, the catalogue

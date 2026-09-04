@@ -3,6 +3,12 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.21.1] - 2026-09-04
+
+- The page description shown in search results and link previews no longer
+  says the product lives only in Telegram. It now reads "in Telegram, in the
+  browser, or by your agent" and still lists the supported chains.
+
 ## [1.21.0] - 2026-09-02
 
 - **Two sections are withdrawn while their features are not live:** the X
