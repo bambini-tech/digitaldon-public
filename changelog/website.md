@@ -3,6 +3,17 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.22.0] - 2026-09-06
+
+- **New section: for websites.** The embeddable widget now has its own
+  section, with the one-line snippet for a token page and for a general search
+  box, the calls a single-page app needs, and cards on the two tools, the
+  self-sizing frame and the price (free).
+- A `widget` link joins the navigation, and two buttons lead to the widget
+  docs and to the live demo at widget.digitaldon.net.
+- The plain-text summary the site offers to AI assistants now describes the
+  widget too, with the snippet and the docs link.
+
 ## [1.21.1] - 2026-09-04
 
 - The page description shown in search results and link previews no longer

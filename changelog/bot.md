@@ -3,6 +3,17 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.102.0] - 2026-09-06
+
+- The MCP `get_pricing` tool reports `free_calls_remaining_today` without
+  spending a call.
+- The server instructions state that only `basic` is ever free; every other
+  depth is paid from the first call.
+
+## [2.101.0] - 2026-09-06
+
+- Holder analysis is available inside the embeddable widget.
+
 ## [2.100.2] - 2026-09-04
 
 _Internal changes only; no public notes for this release._

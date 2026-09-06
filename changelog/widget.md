@@ -1,0 +1,47 @@
+# Changelog — Widget
+
+Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
+Each release lists what changed for users and integrators.
+
+## [1.2.0] - 2026-09-06
+
+- The demo page at widget.digitaldon.net is readable in dark mode and meets
+  contrast guidelines for body text in both themes.
+- The demo shows four integration shapes (pinned token, scanner,
+  cluster-scan-only, opens-on-holders), each captioned with the exact
+  attributes that produce it, such as data-tools="holders" or
+  data-view="holders", plus copyable snippets and a link to the guide.
+- A day/night toggle on the demo page is shared with the website and the
+  analyzer; the example cards follow it, which demonstrates setTheme().
+
+## [1.1.0] - 2026-09-06
+
+- Holder intelligence in the widget: a second tool beside the analysis that
+  runs a two-stage cluster scan and shows holders, top-10 share, largest
+  wallet, concentration, a wallet cluster map, connected supply with the
+  bubble risk, the cluster list and launch signals.
+- data-tools chooses which tools the card offers ("analysis,holders" by
+  default, "analysis", or "holders" for a cluster-scan-only embed), and
+  data-view chooses which opens first. Pin an address and open on holders
+  for a token page, or omit it for a scanner.
+- The JavaScript API adds .show(view) to switch tools and an onHolders
+  callback that fires when a cluster scan completes.
+- Per-site usage counts now include completed holder scans; a scan is
+  counted once per token per frame.
+
+## [1.0.0] - 2026-09-06
+
+- One script tag from https://widget.digitaldon.net/embed.js mounts a
+  compact DigitalDon card in a sandboxed iframe: price and 24h change, the
+  signal score and band, four category reads, short- and long-term
+  entry/exit zones, market cap, liquidity, volume, buy share, risk flags and
+  a link to the full analysis on analyzer.digitaldon.net.
+- Same engine as the analyzer, so a token scores identically on every
+  surface; the engine version is shown in the card's footer.
+- Pinned or search mode, a multi-chain picker, light / dark / auto theme,
+  fluid width with automatic height. JavaScript API: DigitalDon.mount(),
+  .update(), .setTheme(), .destroy(), an onResult callback, and declarative
+  data-digitaldon-widget containers.
+- Runs on our origin under a strict content security policy and sets no
+  cookies. Views, scans, link clicks and errors are counted per embedding
+  site per day, with unique visitors via an anonymous id.
