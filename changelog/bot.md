@@ -3,6 +3,20 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.104.0] - 2026-09-07
+
+- Holder data for the Web Analyzer's map now says why wallets were grouped
+  (strong or weak evidence and the reason), plus first-activity and funding
+  times and the launch time used by the funding replay.
+
+## [2.103.0] - 2026-09-07
+
+- **The holder card no longer sums "connected supply".** It shows how many
+  separate groups there are and the largest one, e.g. `5 separate groups ·
+  largest 4.7% (3 wallets)`.
+- Wallets linked only through an unverified intermediary are grouped weakly
+  at most.
+
 ## [2.102.0] - 2026-09-06
 
 - The MCP `get_pricing` tool reports `free_calls_remaining_today` without

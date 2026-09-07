@@ -3,6 +3,23 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.3.0] - 2026-09-07
+
+- The holder map is now the same interactive map as the analyzer's,
+  replacing the static picture: group cards with their share of supply, a
+  drawer per group with its wallets, the evidence linking them (shared
+  funder, funding timing, each link rated strong or weak) and the estimated
+  price impact if the whole group sells.
+- Also from the analyzer: filter chips, hiding and restoring wallets or
+  groups, the funding replay, changes since your last scan, and keyboard
+  shortcuts.
+- Fullscreen for the map. Frames created by embed.js carry
+  allow="fullscreen", which enables native fullscreen. Without that grant,
+  the loader stretches the frame over the page and Esc closes it. A
+  hand-written iframe with neither shows no fullscreen button at all.
+- Unique visitors per embedding site were undercounted and are now counted
+  correctly.
+
 ## [1.2.0] - 2026-09-06
 
 - The demo page at widget.digitaldon.net is readable in dark mode and meets

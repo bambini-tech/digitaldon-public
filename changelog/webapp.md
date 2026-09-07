@@ -3,6 +3,27 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.23.0] - 2026-09-07
+
+- **The cluster panel now lives inside the holder map**, so fullscreen shows
+  everything. Group cards down the side show each group's share; click one to
+  fly to it and open a drawer with its wallets, the evidence linking them, and
+  an estimate of the price impact if the group sold.
+- **Hide and restore wallets**, and filter chips for the roles found on the
+  token. A funding replay scrubs from launch to now, showing wallets as they
+  were funded, with a play button.
+- **Since your last scan:** your browser remembers the previous holder set per
+  token and shows new and departed wallets and how groups changed.
+- Keyboard shortcuts in the map (arrows cycle groups, h hides, f refits, Esc
+  clears); tooltips show when a wallet was funded, and CSV export gains
+  funding times and hidden state.
+
+## [1.22.1] - 2026-09-07
+
+- The holder map summary no longer adds all clusters into one connected-supply
+  figure, which read as a single holder. It now gives the number of separate
+  groups and the size of the largest, matching the Telegram bot.
+
 ## [1.22.0] - 2026-09-04
 
 - **The holder map shows direct token transfers between wallets** as heavy
