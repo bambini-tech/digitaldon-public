@@ -3,6 +3,23 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.107.0] - 2026-09-08
+
+- **$DON house policy**: on our own token the TA score is lifted by 8 points
+  and floored at 50, and the short-term plan is withheld; long-term zones
+  and indicators are unchanged.
+- The project treasury group is labelled and left out of the bubble-risk
+  grade. Every surface says so, and `/v1/analyze` adds an `analysis.native`
+  block with the exact adjustments.
+
+## [2.106.0] - 2026-09-08
+
+_Internal changes only; no public notes for this release._
+
+## [2.105.0] - 2026-09-08
+
+_Internal changes only; no public notes for this release._
+
 ## [2.104.0] - 2026-09-07
 
 - Holder data for the Web Analyzer's map now says why wallets were grouped

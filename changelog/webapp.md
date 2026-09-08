@@ -3,6 +3,28 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.24.0] - 2026-09-08
+
+- **The analyzer now applies the $DON house policy**, the same as the Telegram
+  bot: the score is lifted by 8 and floored at 50, and the short-term plan is
+  withheld in favour of the long-term zones. Everything else is computed as
+  for any other token.
+- **This is always labelled.** An "our token · house view" chip sits under the
+  score, the header notes our token, and the short-term plan card explains why
+  it is empty.
+- On the holder map the largest $DON group is labelled project treasury, and a
+  second chip shows how much team-owned supply was excluded from the
+  bubble-risk grade.
+
+## [1.23.1] - 2026-09-08
+
+- **The holder panel is tidy on phones.** Below 640px it becomes a vertical
+  stack (map, filters, group cards, funding replay) instead of controls
+  overlapping the bubbles, and the open dossier no longer has other controls
+  sitting on top of it.
+- Fixed expanding the holder map inside the embeddable widget, which undid
+  itself immediately.
+
 ## [1.23.0] - 2026-09-07
 
 - **The cluster panel now lives inside the holder map**, so fullscreen shows

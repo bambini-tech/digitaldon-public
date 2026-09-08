@@ -3,6 +3,33 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.4.0] - 2026-09-08
+
+- DigitalDon's own token, $DON, is analysed under a stated house policy:
+  the score is lifted and floored, and the short-term plan is replaced by the
+  long-term zones. The card says so with an "our token · house view" chip
+  under the score and "our token" in the header.
+- The numbers are the same as on the analyzer, since both run the same
+  engine.
+- The project treasury is named in the holder map and left out of the
+  bubble-risk grade, with a chip showing how much supply was excluded.
+
+## [1.3.2] - 2026-09-08
+
+- The holder panel uses a stacked layout suited to the card's width on
+  every device, instead of a desktop layout squeezed into a narrow frame.
+- The in-page expand, used when native fullscreen is not available, now
+  actually stretches the widget over the host page. It had been silently
+  doing nothing.
+- While a group's detail drawer is open, the corner controls and filter row
+  are hidden instead of being drawn over it.
+
+## [1.3.1] - 2026-09-08
+
+- The holder panel now has the same 16px side margin as the rest of the
+  card. Its title, hints, legend, group line and export links had run flush
+  to the card edge.
+
 ## [1.3.0] - 2026-09-07
 
 - The holder map is now the same interactive map as the analyzer's,
