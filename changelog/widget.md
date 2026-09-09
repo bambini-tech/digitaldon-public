@@ -3,6 +3,14 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.5.0] - 2026-09-09
+
+- Project treasury wallets are marked with a ring in the holder map, with a
+  matching "project treasury" legend row and a "team supply" line on the
+  group card.
+- A chip next to the bubble-risk grade shows how much supply was left out
+  of it, so a large treasury group is not read as a concentration risk.
+
 ## [1.4.0] - 2026-09-08
 
 - DigitalDon's own token, $DON, is analysed under a stated house policy:

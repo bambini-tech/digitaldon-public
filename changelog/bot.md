@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.108.0] - 2026-09-09
+
+- Three more $DON project wallets are declared (13 in total), and every
+  project wallet is flagged individually, even outside a cluster.
+- The bubble-map image marks project wallets with a double ring.
+
 ## [2.107.0] - 2026-09-08
 
 - **$DON house policy**: on our own token the TA score is lifted by 8 points

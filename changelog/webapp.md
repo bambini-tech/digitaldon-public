@@ -3,6 +3,18 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.25.0] - 2026-09-09
+
+- **The project's own wallets are marked on the holder map**: a double ring on
+  each treasury wallet, a project treasury legend entry that filters to them,
+  and a tooltip that leads with it, including treasury wallets outside any
+  group.
+- The group is named wherever its numbers appear (map label, group card,
+  dossier), and the summary under the map says when the largest group is the
+  project treasury.
+- The chip showing how much supply was excluded from the risk grade is now
+  solid, since it explains the grade beside it.
+
 ## [1.24.0] - 2026-09-08
 
 - **The analyzer now applies the $DON house policy**, the same as the Telegram
