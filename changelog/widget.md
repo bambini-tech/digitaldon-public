@@ -3,6 +3,14 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.6.0] - 2026-09-10
+
+- Group cards in the holder map carry a TEAM SUPPLY stamp when a group is
+  the project's own wallets, or a partial form such as 7/10 TEAM SUPPLY when
+  only some of its wallets are.
+- Project wallets are excluded from the bubble-risk grade wallet by wallet,
+  so a group that is only partly team-owned is graded on the rest.
+
 ## [1.5.0] - 2026-09-09
 
 - Project treasury wallets are marked with a ring in the holder map, with a

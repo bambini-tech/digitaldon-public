@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.109.0] - 2026-09-10
+
+- The $DON bubble-risk grade now excludes project wallets one by one. A
+  group mixing project wallets and outside wallets stays in the grade minus
+  the project's share.
+
 ## [2.108.0] - 2026-09-09
 
 - Three more $DON project wallets are declared (13 in total), and every

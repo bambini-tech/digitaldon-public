@@ -3,6 +3,14 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.26.0] - 2026-09-10
+
+- **Group cards on the holder map now say TEAM SUPPLY in words** next to the
+  group letter, or for example 7/10 TEAM SUPPLY when only part of the group
+  belongs to the project.
+- The summary under the map names partly project-owned groups too, so the risk
+  grade beside it explains itself.
+
 ## [1.25.0] - 2026-09-09
 
 - **The project's own wallets are marked on the holder map**: a double ring on
