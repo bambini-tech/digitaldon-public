@@ -3,6 +3,30 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.7.1] - 2026-09-11
+
+- The holder map's usage hints moved behind a small ? in the map's corner,
+  shown on hover, freeing room on the narrow card that a permanent line of
+  instructions used to take.
+- The loading figure keeps climbing through a long cluster scan instead of
+  stalling near 90, and says the scan is still working after about fourteen
+  seconds.
+
+## [1.7.0] - 2026-09-11
+
+- The cluster map opens as soon as a scan starts: its window is there from
+  the first frame with the DigitalDon mark filling in while holders load,
+  replacing the two-step text loader.
+- A token nameplate (logo, name and ticker) heads the group list. If the
+  logo cannot be loaded, a monogram is shown instead.
+- The map has a new visual encoding: share of supply on the bubble, a
+  wallet's role shown on its rim, one number format throughout, cluster
+  outlines weighted by how strong the evidence is, and a boxed legend.
+
+## [1.6.1] - 2026-09-11
+
+_Internal changes only; no public notes for this release._
+
 ## [1.6.0] - 2026-09-10
 
 - Group cards in the holder map carry a TEAM SUPPLY stamp when a group is

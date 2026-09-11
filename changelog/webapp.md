@@ -3,6 +3,44 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.28.1] - 2026-09-11
+
+- **The cluster map's usage hints moved behind a ? button** in the map's
+  corner, opening a key on hover, focus or tap, instead of a permanent line of
+  text above the panel.
+- **Fixed: token logos never appeared** on the map's nameplate; the monogram
+  always stood in. Logos now load.
+- **The loading percentage no longer stalls at 90 on slow scans.** It keeps
+  climbing, and after a while the loader explains that a first scan of a token
+  can take up to a minute.
+
+## [1.28.0] - 2026-09-11
+
+- **The cluster map opens as soon as you scan**, with a loader showing the
+  DigitalDon mark filling up and a percentage that reaches 100 only when the
+  data is in, instead of the panel appearing out of nowhere after a long wait.
+- **A token nameplate** (logo, name, ticker) heads the group list, so a
+  fullscreen screenshot of the map shows which token it is.
+- **Bubble shade shows share of supply again**, darkest for the largest
+  holders; a wallet's role moved to its rim. Labels use one decimal
+  throughout, group outlines are solid for strongly rated groups and dashed
+  otherwise, and the zoom and funding replay controls share one bottom bar.
+- On phones the group cards form one horizontal shelf so the map keeps its
+  shape. Faded bubbles stay visible in light mode, and PNG export keeps the
+  new rims.
+
+## [1.27.0] - 2026-09-11
+
+- **Tokenized stocks are analysed as equities**, with the same result as the
+  Telegram bot. Zones and targets suit a large-cap share, fixing cases where
+  the plan came out inverted, and the plans are labelled swing (days) and
+  position (weeks) under a Tokenized equity profile.
+- **A stock-specific on-chain section** shows depth, on-chain volume and flow,
+  and notes that the supply is custodial, replacing wording about unlocks and
+  rug risk that did not apply to a share.
+- A stock with too narrow a range for a swing setup says so with the actual
+  figure instead of calling it untradable.
+
 ## [1.26.0] - 2026-09-10
 
 - **Group cards on the holder map now say TEAM SUPPLY in words** next to the

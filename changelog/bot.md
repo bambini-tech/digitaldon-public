@@ -3,6 +3,24 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.111.0] - 2026-09-11
+
+- **API schema 2.0.0**: every response carries `data.token.asset_class`
+  (`crypto` or `stock`); `underlying` adds `dual_listed` and `market_status`.
+  `data.token.stock` is removed.
+- The OpenAPI document includes worked response examples and an `x-cache`
+  block declaring cache lifetimes (a cache hit is still charged).
+- Asking for holder depth on a tokenized stock now explains the refusal and
+  is not charged. `social` and `full` are no longer listed as on sale.
+
+## [2.110.0] - 2026-09-11
+
+- **Tokenized stocks are scored as equities**: no launch-candle trimming,
+  less weight on DEX swap counts and equity-sized zones. The horizons read
+  *Swing (days)* and *Position (weeks)*.
+- The on-chain block for a stock reports depth, volume and flow, and states
+  that the supply is custodial. `/v1/analyze` adds an `analysis.stock` block.
+
 ## [2.109.0] - 2026-09-10
 
 - The $DON bubble-risk grade now excludes project wallets one by one. A
