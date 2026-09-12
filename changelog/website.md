@@ -3,6 +3,14 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.23.0] - 2026-09-12
+
+- **The navigation is now a bar across the top of the page** instead of a pill
+  floating over it, matching the Web Analyzer. The $DON ticker and the
+  day/night toggle sit in the bar, left and right of the links.
+- The hero fills the screen below the bar, and jumping to a section no longer
+  lands its heading underneath the bar.
+
 ## [1.22.0] - 2026-09-06
 
 - **New section: for websites.** The embeddable widget now has its own

@@ -3,6 +3,12 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.7.2] - 2026-09-12
+
+- The loading window around the holder map keeps its full height while the
+  scan runs. It had collapsed to a thin border, which made a running scan
+  look broken rather than busy.
+
 ## [1.7.1] - 2026-09-11
 
 - The holder map's usage hints moved behind a small ? in the map's corner,

@@ -3,6 +3,23 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.29.0] - 2026-09-12
+
+- **The navigation is now a bar at the top of the page** instead of a pill
+  floating over the content, so it no longer covers anything, including the
+  cluster map. The $DON ticker and the day/night toggle moved into the same
+  bar.
+- In-page links no longer land their target underneath the bar, and the small
+  brand mark shows in the bar on phones again.
+
+## [1.28.2] - 2026-09-12
+
+- **Fixed: the cluster map's loading window collapsed to a thin line** while
+  the scan ran. It now opens at the map's full height, so nothing jumps when
+  the bubbles arrive.
+- Fixed: the export row appeared during the scan, the token nameplate showed
+  an empty slot before the name loaded, and an empty verdict area left a gap.
+
 ## [1.28.1] - 2026-09-11
 
 - **The cluster map's usage hints moved behind a ? button** in the map's
