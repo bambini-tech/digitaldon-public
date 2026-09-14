@@ -3,6 +3,17 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.24.0] - 2026-09-14
+
+- **Arc joins the supported-chains strip** as an eighth tile, in the same
+  monochrome style as the others. The chain counter, page description, hero
+  line and footer now list eight chains.
+- The chain strip no longer leaves a single tile alone on its own row. It
+  shows eight across on wide screens, two rows of four from phone to laptop
+  width, and 3+3+2 on the narrowest phones.
+- Chain names under the coins tighten slightly on small screens so four coins
+  fit per row.
+
 ## [1.23.0] - 2026-09-12
 
 - **The navigation is now a bar across the top of the page** instead of a pill
