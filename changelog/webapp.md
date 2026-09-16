@@ -3,6 +3,22 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.30.1] - 2026-09-16
+
+_Internal changes only; no public notes for this release._
+
+## [1.30.0] - 2026-09-16
+
+- **Arc tokens can now be analysed**, with chart and score like any other
+  chain, and Arc is named in the page's chain list and the "no token found"
+  message.
+- **Fixed: tokens too new for a full analysis crashed the analyzer** with
+  "Something went wrong" on every chain. Their fresh-launch card shows again,
+  including the $DON house-policy badge where it applies.
+- **Fixed: tokens whose main pool had no candle history yet showed no chart or
+  score.** The analyzer now tries the token's other pools on the same chain,
+  checked against the main pair's price.
+
 ## [1.29.0] - 2026-09-12
 
 - **The navigation is now a bar at the top of the page** instead of a pill

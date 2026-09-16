@@ -3,6 +3,20 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.113.0] - 2026-09-16
+
+- Tokens with 15 to 19 hourly candles now get a score card in Telegram
+  (marked "limited data") instead of the no-TA card, matching what the Web
+  Analyzer and widget already showed.
+
+## [2.112.0] - 2026-09-16
+
+- **Arc is a supported chain**: `/don`, group auto-scan, `/v1/analyze` and
+  the MCP tool accept Arc tokens, and cards carry an `ARC` tag.
+- Holder analysis is not available on Arc yet.
+- Scans no longer fail when a token's deepest pool has no chart data; a
+  sibling pool is used. Arc wallet values use USDC's dollar price.
+
 ## [2.111.0] - 2026-09-11
 
 - **API schema 2.0.0**: every response carries `data.token.asset_class`

@@ -3,6 +3,18 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.1] - 2026-09-16
+
+_Internal changes only; no public notes for this release._
+
+## [1.8.0] - 2026-09-16
+
+- Arc is supported: set data-chain="arc" to pin an Arc token, and Arc is
+  listed in the chain hint under the search box.
+- Tokens whose main pool has not yet been picked up for price history no
+  longer come back empty. The widget now falls back to the token's other
+  pools on the same chain, which matters most on newly launched chains.
+
 ## [1.7.2] - 2026-09-12
 
 - The loading window around the holder map keeps its full height while the
