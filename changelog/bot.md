@@ -3,6 +3,19 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.115.0] - 2026-09-17
+
+- Holder analysis on Arc now includes holder-to-holder transfer tracing and
+  shared-distributor detection. While Arc is in its private mainnet phase
+  this part may show as unmeasured; score and chart are unaffected.
+
+## [2.114.0] - 2026-09-17
+
+- **Holder analysis on Arc**: clustering, concentration, wallet quality,
+  shared-funder groups and insiders now appear on Arc tokens.
+- Sniper and bundle tags are not available on Arc yet. The paid
+  `depth=holders` on the API remains Solana-only.
+
 ## [2.113.0] - 2026-09-16
 
 - Tokens with 15 to 19 hourly candles now get a score card in Telegram
