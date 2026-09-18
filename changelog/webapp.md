@@ -3,6 +3,37 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.32.0] - 2026-09-18
+
+- **Wallets: a third mode beside tokens and stocks.** Paste an EVM address to
+  see the wallet across every chain we cover: the cross-chain total, a chain
+  strip showing the split, one ranked list of holdings tagged by chain (gas
+  coins included), and an approximate cost basis per position and overall.
+- The chain strip doubles as a filter: click a chain to narrow the list to it
+  instantly. The card uses the same scan as the Telegram bot, so both give the
+  same answer for an address.
+- Link straight to wallet mode with ?view=wallets. The card works at phone
+  widths without clipping or sideways scroll, and gains and losses use the
+  monochrome ink scale rather than green and red.
+- Positions whose cost cannot be reconstructed (airdrops, bridged deposits,
+  token-for-token swaps) read "no basis" instead of showing a gain they never
+  earned.
+
+## [1.31.0] - 2026-09-18
+
+- **The price chart is interactive.** Pan by dragging or with the arrow keys,
+  zoom with the wheel, pinch, +/- buttons or range presets, and read any
+  candle's open, high, low and close from a crosshair. Double-click or reset
+  returns to the default view.
+- A 1h / 4h switch appears when four-hour history is available, so the
+  long-term plan can be checked on the timeframe it was read from.
+- All six trade-plan levels are now drawn and can be toggled from the legend;
+  levels outside the view are marked on the price rail with an arrow. A
+  measure tool shows the percent move, bar count and time between two points.
+- Chart labels stay readable on phones, and the wheel only zooms after you
+  click the chart, so scrolling past it no longer gets stuck. The fresh-launch
+  chart gets the same controls.
+
 ## [1.30.1] - 2026-09-16
 
 _Internal changes only; no public notes for this release._

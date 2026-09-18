@@ -3,6 +3,16 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.116.0] - 2026-09-18
+
+- **New `/wscan <wallet>` (alias `/walletscan`)**: the whole book of an EVM
+  wallet across every chain we cover, with a cross-chain total, per-chain
+  split, ranked holdings and an approximate cost basis. Spam is filtered.
+- In a private chat, pasting a `0x` address that is not a token returns the
+  wallet card instead of "no token found".
+- Groups get a Wallet scans switch in `/setup` (off by default) so auto-scan
+  can answer wallet addresses too.
+
 ## [2.115.0] - 2026-09-17
 
 - Holder analysis on Arc now includes holder-to-holder transfer tracing and
