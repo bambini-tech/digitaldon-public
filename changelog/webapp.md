@@ -3,6 +3,25 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.34.0] - 2026-09-19
+
+- **The wallet card now has proper padding**, so its name, address, chain row
+  and footnotes no longer sit flush against the border. Checked from 320px
+  phones to wide desktops, with no sideways scrolling.
+- Footnote qualifiers now sit neatly under their value at every screen width
+  instead of wrapping raggedly.
+
+## [1.33.0] - 2026-09-19
+
+- **The wallet card's footnotes are a labelled grid** (cost basis, dust,
+  unpriced, empty chains) instead of one dense paragraph. The methodology sits
+  behind a "how these numbers are worked out" disclosure; nothing was removed.
+- More space between the card's sections and a taller chain strip, so the
+  strip reads as its own element. On phones, sub-labels stack under their
+  values.
+- A single-chain wallet no longer shows a solid full-width chain bar; the
+  chain labels still show which chains came back empty.
+
 ## [1.32.0] - 2026-09-18
 
 - **Wallets: a third mode beside tokens and stocks.** Paste an EVM address to

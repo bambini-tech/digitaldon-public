@@ -3,6 +3,19 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.25.0] - 2026-09-19
+
+- **New section: wallet scans.** A fifth section, between holder intelligence
+  and chains, shows the other half of the product: six chain probes answer
+  across the top, holdings on three chains fill a single strip sized by share,
+  and the merged positions are listed below, ranked across chains.
+- The figures in the illustration come from a real scan, and the chains shown
+  are exactly the ones the wallet scan covers.
+- A `wallets` link joins the navigation; chains, agents and widget move up one
+  number.
+- The navigation switches to its compact layout below 920px instead of 800px,
+  so the link row is no longer clipped on mid-sized screens.
+
 ## [1.24.0] - 2026-09-14
 
 - **Arc joins the supported-chains strip** as an eighth tile, in the same
