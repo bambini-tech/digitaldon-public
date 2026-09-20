@@ -3,6 +3,33 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.120.0] - 2026-09-20
+
+- **Mantle wallet scans work.** A wallet's MNT and tokens on Mantle were
+  previously reported as nothing found.
+- On Mantle the scan shows balances without extra identity details (ENS,
+  public tags). A chain whose history is too long to read is reported as
+  not scanned rather than shown with a wrong number.
+
+## [2.119.0] - 2026-09-20
+
+- **A chain the wallet scan could not read is no longer reported as empty.**
+  The card now says the chain was not scanned and that its holdings are
+  missing from the total.
+- A wallet found on none of the scanned chains shows an empty book again
+  instead of an error.
+
+## [2.118.0] - 2026-09-20
+
+- Wallet scans show the official logos for gas coins (ETH, MNT, USDC on Arc)
+  and for canonical stablecoins and wrapped tokens. Matching is by contract,
+  so a token merely named USDT does not borrow Tether's mark.
+
+## [2.117.0] - 2026-09-20
+
+- Wallet scan holdings now carry each token's logo, so the Web Analyzer can
+  show the token's own artwork.
+
 ## [2.116.0] - 2026-09-18
 
 - **New `/wscan <wallet>` (alias `/walletscan`)**: the whole book of an EVM

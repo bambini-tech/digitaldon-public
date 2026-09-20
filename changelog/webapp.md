@@ -3,6 +3,58 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.39.0] - 2026-09-20
+
+- **Chain names and coin tickers no longer overlap in the wallet orbit.** Each
+  chain's name is now placed clear of its largest coin, and the picture is a
+  little taller so the outer labels no longer fall off the top.
+- The dollar figure under large coins has been removed to make room. Values
+  remain in the readout under the orbit and in the total at its centre.
+
+## [1.38.0] - 2026-09-20
+
+- **A chain the wallet scan could not read is now shown as not scanned**,
+  instead of looking like an empty chain. The chain row marks it, the total's
+  sub-line counts it as unread, and a footnote says the total is missing that
+  chain.
+
+## [1.37.0] - 2026-09-20
+
+- **Holdings in the wallet orbit are drawn as coins.** A token with artwork
+  shows its logo sharp and edge to edge, finished with a thin rim that keeps
+  dark logos legible in dark mode. The ticker sits under the coin; other
+  details appear in the readout on hover.
+- Holdings without artwork keep the plain bubble with the ticker inside.
+- **ETH and the major stablecoins now show their official logos** in the orbit
+  and the holdings list, including ETH, MNT, USDC, USDT, DAI, WETH and WMNT.
+
+## [1.36.0] - 2026-09-20
+
+- **Token logos on the wallet scan.** Each holding shows its artwork in the
+  orbit and as a round avatar in the holdings list, with the ticker's first
+  two letters standing in when no logo exists. Logos keep the token's own
+  colours.
+- In the orbit the logo fills the bubble behind a readable ticker; small
+  bubbles too tiny for a ticker show the logo sharp, so they are no longer
+  blank discs.
+- **The loading strip now describes a wallet scan** with its own steps (probe
+  chains, read balances, price holdings, cost basis) instead of the
+  token-analysis steps.
+
+## [1.35.0] - 2026-09-20
+
+- **The wallet orbit.** A scanned wallet is now drawn as a picture: the
+  address at the centre and every holding around it, sized by its value and
+  grouped by chain, with each chain's name and share of the portfolio. The
+  ranked list stays underneath.
+- A chain's gas coin carries a dashed rim to set it apart from positions the
+  wallet took.
+- Hover or focus a holding to preview it, click to pick it: the others dim and
+  the matching row below is highlighted and scrolled into view. Every holding
+  is reachable by keyboard; Enter picks, Escape clears.
+- Details appear in a fixed readout under the orbit rather than a floating
+  tooltip, so nothing covers the picture and it works on touch.
+
 ## [1.34.0] - 2026-09-19
 
 - **The wallet card now has proper padding**, so its name, address, chain row
