@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.121.0] - 2026-09-22
+
+- **Wallet scans list the wallet's NFTs**, grouped by collection with chain
+  and amount. NFTs are never valued. Obvious spam NFTs are hidden and counted.
+- `/wscan` gains an NFTs block with one line per collection.
+- Wallet scans are noticeably faster, with the same output as before.
+
 ## [2.120.0] - 2026-09-20
 
 - **Mantle wallet scans work.** A wallet's MNT and tokens on Mantle were

@@ -3,6 +3,22 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.40.0] - 2026-09-22
+
+- **The wallet card now shows the NFTs a wallet holds**, behind a Tokens |
+  NFTs switch above the holdings list. Every scan opens on tokens, and a
+  wallet with no NFTs gets no switch, so its card is unchanged.
+- The NFTs tab is a gallery of square tiles with artwork, name, collection and
+  chain, plus a ×N badge for an edition held more than once. Collections are
+  grouped, the most widely held first; the first 24 tiles show at once and a
+  button reveals the rest.
+- Each tab shows its count, and the NFTs tab notes how many collections there
+  are and that NFTs are not counted in the total. The arrow keys move between
+  the tabs.
+- Artwork loads lazily as you scroll, with a placeholder showing the
+  collection's monogram until it arrives. Pixel art is upscaled crisply, and
+  airdropped spam NFTs are hidden and counted in the footnotes.
+
 ## [1.39.0] - 2026-09-20
 
 - **Chain names and coin tickers no longer overlap in the wallet orbit.** Each
