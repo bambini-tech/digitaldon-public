@@ -3,6 +3,12 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.26.0] - 2026-09-24
+
+- **The footer links to our public GitHub repository**, next to X and
+  Telegram: integration guides for the widget and the API, examples and the
+  changelog of every DigitalDon product.
+
 ## [1.25.0] - 2026-09-19
 
 - **New section: wallet scans.** A fifth section, between holder intelligence
