@@ -3,6 +3,15 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.2.2] - 2026-09-28
+
+- Cleaner error text when a token cannot be found.
+
+## [0.2.1] - 2026-09-28
+
+- A pasted or linked contract address now always opens that token, not the
+  token it is paired against in its deepest pool.
+
 ## [0.2.0] - 2026-09-18
 
 - The funding replay strip is hidden in the terminal, to leave the bottom

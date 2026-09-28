@@ -3,6 +3,19 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.122.1] - 2026-09-28
+
+- Pasting a token's contract address now always analyses that token. A token
+  whose deepest pool pairs it against another token, such as a memecoin
+  paired with a tokenized stock, used to get the other token's card.
+
+## [2.122.0] - 2026-09-28
+
+- **Scan links now preview as the scan.** Paste a link to a DigitalDon scan
+  on X, Telegram, Discord, WhatsApp or Slack and it shows the score card:
+  score, entry and target zones, chain and when it was scanned. Tapping it
+  opens the full scan.
+
 ## [2.121.0] - 2026-09-22
 
 - **Wallet scans list the wallet's NFTs**, grouped by collection with chain

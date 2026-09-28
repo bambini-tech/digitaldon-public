@@ -3,6 +3,15 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.3] - 2026-09-28
+
+- Cleaner error text when a token cannot be found.
+
+## [1.8.2] - 2026-09-28
+
+- A pinned or typed contract address now always shows that token, not the
+  token it is paired against in its deepest pool.
+
 ## [1.8.1] - 2026-09-16
 
 _Internal changes only; no public notes for this release._

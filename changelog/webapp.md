@@ -3,6 +3,34 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.0.3] - 2026-09-28
+
+- No dark strip at the bottom of the screen while scrolling on phones.
+
+## [2.0.2] - 2026-09-28
+
+- **Cleaner labels** on the holder panel, the token link and the ticker.
+
+## [2.0.1] - 2026-09-28
+
+- Pasting a token's contract address now always analyses that token, not the
+  token it happens to be paired against in its deepest pool.
+
+## [2.0.0] - 2026-09-28
+
+- **The Web Analyzer has a new look**: a calm ground of light behind the
+  page and glass panels on top of it, in day and night. Scans, cards and the
+  holder map work exactly as before.
+
+## [1.42.0] - 2026-09-28
+
+- **Share a scan as a link that previews as the scan card.** *copy link* in
+  the share panel gives you a link that shows the score, entry and target
+  zones and scan time when you paste it on X, Telegram, Discord or WhatsApp.
+- **The link in your address bar works too**: paste an analyzer link for any
+  token and it previews as that token's scan card.
+- Links to the analyzer itself now show a DigitalDon preview card.
+
 ## [1.41.0] - 2026-09-24
 
 - **The footer links to our public GitHub repository**, next to X and

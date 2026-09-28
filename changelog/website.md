@@ -3,6 +3,34 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.0.3] - 2026-09-28
+
+- **Cleaner on phones**: no dark strip while scrolling, tidier pipeline
+  icons, and a roomier chain list.
+
+## [2.0.2] - 2026-09-28
+
+- The $DON price ticker links to the chart with a neutral label.
+
+## [2.0.1] - 2026-09-28
+
+- **Analyze opens the Web Analyzer in a new tab** and only when you press
+  the button; the site stays open beside it.
+
+## [2.0.0] - 2026-09-28
+
+- **The site has a new look**: a living ground of light behind the page and
+  glass panels on top of it, in day and night.
+- **Paste a contract straight into the homepage.** The search bar in the hero
+  opens the Web Analyzer with your token already scanned.
+- **The menu folds as you scroll** into a small bubble that names the section
+  you are reading, and opens again when you hover or tap it.
+
+## [1.27.0] - 2026-09-28
+
+- **Links to digitaldon.net now show a preview card** on X, Telegram, Discord
+  and other apps.
+
 ## [1.26.0] - 2026-09-24
 
 - **The footer links to our public GitHub repository**, next to X and
