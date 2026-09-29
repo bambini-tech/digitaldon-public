@@ -3,6 +3,22 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.0.6] - 2026-09-29
+
+- A link to the website now previews with the site's own hero on its water.
+
+## [2.0.5] - 2026-09-29
+
+- The menu's two buttons are the same size, with even spacing, on every
+  screen.
+
+## [2.0.4] - 2026-09-29
+
+- **The background now reacts to your mouse or finger**: the lines bend
+  around it and ripple when you move quickly or tap, and it looks sharp on
+  every screen while using less power than before.
+- Day mode is remembered again between visits.
+
 ## [2.0.3] - 2026-09-28
 
 - **Cleaner on phones**: no dark strip while scrolling, tidier pipeline

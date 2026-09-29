@@ -3,6 +3,31 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.1.0] - 2026-09-29
+
+- Share cards now match the website: your scan sits on glass panes over the
+  site's water, in both light and dark.
+- The poster card now also shows both trade plans, and every card shows the
+  score's band alongside the gauge.
+- Cards for our own token carry the house-view badge next to the score.
+- A link to the Web Analyzer previews with the analyzer's own hero on the
+  site's water.
+
+## [2.0.6] - 2026-09-29
+
+- The Web Analyzer's background is as rich as the website's, while staying
+  calm behind your scan.
+
+## [2.0.5] - 2026-09-29
+
+- The Web Analyzer's menu matches the website's glass capsule.
+
+## [2.0.4] - 2026-09-29
+
+- **The background reacts gently to your mouse or finger** and looks sharp
+  on every screen while using less power than before.
+- Day mode is remembered again between visits.
+
 ## [2.0.3] - 2026-09-28
 
 - No dark strip at the bottom of the screen while scrolling on phones.

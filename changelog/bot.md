@@ -3,6 +3,16 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.123.0] - 2026-09-29
+
+- PnL cards, /don charts, holder maps and the X scan card have a new look
+  that matches the website: glass panes over the site's water.
+- The /don chart's score is now a plain "71/100 · strong entry" chip, and
+  last price, support, resistance and the all-time high sit in a row under
+  the chart.
+- Link previews for a scan fill the whole preview, and a link with nothing
+  to scan previews with the analyzer's own hero.
+
 ## [2.122.1] - 2026-09-28
 
 - Pasting a token's contract address now always analyses that token. A token
