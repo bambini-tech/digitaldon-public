@@ -6,8 +6,8 @@
       "changelog": "changelog/bot.md"
     },
     "webapp": {
-      "version": "2.1.0",
-      "tag": "webapp/v2.1.0",
+      "version": "2.2.0",
+      "tag": "webapp/v2.2.0",
       "changelog": "changelog/webapp.md"
     },
     "website": {

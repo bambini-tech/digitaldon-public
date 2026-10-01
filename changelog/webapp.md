@@ -3,6 +3,19 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.2.0] - 2026-10-01
+
+- **New: a watchlist.** Star any token from its result and it lands in a list
+  beside the search box, with the score from that moment and what has changed
+  since.
+- Each card says at a glance whether the price is **in the buy zone, waiting
+  for a dip, under the zone, or showing no buy signal**, with the potential profit to the
+  plan's sell level and the drop to the zone's floor.
+- Switch the whole list, or a single card, between the **short-term and
+  long-term** plan, and use **edit view** to show only the data you want.
+- No account and no login: the list and your view are kept in your browser
+  only. **Copy list link** moves the list to another device or shares it.
+
 ## [2.1.0] - 2026-09-29
 
 - Share cards now match the website: your scan sits on glass panes over the
