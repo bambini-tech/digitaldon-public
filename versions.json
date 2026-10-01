@@ -25,5 +25,7 @@
       "tag": "dido/v0.2.2",
       "changelog": "changelog/dido.md"
     }
-  }
+  },
+  "engine_version": "1.29.0",
+  "api_schema_version": "2.0.0"
 }

@@ -1,0 +1,31 @@
+<!doctype html>
+<!-- The token tool: pin a token and the card runs on load.
+     Two cards: the full card, and a holders-only cluster scan. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DigitalDon widget: token page</title>
+</head>
+<body>
+  <h1>USDC on Solana</h1>
+
+  <!-- analysis first, holders one tab away -->
+  <div style="max-width: 480px"
+       data-digitaldon-widget
+       data-chain="solana"
+       data-address="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+       data-theme="dark"></div>
+
+  <!-- the cluster scan on its own, e.g. behind your own "holder scan" button -->
+  <div style="max-width: 520px; margin-top: 24px"
+       data-digitaldon-widget
+       data-chain="solana"
+       data-address="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+       data-tools="holders"
+       data-theme="dark"></div>
+
+  <!-- one loader mounts every container on the page -->
+  <script async src="https://widget.digitaldon.net/embed.js"></script>
+</body>
+</html>

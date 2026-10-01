@@ -611,16 +611,16 @@ _Internal changes only; no public notes for this release._
   wallet-cluster report directly under the card, leaving the card in place.
 - The card's other button is renamed `TA Analysis`; it works as before.
 
+## [2.52.0] - 2026-08-09
+
+_Internal changes only; no public notes for this release._
+
 ## [2.51.1] - 2026-08-10
 
 - **Dormant tokens that wake up get a card again.** Old tokens with very thin
   chart history are answered in groups and by `/don` instead of staying silent.
 - Such cards now read "No chart history" rather than calling a months-old
   token a fresh launch.
-
-## [2.52.0] - 2026-08-09
-
-_Internal changes only; no public notes for this release._
 
 ## [2.51.0] - 2026-08-09
 

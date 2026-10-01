@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.digitaldon/analysis",
+  "title": "DigitalDon Token Analysis",
+  "description": "Crypto token analysis for agents. Paid per call in USDC over x402 — no account, no API key.",
+  "repository": {
+    "url": "https://github.com/bambini-tech/digitaldon-public",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "websiteUrl": "https://digitaldon.net",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.digitaldon.net/mcp"
+    }
+  ]
+}

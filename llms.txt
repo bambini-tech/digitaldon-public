@@ -1,0 +1,18 @@
+# DigitalDon
+
+> Crypto token analysis (signal score, entry/exit zones, on-chain read, wallet-cluster scan) as an embeddable widget, a pay-per-call JSON API over x402, and an MCP server for AI agents. No accounts, no API keys.
+
+- [AGENTS.md](AGENTS.md): integration guide: endpoints, rules, pitfalls. Read first.
+- [Widget](docs/using/widget.md): one script tag, https://widget.digitaldon.net/embed.js
+- [Analysis API](docs/using/api.md): POST https://api.digitaldon.net/v1/analyze, paid in USDC over x402
+- [OpenAPI contract](api/openapi.json): live copy at https://api.digitaldon.net/v1/openapi.json
+- [MCP server](docs/using/mcp.md): https://api.digitaldon.net/mcp, tools analyze_token and get_pricing
+- [Examples](examples/): widget pages, curl, a Python x402 payer, MCP client configs
+- [versions.json](versions.json): current component, engine and API schema versions
+- [Changelogs](changelog/): one per component
+
+## Optional
+
+- [How the score works](docs/engine/score.md)
+- [Supported chains](docs/start/chains.md)
+- [FAQ](docs/faq.md)

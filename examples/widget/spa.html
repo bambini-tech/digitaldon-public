@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- A page that switches tokens without reloading (an SPA, a chart terminal).
+     Mount once, then update() in place; read results through the callbacks. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DigitalDon widget: single-page app</title>
+</head>
+<body>
+  <nav>
+    <button data-chain="solana" data-address="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v">USDC (Solana)</button>
+    <button data-chain="base" data-address="0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913">USDC (Base)</button>
+  </nav>
+  <p id="badge">loading…</p>
+  <div id="slot" style="max-width: 480px"></div>
+
+  <script src="https://widget.digitaldon.net/embed.js"></script>
+  <script>
+    const first = document.querySelector('nav button');
+    const widget = DigitalDon.mount('#slot', {
+      chain: first.dataset.chain,
+      address: first.dataset.address,
+      theme: 'auto',
+      // A summary of what the card shows. Badge your UI with it; it is not advice.
+      onResult: (r) => {
+        document.getElementById('badge').textContent = `${r.symbol}: ${r.score}/100, ${r.thesis}`;
+      },
+      onHolders: (h) => console.log('cluster scan', h.bubble_risk, h.clustered_pct),
+    });
+
+    document.querySelectorAll('nav button').forEach((b) =>
+      b.addEventListener('click', () =>
+        widget.update({ chain: b.dataset.chain, address: b.dataset.address })));
+
+    // In a framework: call widget.destroy() when the component unmounts.
+  </script>
+</body>
+</html>
