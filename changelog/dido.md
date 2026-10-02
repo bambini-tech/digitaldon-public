@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.5.0] - 2026-10-02
+
+- **Price, 24h change, market cap, liquidity and volume now sit next to
+  the token's name** at the top, always in view, whether the chart is open,
+  folded or moved.
+- The holder map's group menu can be folded to a small chip, like the chart.
+
 ## [0.4.2] - 2026-10-02
 
 - On the field, a cluster's detail panel is now only as tall as its content.
