@@ -3,10 +3,20 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
-## [0.3.1] - 2026-10-02
+## [0.4.0] - 2026-10-02
 
 - Fixed the holder map sometimes reading "not live" right after the terminal
   was updated, even though it was available.
+- The chart and the rest of the terminal are usable while the holder map is
+  still loading, instead of waiting behind it.
+- The holder map makes room for the chart, the watchlist and an open wallet:
+  bubbles arrange themselves around the panels instead of hiding behind them.
+- Smoother all round: dragging panels, hovering and panning the chart, and
+  the holder map settling now run at a steady frame rate, and panels ease in
+  when they open.
+- **Arrange the terminal your way:** drag the chart, the watchlist or a
+  wallet by its title bar to anywhere on screen. Your layout is remembered;
+  double-click a title bar (or press 0) to put things back.
 
 ## [0.3.0] - 2026-10-02
 

@@ -3,6 +3,10 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.5] - 2026-10-02
+
+- No visible change.
+
 ## [1.8.4] - 2026-10-01
 
 - Holder map: on clusters that hold project treasury, the "team supply"

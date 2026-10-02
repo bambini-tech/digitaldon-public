@@ -3,6 +3,12 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.3.0] - 2026-10-02
+
+- No visible change in the analyzer. The holder map can now make room for
+  panels laid over it, which the terminal uses so bubbles never hide behind
+  its chart.
+
 ## [2.2.1] - 2026-10-01
 
 - Holder map: on clusters that hold project treasury, the "team supply"
