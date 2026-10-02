@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.3.0] - 2026-10-02
+
+- **New look:** the terminal now has the same glass design as the analyzer.
+- **Watchlist in the terminal:** star any token and see, at a glance, which
+  ones are in their buy zone, waiting for a dip, under the zone or showing no
+  buy signal. Lists shared from the analyzer open here too.
+- **Open any holder's wallet:** on the holder map, an EVM wallet opens beside
+  the map with its whole portfolio across chains, and any token it holds
+  opens as its own terminal. The browser's back button retraces the path.
+
 ## [0.2.3] - 2026-10-01
 
 - Holder map: on clusters that hold project treasury, the "team supply"
