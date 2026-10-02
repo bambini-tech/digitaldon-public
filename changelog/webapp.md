@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.4.1] - 2026-10-02
+
+- Holder map: a cluster's detail panel is now only as tall as its content,
+  instead of always running the full height of the map.
+
 ## [2.4.0] - 2026-10-02
 
 - The holder map has a new glass look: bubbles are translucent with a lit
