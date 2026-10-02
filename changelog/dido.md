@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.3.1] - 2026-10-02
+
+- Fixed the holder map sometimes reading "not live" right after the terminal
+  was updated, even though it was available.
+
 ## [0.3.0] - 2026-10-02
 
 - **New look:** the terminal now has the same glass design as the analyzer.
