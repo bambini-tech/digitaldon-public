@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.2.1] - 2026-10-01
+
+- Holder map: on clusters that hold project treasury, the "team supply"
+  label no longer overlaps the cluster's percentage.
+
 ## [2.2.0] - 2026-10-01
 
 - **New: a watchlist.** Star any token from its result and it lands in a list

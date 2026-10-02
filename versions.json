@@ -6,8 +6,8 @@
       "changelog": "changelog/bot.md"
     },
     "webapp": {
-      "version": "2.2.0",
-      "tag": "webapp/v2.2.0",
+      "version": "2.2.1",
+      "tag": "webapp/v2.2.1",
       "changelog": "changelog/webapp.md"
     },
     "website": {
@@ -16,13 +16,13 @@
       "changelog": "changelog/website.md"
     },
     "widget": {
-      "version": "1.8.3",
-      "tag": "widget/v1.8.3",
+      "version": "1.8.4",
+      "tag": "widget/v1.8.4",
       "changelog": "changelog/widget.md"
     },
     "dido": {
-      "version": "0.2.2",
-      "tag": "dido/v0.2.2",
+      "version": "0.2.3",
+      "tag": "dido/v0.2.3",
       "changelog": "changelog/dido.md"
     }
   },

@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.2.3] - 2026-10-01
+
+- Holder map: on clusters that hold project treasury, the "team supply"
+  label no longer overlaps the cluster's percentage.
+
 ## [0.2.2] - 2026-09-28
 
 - Cleaner error text when a token cannot be found.
