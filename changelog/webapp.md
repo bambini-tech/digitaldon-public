@@ -3,6 +3,14 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.4.0] - 2026-10-02
+
+- The holder map has a new glass look: bubbles are translucent with a lit
+  rim, and the wallets of a cluster melt together into one liquid shape.
+- A cluster's label is drawn solid when the link between its wallets is
+  strong and dashed when it is circumstantial.
+- The funding replay timeline under the map has been removed.
+
 ## [2.3.0] - 2026-10-02
 
 - No visible change in the analyzer. The holder map can now make room for

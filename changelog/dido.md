@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.4.1] - 2026-10-02
+
+- The holder map on the field has a new glass look, with each cluster's
+  wallets melted into one liquid shape.
+
 ## [0.4.0] - 2026-10-02
 
 - Fixed the holder map sometimes reading "not live" right after the terminal
