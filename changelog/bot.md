@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.124.0] - 2026-10-03
+
+- Holder cluster maps on EVM tokens finish noticeably faster, and a scan
+  that takes long is no longer started twice.
+
 ## [2.123.0] - 2026-09-29
 
 - PnL cards, /don charts, holder maps and the X scan card have a new look

@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.6.0] - 2026-10-03
+
+- **Holder maps appear in seconds.** The terminal shows a token's top
+  holders right away and gathers them into clusters as soon as those are
+  mapped, with a counter while it works.
+- A token opened recently shows its cluster map instantly, labelled with how
+  old it is, while a fresh one loads behind it.
+- Holder maps on tokens with many holders no longer stop at "timed out"
+  while the scan is still finishing.
+
 ## [0.5.1] - 2026-10-02
 
 - The holder map's cluster menu is labelled "Cluster" next to the token's

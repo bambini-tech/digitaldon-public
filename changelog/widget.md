@@ -3,6 +3,11 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.8] - 2026-10-03
+
+- Holder maps on tokens with many holders no longer stop at "timed out"
+  while the scan is still finishing.
+
 ## [1.8.7] - 2026-10-02
 
 - Holder map: a cluster's detail panel is now only as tall as its content.
