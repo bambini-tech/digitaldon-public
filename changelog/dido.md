@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.5.1] - 2026-10-02
+
+- The holder map's cluster menu is labelled "Cluster" next to the token's
+  name, and when folded it keeps that top card, with the number of groups,
+  instead of shrinking to a small chip.
+
 ## [0.5.0] - 2026-10-02
 
 - **Price, 24h change, market cap, liquidity and volume now sit next to
