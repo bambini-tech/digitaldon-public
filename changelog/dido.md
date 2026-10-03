@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.8.0] - 2026-10-03
+
+- The terminal's background is now soft water behind frosted glass, tinted
+  in the colours of the token you are looking at (taken from its logo).
+- Moving the mouse sets the water rippling, gently.
+
 ## [0.7.0] - 2026-10-03
 
 - While a token's clusters are being mapped, the terminal shows what it is
