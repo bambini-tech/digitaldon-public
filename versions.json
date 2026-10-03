@@ -1,13 +1,13 @@
 {
   "components": {
     "bot": {
-      "version": "2.124.0",
-      "tag": "bot/v2.124.0",
+      "version": "2.125.0",
+      "tag": "bot/v2.125.0",
       "changelog": "changelog/bot.md"
     },
     "webapp": {
-      "version": "2.5.0",
-      "tag": "webapp/v2.5.0",
+      "version": "2.6.0",
+      "tag": "webapp/v2.6.0",
       "changelog": "changelog/webapp.md"
     },
     "website": {
@@ -16,13 +16,13 @@
       "changelog": "changelog/website.md"
     },
     "widget": {
-      "version": "1.8.8",
-      "tag": "widget/v1.8.8",
+      "version": "1.8.9",
+      "tag": "widget/v1.8.9",
       "changelog": "changelog/widget.md"
     },
     "dido": {
-      "version": "0.6.0",
-      "tag": "dido/v0.6.0",
+      "version": "0.7.0",
+      "tag": "dido/v0.7.0",
       "changelog": "changelog/dido.md"
     }
   },

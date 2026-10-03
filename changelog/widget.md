@@ -3,6 +3,10 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.8.9] - 2026-10-03
+
+- On the holder map, clicking a bubble opens a small menu with that wallet's details.
+
 ## [1.8.8] - 2026-10-03
 
 - Holder maps on tokens with many holders no longer stop at "timed out"

@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.125.0] - 2026-10-03
+
+- Holder maps report how far their cluster mapping has got while it runs.
+
 ## [2.124.0] - 2026-10-03
 
 - Holder cluster maps on EVM tokens finish noticeably faster, and a scan

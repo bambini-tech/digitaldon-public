@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.7.0] - 2026-10-03
+
+- While a token's clusters are being mapped, the terminal shows what it is
+  doing and how far it has got, with a progress bar.
+- Click any bubble on the map for a small menu: the wallet's details, its
+  cluster, and an option to scan the wallet.
+
 ## [0.6.0] - 2026-10-03
 
 - **Holder maps appear in seconds.** The terminal shows a token's top

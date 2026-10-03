@@ -3,6 +3,12 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.6.0] - 2026-10-03
+
+- Click any bubble on the holder map for a small menu: the wallet's share and
+  what it is worth, the price impact if it sold at once, and options to scan
+  the wallet, see its details, open its group, copy or hide it.
+
 ## [2.5.0] - 2026-10-03
 
 - Holder maps on tokens with many holders no longer stop at "timed out"
