@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.10.2] - 2026-10-04
+
+- The top bar's token pill now reads: logo, token name, ticker, chain, copy
+  button.
+
 ## [0.10.1] - 2026-10-04
 
 - On the start screen the search sits large in the middle again; after
