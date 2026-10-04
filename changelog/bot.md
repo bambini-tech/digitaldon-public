@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.127.0] - 2026-10-04
+
+- Wallet scans show the holdings, totals and NFTs sooner: the card arrives
+  first and the profit-and-loss figures fill in when they are ready, in the
+  same message.
+
 ## [2.126.1] - 2026-10-04
 
 - Holder cluster maps on EVM chains load much faster. A Robinhood token

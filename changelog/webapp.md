@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.7.0] - 2026-10-04
+
+- Wallet scans show holdings, totals and NFTs sooner; profit and loss fill in
+  a moment later without reloading.
+
 ## [2.6.0] - 2026-10-03
 
 - Click any bubble on the holder map for a small menu: the wallet's share and

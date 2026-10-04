@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.12.0] - 2026-10-04
+
+- The wallet pane shows holdings and totals sooner; profit and loss fill in a
+  moment later.
+
 ## [0.11.0] - 2026-10-04
 
 - A links button next to the token's name opens the project's own links
