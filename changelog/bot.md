@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.126.1] - 2026-10-04
+
+- Holder cluster maps on EVM chains load much faster. A Robinhood token
+  that took close to two minutes now maps in about ten seconds, and
+  pass-through wallets are checked over their full recent history.
+
 ## [2.126.0] - 2026-10-03
 
 - New: the terminal can tint its background in a token's own colours, read
