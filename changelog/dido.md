@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.13.0] - 2026-10-04
+
+- DiDo opens on a welcome: your watchlist with what to do on each token,
+  the tokens you opened last, and the tokens the DigitalDon bot's groups
+  called most in the last 24 hours, with the move since the first call.
+  One click opens any of them.
+- Over a token, opening the empty search lists your recent tokens.
+- Fixed: the copy button beside a token's name now copies its contract
+  address.
+
 ## [0.12.1] - 2026-10-04
 
 - The links window shows only the project's own links, exactly as the

@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.128.0] - 2026-10-04
+
+- The bot's group calls now feed a live board of the tokens most groups
+  called in the last 24 hours (shown in DiDo). Only counts are shared,
+  never which group or who called it.
+
 ## [2.127.0] - 2026-10-04
 
 - Wallet scans show the holdings, totals and NFTs sooner: the card arrives

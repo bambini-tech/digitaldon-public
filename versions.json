@@ -1,8 +1,8 @@
 {
   "components": {
     "bot": {
-      "version": "2.127.0",
-      "tag": "bot/v2.127.0",
+      "version": "2.128.0",
+      "tag": "bot/v2.128.0",
       "changelog": "changelog/bot.md"
     },
     "webapp": {
@@ -21,8 +21,8 @@
       "changelog": "changelog/widget.md"
     },
     "dido": {
-      "version": "0.12.1",
-      "tag": "dido/v0.12.1",
+      "version": "0.13.0",
+      "tag": "dido/v0.13.0",
       "changelog": "changelog/dido.md"
     }
   },
