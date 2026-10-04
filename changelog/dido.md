@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.10.0] - 2026-10-04
+
+- The search bar now sits in the middle of the top bar, always ready: it
+  widens when you point at it or press `/`.
+- DiDo is dark only now.
+- A copy button next to the token's name copies its contract address, to
+  pass it on.
+
 ## [0.9.0] - 2026-10-04
 
 - The background water now flows smoothly instead of stepping.
