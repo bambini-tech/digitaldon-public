@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.9.0] - 2026-10-04
+
+- The background water now flows smoothly instead of stepping.
+- The top bar is frosted glass, with the background running on under it.
+- The token's logo now sits in the top bar next to its ticker.
+- A wallet's menu on the map no longer closes by itself when the clusters finish loading.
+
 ## [0.8.0] - 2026-10-03
 
 - The terminal's background is now soft water behind frosted glass, tinted
