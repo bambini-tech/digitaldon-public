@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.12.1] - 2026-10-04
+
+- The links window shows only the project's own links, exactly as the
+  project lists them: its order, its button names, no empty slots.
+- Keyboard focus stays on the map when it finishes loading.
+
 ## [0.12.0] - 2026-10-04
 
 - The wallet pane shows holdings and totals sooner; profit and loss fill in a
