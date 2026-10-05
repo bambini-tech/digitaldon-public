@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.14.0] - 2026-10-05
+
+- Tokens that trade only in less common pairings, for example against a
+  tokenized stock or another coin instead of SOL or a stablecoin, now get a
+  full score, chart and trade plan. They used to stop at "not enough chart
+  history" even after days of active trading.
+
 ## [0.13.0] - 2026-10-04
 
 - DiDo opens on a welcome: your watchlist with what to do on each token,

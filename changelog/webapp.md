@@ -3,6 +3,13 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.8.0] - 2026-10-05
+
+- Tokens that trade only in less common pairings, for example against a
+  tokenized stock or another coin instead of SOL or a stablecoin, now get a
+  full score, chart and trade plan. They used to stop at "not enough chart
+  history" even after days of active trading.
+
 ## [2.7.0] - 2026-10-04
 
 - Wallet scans show holdings, totals and NFTs sooner; profit and loss fill in
