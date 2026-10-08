@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.14.1] - 2026-10-08
+
+- The DigitalDon logo at the top left of the terminal now takes you back to
+  the terminal's start page with the trending tokens, instead of opening the
+  website.
+
 ## [0.14.0] - 2026-10-05
 
 - Tokens that trade only in less common pairings, for example against a
