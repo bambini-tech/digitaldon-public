@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.131.0] - 2026-10-08
+
+- Groundwork for a new way to discover tokens sitting at their entry. Nothing
+  changes for you yet.
+
 ## [2.130.0] - 2026-10-08
 
 - EVM holder maps resolve funding for many more of the top holders, so more
