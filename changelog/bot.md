@@ -3,6 +3,17 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.130.0] - 2026-10-08
+
+- EVM holder maps resolve funding for many more of the top holders, so more
+  linked wallets show up as clusters, and cold EVM scans finish faster.
+- EVM wallet scans return noticeably faster, and list up to 150 NFTs per
+  chain instead of 50.
+- Very active wallets now get a PnL: histories up to five times longer than
+  before are read in full instead of being reported as too long to price.
+- Base holder maps link wallets again: wallets whose lookups failed earlier
+  are looked up afresh instead of being shown as unlinked.
+
 ## [2.129.0] - 2026-10-05
 
 - Tokens that trade only in less common pairings, for example against a
