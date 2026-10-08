@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.15.0] - 2026-10-08
+
+- DiDo's start page now opens with the tokens sitting at their entry right
+  now, picked by the DigitalDon engine every few hours, with each card
+  showing the entry zone, the price and the sell level on one line.
+- A second row shows tokens just above their entry, so you can wait for a
+  dip. Nothing on these rows is paid for.
+
 ## [0.14.1] - 2026-10-08
 
 - The DigitalDon logo at the top left of the terminal now takes you back to
