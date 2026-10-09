@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.15.1] - 2026-10-09
+
+- When no token is at its entry, the start page now says so plainly and shows
+  how many tokens were checked and when the next check runs.
+
 ## [0.15.0] - 2026-10-08
 
 - DiDo's start page now opens with the tokens sitting at their entry right

@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.132.0] - 2026-10-09
+
+- The start page's entry picks now use the same buy line as your watchlist,
+  and include tokens up to 15% above their entry zone in the "near their
+  entry" row.
+
 ## [2.131.0] - 2026-10-08
 
 - Groundwork for a new way to discover tokens sitting at their entry. Nothing
