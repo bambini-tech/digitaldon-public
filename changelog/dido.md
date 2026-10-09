@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.16.0] - 2026-10-09
+
+- DiDo's start page now opens on a living field of every token the engine
+  checked: tokens at their entry glow, the rest show why they were left out.
+  Point at one to see it, click to open it.
+- The familiar cards sit one scroll below the field, and you can choose
+  whether DiDo opens on the field or on the cards.
+
 ## [0.15.1] - 2026-10-09
 
 - When no token is at its entry, the start page now says so plainly and shows

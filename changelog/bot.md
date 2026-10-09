@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.132.1] - 2026-10-09
+
+- The start page's discovery view no longer lists majors such as BTC or
+  stablecoins among the tokens it checked.
+
 ## [2.132.0] - 2026-10-09
 
 - The start page's entry picks now use the same buy line as your watchlist,
