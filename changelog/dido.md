@@ -3,6 +3,15 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.17.0] - 2026-10-09
+
+- On DiDo's start page you can now zoom into the field of tokens: click to
+  look closer, drag to move, pinch on a phone. Closer in, each token shows
+  its name, its entry range and where the price sits; closest, it shows the
+  shape of its holders.
+- Click a token once to look at it, twice to open it.
+- The back button now returns from a token to the start page.
+
 ## [0.16.0] - 2026-10-09
 
 - DiDo's start page now opens on a living field of every token the engine
