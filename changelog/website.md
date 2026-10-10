@@ -3,6 +3,12 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.1.0] - 2026-10-10
+
+- The site footer now shows our live HEY Research Lab builder badge: whether
+  we are shipping, when we last shipped, and our Verified Builder status. It
+  links to HEY's page on DigitalDon.
+
 ## [2.0.6] - 2026-09-29
 
 - A link to the website now previews with the site's own hero on its water.
