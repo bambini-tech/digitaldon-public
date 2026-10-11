@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.136.0] - 2026-10-11
+
+- The entry board has a third list, "at support": tokens sitting at a
+  support zone with a wide room to their sell level whose trend score is a
+  little weaker. They are shown apart, with their score.
+- The entry board can now show tokens even when their holder breakdown is
+  unavailable, using a cautious estimate of how much the ten largest
+  holders own; DiDo marks it "at most".
+
 ## [2.135.0] - 2026-10-11
 
 - Holder maps now show every wallet of a connected group, including the

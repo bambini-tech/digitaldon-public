@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.23.0] - 2026-10-11
+
+- The start page and its field show a new kind of pick, "at support": tokens
+  resting on a support zone with a wide room to their sell level, marked with
+  a dashed ring and their score.
+- Highlighted tokens are now always drawn larger than every other bubble in
+  the field.
+- When the share held by a token's ten largest holders is an estimate, the
+  start page says "at most".
+
 ## [0.22.2] - 2026-10-11
 
 - The token bubble that travels from a wallet to the loading screen now
