@@ -3,6 +3,18 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.18.0] - 2026-10-11
+
+- Opening a wallet in DiDo now shows it as bubbles in the holder map's glass:
+  one bubble per holding, sized by its share, grouped by chain, with the
+  list beside it. The bar on the wallet's edge shows the chain split and
+  folds the bubbles away.
+- Click any holding, bubble or row, for a menu that scans that token,
+  highlights it, filters to its chain or copies its contract.
+- Whatever you pick glides into the middle and becomes the next view, and a
+  trail at the bottom of the screen takes you back to any token or wallet
+  you visited.
+
 ## [0.17.1] - 2026-10-11
 
 - The start page says which safety check a left-out token could not finish.
