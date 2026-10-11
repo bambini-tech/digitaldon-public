@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.20.0] - 2026-10-11
+
+- A wallet in DiDo now shows its bubbles right in the wallet panel, with the
+  map still beside it.
+- "Full view" on the bubbles' corner opens them over the whole screen, and
+  the same chip takes you back to the map.
+
 ## [0.19.0] - 2026-10-11
 
 - New "running hot" shelf on the start page: solid tokens trading busier
