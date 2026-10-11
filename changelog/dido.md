@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.19.0] - 2026-10-11
+
+- New "running hot" shelf on the start page: solid tokens trading busier
+  than their usual hour right now, refreshed live. It shows trading activity,
+  not a buy call.
+- The start page explains three new reasons a token was left out: almost no
+  sells, far more traded than its pool can take, or too few trades.
+
 ## [0.18.0] - 2026-10-11
 
 - Opening a wallet in DiDo now shows it as bubbles in the holder map's glass:

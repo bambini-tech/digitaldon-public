@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.134.0] - 2026-10-11
+
+- The start page's discovery looks first at tokens trading busier than
+  their usual hour, and also shares a list of solid tokens that are running
+  hot right now.
+- Tokens whose trading does not look like a real market (almost no sells,
+  far more traded than the pool can take, or a day carried by a handful of
+  trades) are now left out, with the reason given.
+
 ## [2.133.0] - 2026-10-11
 
 - Token safety facts (honeypot, mint, freeze, owner and tax, as each chain
