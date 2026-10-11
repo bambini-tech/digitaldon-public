@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.133.0] - 2026-10-11
+
+- Token safety facts (honeypot, mint, freeze, owner and tax, as each chain
+  has them) now show, including the security strip at the top of DiDo,
+  which had no data to show before.
+- DiDo's entry board can now show tokens: its safety check could not complete
+  before, and Solana tokens are checked for mint and freeze authority.
+- The board looks at more established tokens, not only the newest launches.
+
 ## [2.132.1] - 2026-10-09
 
 - The start page's discovery view no longer lists majors such as BTC or

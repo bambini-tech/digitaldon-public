@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.17.1] - 2026-10-11
+
+- The start page says which safety check a left-out token could not finish.
+- The security facts at the top of a token now appear (they had no data
+  before).
+
 ## [0.17.0] - 2026-10-09
 
 - On DiDo's start page you can now zoom into the field of tokens: click to
