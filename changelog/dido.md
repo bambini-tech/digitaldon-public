@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.22.1] - 2026-10-11
+
+- The holder map shows every wallet of a connected group, including those
+  ranked below the top holders, marked with a dotted ring.
+
 ## [0.22.0] - 2026-10-11
 
 - DiDo's trail stays a compact pill on long journeys: it shows where you

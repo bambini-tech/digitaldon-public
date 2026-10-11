@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.135.0] - 2026-10-11
+
+- Holder maps now show every wallet of a connected group, including the
+  ones ranked below the top holders, so a group's wallet list and its share
+  always match. On large tokens those groups used to show only part of
+  their wallets.
+- `/v1/analyze` holder rows now carry `rank`. Group wallets ranked below
+  the top list are included and marked `beyond`.
+
 ## [2.134.0] - 2026-10-11
 
 - The start page's discovery looks first at tokens trading busier than

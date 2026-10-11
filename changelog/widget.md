@@ -3,6 +3,11 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.9.1] - 2026-10-11
+
+- The holder map shows every wallet of a connected group, including those
+  ranked below the top holders, marked with a dotted ring.
+
 ## [1.9.0] - 2026-10-05
 
 - Tokens that trade only in less common pairings, for example against a

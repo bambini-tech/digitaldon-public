@@ -3,6 +3,13 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.9.0] - 2026-10-11
+
+- Every wallet of a connected group now appears on the holder map and in
+  the group's wallet list, including wallets ranked below the top holders.
+  They carry a dotted ring and their real holder rank.
+- The holder CSV export gains a rank column.
+
 ## [2.8.0] - 2026-10-05
 
 - Tokens that trade only in less common pairings, for example against a
