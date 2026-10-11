@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.21.0] - 2026-10-11
+
+- On DiDo's home garden, clicking a token bubble opens a small menu with
+  "scan token" and "look closer", so a token can be scanned straight from
+  the field without zooming in first.
+
 ## [0.20.0] - 2026-10-11
 
 - A wallet in DiDo now shows its bubbles right in the wallet panel, with the
