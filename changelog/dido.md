@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.22.2] - 2026-10-11
+
+- The token bubble that travels from a wallet to the loading screen now
+  has clean, sharp edges.
+
 ## [0.22.1] - 2026-10-11
 
 - The holder map shows every wallet of a connected group, including those
