@@ -3,6 +3,20 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.22.0] - 2026-10-11
+
+- DiDo's trail stays a compact pill on long journeys: it shows where you
+  are and the step before, and opens to the whole way on hover, with
+  arrows to slide through a long one. It no longer runs under the chart.
+
+## [0.21.1] - 2026-10-11
+
+- Opening a token from a wallet now shows a tidy loading screen: the
+  token's logo with the progress and phase beneath it, instead of the logo
+  sitting over the loader.
+- When holder data cannot be loaded, DiDo now says so instead of staying
+  on the loading screen.
+
 ## [0.21.0] - 2026-10-11
 
 - On DiDo's home garden, clicking a token bubble opens a small menu with
