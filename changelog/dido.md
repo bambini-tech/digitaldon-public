@@ -3,6 +3,15 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.26.0] - 2026-10-12
+
+- DiDo's start page is one clean screen: the search in the top bar, a
+  trending row over the field, your watchlist and your recent tokens in two
+  rows under it.
+- The trending row moves on its own like a ticker; point at it to stop it
+  and scroll with the mouse wheel to look through it. Every row scrolls with
+  the wheel.
+
 ## [0.25.2] - 2026-10-12
 
 - The holder map behind the terminal is calmer: zooming into a group,
