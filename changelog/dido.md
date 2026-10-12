@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.25.1] - 2026-10-12
+
+- Scroll with the mouse wheel over your recent tokens to run through them.
+- The trail of tokens you visited now shows only while you look at a token.
+
 ## [0.25.0] - 2026-10-12
 
 - DiDo's start page is now one calm stage: the field of every token we read,
