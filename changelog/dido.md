@@ -3,6 +3,23 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.25.0] - 2026-10-12
+
+- DiDo's start page is now one calm stage: the field of every token we read,
+  or the picks as cards, switched from one floating control. Nothing on the
+  page moves while it loads, and the whole home fits your screen, phone or
+  desktop.
+- Scroll with the mouse to zoom into the field.
+- Your watchlist and recent tokens sit under the stage with their logos,
+  live prices and what to do now.
+- The greeting now says the state of the day in a plain sentence.
+
+## [0.24.1] - 2026-10-12
+
+- The start page's field now shows every token we read by default, with the
+  picks highlighted among them. Hover any bubble to see why it was or was
+  not picked. "The board" still shows the picks alone.
+
 ## [0.24.0] - 2026-10-12
 
 - The start page has a chain filter: show only Solana, only EVM chains, or
