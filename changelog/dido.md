@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.27.0] - 2026-10-12
+
+- The watchlist shows each token's logo next to its name.
+- The start page's field loads under the same DigitalDon mark as the holder
+  map, filling as it reads.
+
 ## [0.26.1] - 2026-10-12
 
 - The start page is centred and symmetric on every screen.
