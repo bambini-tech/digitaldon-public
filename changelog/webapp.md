@@ -3,6 +3,13 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.9.1] - 2026-10-12
+
+- The holder map is calmer: zooming into a group, dragging a bubble or
+  clicking one now settles quickly and then stays perfectly still.
+- Wheel and button zoom glide smoothly toward the cursor instead of jumping
+  in steps, and trackpad zoom is proportional to the gesture.
+
 ## [2.9.0] - 2026-10-11
 
 - Every wallet of a connected group now appears on the holder map and in

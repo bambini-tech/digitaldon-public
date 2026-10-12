@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.25.2] - 2026-10-12
+
+- The holder map behind the terminal is calmer: zooming into a group,
+  dragging or clicking now settles quickly and then stays perfectly still.
+- Zoom glides smoothly toward the cursor instead of jumping in steps.
+
 ## [0.25.1] - 2026-10-12
 
 - Scroll with the mouse wheel over your recent tokens to run through them.
