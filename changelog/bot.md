@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.137.1] - 2026-10-12
+
+- DiDo's start page recovers on its own within half an hour when a round
+  of discovery cannot finish, instead of showing the last result for hours.
+
 ## [2.137.0] - 2026-10-12
 
 - DiDo's home finds more candidates: discovery reads more of the market each
