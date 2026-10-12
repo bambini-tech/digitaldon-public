@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.29.0] - 2026-10-12
+
+- The chart can switch between price and market cap.
+- The trending row shows just each token's ticker and its move; hover a
+  token for the details.
+
 ## [0.28.0] - 2026-10-12
 
 - The start page's filters can show established projects and small ones
