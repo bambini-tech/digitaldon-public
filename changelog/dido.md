@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.26.1] - 2026-10-12
+
+- The start page is centred and symmetric on every screen.
+- The trending row reliably starts moving again once you move the mouse
+  away from it.
+
 ## [0.26.0] - 2026-10-12
 
 - DiDo's start page is one clean screen: the search in the top bar, a
