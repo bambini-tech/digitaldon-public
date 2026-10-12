@@ -3,6 +3,16 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.137.0] - 2026-10-12
+
+- DiDo's home finds more candidates: discovery reads more of the market each
+  round, including established tokens with deep pools and smaller projects
+  on modest pools that were skipped before.
+- Every board token is marked as an established project or a small one, by
+  the liquidity of its main pool.
+- Tokens are only picked for the board once their project has filled in its
+  token profile and logo on DexScreener.
+
 ## [2.136.0] - 2026-10-11
 
 - The entry board has a third list, "at support": tokens sitting at a

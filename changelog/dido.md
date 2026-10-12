@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.28.0] - 2026-10-12
+
+- The start page's filters can show established projects and small ones
+  apart; both show together by default.
+- The trending row above the field is slimmer and quieter, so the field
+  stands out.
+
 ## [0.27.0] - 2026-10-12
 
 - The watchlist shows each token's logo next to its name.
