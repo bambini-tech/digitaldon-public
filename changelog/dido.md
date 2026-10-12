@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.24.0] - 2026-10-12
+
+- The start page has a chain filter: show only Solana, only EVM chains, or
+  pick chains one by one. The picks, the busiest tokens, the groups' calls
+  and the field follow it, and your choice is remembered on this device.
+  Your watchlist and recent tokens always show in full.
+
 ## [0.23.0] - 2026-10-11
 
 - The start page and its field show a new kind of pick, "at support": tokens
