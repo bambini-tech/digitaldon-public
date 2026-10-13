@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.30.0] - 2026-10-13
+
+- The top-left corner now reads **DiDo**, the platform's name, next to the
+  logo.
+- On the start page, a small glass globe in the bottom-left corner opens
+  into DigitalDon's website, X, Telegram, GitHub, docs and token listing
+  when you point at it (tap on phones).
+
 ## [0.29.0] - 2026-10-12
 
 - The chart can switch between price and market cap.
