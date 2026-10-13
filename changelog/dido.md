@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.31.2] - 2026-10-13
+
+- The glass figures beside the start page's board are gone; the calmer
+  motion stays.
+
 ## [0.31.1] - 2026-10-13
 
 - The glass figures on the start page are clearer and quieter, like a
