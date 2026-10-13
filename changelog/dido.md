@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.31.0] - 2026-10-13
+
+- The start page moves more calmly: the trending row scrolls slower and the
+  token field drifts more gently.
+- Two small glass DigitalDon figures now sit in the start page's margins on
+  wide screens.
+
 ## [0.30.0] - 2026-10-13
 
 - The top-left corner now reads **DiDo**, the platform's name, next to the
