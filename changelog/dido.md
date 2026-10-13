@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.32.0] - 2026-10-13
+
+- The chart can be resized from any of its four corners, so it stays easy
+  to resize wherever you put it.
+- The chart's prices, times, labels and readouts are larger and easier
+  to read.
+
 ## [0.31.2] - 2026-10-13
 
 - The glass figures beside the start page's board are gone; the calmer
