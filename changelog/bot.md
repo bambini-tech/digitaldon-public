@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.138.0] - 2026-10-13
+
+- Holder maps open instantly when anyone looked at the same token recently,
+  whether in Telegram, the analyzer, the widget or DiDo.
+- After an update, DiDo shows the last holder map with its age instead of an
+  empty field, while a fresh one loads.
+- Several people on the same network no longer use up each other's holder
+  lookups by opening tokens that were already analysed.
+
 ## [2.137.1] - 2026-10-12
 
 - DiDo's start page recovers on its own within half an hour when a round
