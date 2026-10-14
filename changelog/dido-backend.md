@@ -3,6 +3,12 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.4.0] - 2026-10-14
+
+- Safer trade records in DiDo's backend: a trade can no longer be blocked
+  or misrecorded by someone else, and a trade that takes unusually long to
+  land is flagged for a person to check. Trading is not open yet.
+
 ## [0.3.0] - 2026-10-13
 
 - More groundwork for trading in DiDo: secure, encrypted storage for your
