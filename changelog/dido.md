@@ -3,6 +3,22 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.34.0] - 2026-10-14
+
+- DiDo gets a trade bar: connect your own wallet and buy or sell the token
+  on screen (keys `b` / `v`), with the engine's plan beside the quote.
+- Every quote and transaction is checked on the page before your wallet is
+  asked to sign: the amount you chose, what you pay with and what you get.
+  A mismatch is refused and nothing is signed.
+- After a buy, DiDo tells you where it sat on the engine's plan.
+- Trading appears only where it is switched on; it is not live yet.
+
+## [0.33.0] - 2026-10-14
+
+- Groundwork for trading in DiDo: your wallet will connect directly, and
+  DiDo checks every transaction itself before your wallet is asked to sign.
+  Nothing changes on the page yet.
+
 ## [0.32.0] - 2026-10-13
 
 - The chart can be resized from any of its four corners, so it stays easy
