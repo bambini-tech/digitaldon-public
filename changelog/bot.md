@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.139.0] - 2026-10-27
+
+- Internal tooling only: the operator can now see how much memory the bot
+  uses and where, to keep running costs down.
+
 ## [2.138.0] - 2026-10-13
 
 - Holder maps open instantly when anyone looked at the same token recently,
