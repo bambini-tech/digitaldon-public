@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.140.0] - 2026-10-28
+
+- The bot uses less memory, which keeps running costs down. It may restart
+  for about 15 seconds at a quiet hour; messages sent meanwhile are answered
+  right after.
+
 ## [2.139.0] - 2026-10-27
 
 - Internal tooling only: the operator can now see how much memory the bot
