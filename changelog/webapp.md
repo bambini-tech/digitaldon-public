@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.9.2] - 2026-10-29
+
+- The wallet card lists fake airdrop and honeypot tokens it left out of the
+  total as "not counted", by name.
+
 ## [2.9.1] - 2026-10-12
 
 - The holder map is calmer: zooming into a group, dragging a bubble or

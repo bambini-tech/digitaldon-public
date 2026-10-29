@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.34.1] - 2026-10-29
+
+- The wallet pane lists fake airdrop and honeypot tokens it left out of the
+  total as "not counted", by name.
+
 ## [0.34.0] - 2026-10-14
 
 - DiDo gets a trade bar: connect your own wallet and buy or sell the token
