@@ -60,7 +60,7 @@ curl 'https://<your-bot-host>/v1/analyze?token=BONK&depth=holders'
 | Field | Type | Default | Meaning |
 |---|---|---|---|
 | `token` | string, **required** | — | Ticker, name, or contract address |
-| `chain` | string | `auto` | `sol`, `eth`, `base`, `bsc`, `rh`, `arb`, `mnt`, or `auto` |
+| `chain` | string | `auto` | `sol`, `eth`, `base`, `bsc`, `rh`, `arb`, `mnt`, `arc`, `quai`, or `auto`. Quai tokens are found by contract address; to find one by ticker, pass `chain: quai` |
 | `depth` | string | `basic` | Whichever of `basic`, `holders`, `social`, `full` this deployment sells — see below |
 | `options.include_chart_raw` | bool | `false` | Return the candles the analysis ran on |
 | `options.include_raw_metrics` | bool | `false` | Return every engine field, unshaped |

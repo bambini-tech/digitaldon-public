@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.37.0] - 2026-10-29
+
+- Quai Network tokens open in DiDo: search by contract address or name, with
+  chart, score, holder map, live price and watchlist.
+
 ## [0.36.0] - 2026-10-29
 
 - On a token you hold, DiDo shows your position on the trade bar: what it

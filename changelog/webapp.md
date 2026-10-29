@@ -3,6 +3,10 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.9.3] - 2026-10-29
+
+- Internal preparation for Quai Network; nothing changes in the analyzer yet.
+
 ## [2.9.2] - 2026-10-29
 
 - The wallet card lists fake airdrop and honeypot tokens it left out of the

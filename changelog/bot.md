@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.142.0] - 2026-10-29
+
+- Quai Network is supported: paste a Quai token's contract address to get
+  the chart, score and holder analysis. `/v1/analyze` and the MCP tools
+  accept `chain: quai`, which also lets a ticker find Quai tokens.
+- Quai holder maps leave burn and system addresses out of the holder share
+  and show the launcher wallet, shared-funder clusters, snipers and insiders.
+  Quai wallets can be scanned.
+
 ## [2.141.0] - 2026-10-29
 
 - Wallet scans no longer count fake airdrop tokens whose price has no real
