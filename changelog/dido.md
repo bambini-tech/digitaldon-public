@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.35.0] - 2026-10-29
+
+- The trade bar is ready for Solana and Robinhood Chain tokens. It shows
+  only where trading is switched on, and is not live yet.
+
 ## [0.34.1] - 2026-10-29
 
 - The wallet pane lists fake airdrop and honeypot tokens it left out of the

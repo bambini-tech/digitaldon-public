@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.6.0] - 2026-10-29
+
+- DiDo's trading service now names the two networks it trades at launch,
+  Solana and Robinhood Chain.
+
 ## [0.5.0] - 2026-10-14
 
 - DiDo's trading service now tells the terminal which networks it trades
