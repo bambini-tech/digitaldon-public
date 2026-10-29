@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.140.1] - 2026-10-28
+
+- The bot uses less memory between scans, with the same cards and results.
+
 ## [2.140.0] - 2026-10-28
 
 - The bot uses less memory, which keeps running costs down. It may restart
