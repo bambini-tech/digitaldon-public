@@ -3,6 +3,19 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.36.0] - 2026-10-29
+
+- On a token you hold, DiDo shows your position on the trade bar: what it
+  is worth, and with a one-time sign-in (a message, no transaction) your
+  profit or loss on what you bought in DiDo.
+- Press `p` for the position card: where your entry sat on the engine's
+  plan, the distance to the sell level, and one-tap sells.
+- Bought elsewhere? Set your own entry price; DiDo marks it as yours and
+  never guesses one.
+- A "details" switch shows the route, slippage, price impact, network fee
+  and how the quote compares to the market, and your fills; DiDo remembers
+  your choice, your horizon and your last amount.
+
 ## [0.35.0] - 2026-10-29
 
 - The trade bar is ready for Solana and Robinhood Chain tokens. It shows
