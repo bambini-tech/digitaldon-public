@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.39.0] - 2026-10-30
+
+- The DiDo chart is easier to read: wider, sharper candles sized to the
+  chart's width, a price scale that gives the candles the full height, round
+  price labels and finer date marks.
+- Rising candles are solid ink and falling ones faded, so the direction of
+  each candle shows at a glance.
+- A far-away price target no longer disappears from the chart; it waits as
+  an arrow on the price rail.
+
 ## [0.38.0] - 2026-10-30
 
 - The DiDo chart now loads a token's older history as you scroll or zoom
