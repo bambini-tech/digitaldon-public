@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.38.0] - 2026-10-30
+
+- The DiDo chart now loads a token's older history as you scroll or zoom
+  back, like DexScreener, instead of stopping after a few weeks.
+- New 1d timeframe (key 5) for seeing a token's whole life at a glance.
+- Solana tokens chart back years; on other chains the chart currently
+  reaches about six months back and says where its history ends.
+
 ## [0.37.0] - 2026-10-29
 
 - Quai Network tokens open in DiDo: search by contract address or name, with
