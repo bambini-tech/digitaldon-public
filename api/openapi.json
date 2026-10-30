@@ -5,7 +5,7 @@
     "version": "2.0.0",
     "summary": "Machine-readable crypto token analysis \u2014 the engine behind @DigitalDonAnalyzeBot and analyzer.digitaldon.net.",
     "description": "Structured technical + on-chain analysis for a crypto token.\n\nThis is the same analysis engine behind the DigitalDon Telegram bot (`/don`) and\nthe Web Analyzer, exposed as JSON. All three run one implementation, so the same\ntoken at the same moment scores the same on every surface.\n\n**Depth** controls what is fetched. `basic` is chart + on-chain and costs two\nOHLCV requests. `holders` adds a wallet-cluster scan, `social` adds an X\ncredibility check on the token's linked account, `full` adds both -- each is\nslower and rate-limited harder, so ask for what you will read. The `depth` enum\nbelow is this deployment's live menu -- a depth whose feature is switched off is\nnot listed and cannot be bought -- so read the enum, not this prose.\n\n**Asset class is stated, never implied.** `data.token.asset_class` is `crypto` or\n`stock`, matched against a verified issuer registry rather than guessed from the\nchain. It matters most on Robinhood Chain, an Arbitrum Orbit L2 for tokenized\nequities: a token there is usually a share, not a meme. For one,\n`data.token.underlying` carries the ticker, the issuer, and whether the\nunderlying market is open right now. Holder depths are not sold for tokenized\nstocks -- their supply sits in custody wallets, which clustering would report as\ninsiders.\n\n**Partial results are normal.** A block that could not be produced comes back\n`null` with an entry in `data.warnings` explaining why, and the rest of the\nresponse is still valid. Only a request that could produce nothing at all fails.\n\n**No analysis is not an error.** A token too new to have candles returns 200\nwith `data.analysis.available = false`, `state` telling you whether it is a\nfresh launch or a dormant pool, and a populated `data.onchain` block -- which is\nthe useful read at that point anyway.\n\n**This endpoint is paid, per call, in USDC over\n[x402](https://github.com/x402-foundation/x402).** Call it without payment and\nyou get a 402 carrying the price and the accepted chains; sign and retry with a\n`PAYMENT-SIGNATURE` header. Payment is verified before the analysis runs and\nsettled only after it succeeds, so a failed scan costs you nothing.\n\n**You only pay for a complete answer.** If any block the depth promised comes\nback empty, the request is refused with `depth_undeliverable` and no funds move.\n\nA small number of free calls per day per IP is available at the cheapest depth,\nso you can see the output shape before wiring up a wallet. See `x-402` below for\nthe live price list.\n\nNumbers are advisory, not financial advice.",
-    "x-engine-version": "1.29.0",
+    "x-engine-version": "1.30.0",
     "contact": {
       "name": "DigitalDon",
       "url": "https://digitaldon.net",
@@ -86,13 +86,15 @@
                       "ethereum",
                       "mantle",
                       "mnt",
+                      "qu",
+                      "quai",
                       "rh",
                       "robinhood",
                       "sol",
                       "solana",
                       "auto"
                     ],
-                    "description": "`auto` searches every active chain and analyses the deepest pool, reporting the rest in `data.request.alternatives`. Active on this deployment: arbitrum, arc, base, bsc, ethereum, mantle, robinhood, solana."
+                    "description": "`auto` searches every active chain and analyses the deepest pool, reporting the rest in `data.request.alternatives`. Active on this deployment: arbitrum, arc, base, bsc, ethereum, mantle, quai, robinhood, solana."
                   },
                   "depth": {
                     "type": "string",
@@ -1201,8 +1203,8 @@
                       "detail": null,
                       "data": {
                         "schema_version": "2.0.0",
-                        "engine_version": "1.29.0",
-                        "generated_at": "2026-10-29T18:03:21Z",
+                        "engine_version": "1.30.0",
+                        "generated_at": "2026-10-30T10:42:13Z",
                         "request": {
                           "token": "EXMPL",
                           "chain": "auto",
@@ -1366,8 +1368,8 @@
                       "detail": null,
                       "data": {
                         "schema_version": "2.0.0",
-                        "engine_version": "1.29.0",
-                        "generated_at": "2026-10-29T18:03:21Z",
+                        "engine_version": "1.30.0",
+                        "generated_at": "2026-10-30T10:42:13Z",
                         "request": {
                           "token": "EXMPL",
                           "chain": "sol",
@@ -1563,8 +1565,8 @@
                       "detail": null,
                       "data": {
                         "schema_version": "2.0.0",
-                        "engine_version": "1.29.0",
-                        "generated_at": "2026-10-29T18:03:21Z",
+                        "engine_version": "1.30.0",
+                        "generated_at": "2026-10-30T10:42:13Z",
                         "request": {
                           "token": "NVDA",
                           "chain": "auto",
@@ -3261,8 +3263,8 @@
                       "detail": null,
                       "data": {
                         "schema_version": "2.0.0",
-                        "engine_version": "1.29.0",
-                        "generated_at": "2026-10-29T18:03:21Z",
+                        "engine_version": "1.30.0",
+                        "generated_at": "2026-10-30T10:42:13Z",
                         "request": {
                           "token": "EXMPL",
                           "chain": "auto",
@@ -3426,8 +3428,8 @@
                       "detail": null,
                       "data": {
                         "schema_version": "2.0.0",
-                        "engine_version": "1.29.0",
-                        "generated_at": "2026-10-29T18:03:21Z",
+                        "engine_version": "1.30.0",
+                        "generated_at": "2026-10-30T10:42:13Z",
                         "request": {
                           "token": "EXMPL",
                           "chain": "sol",
@@ -3623,8 +3625,8 @@
                       "detail": null,
                       "data": {
                         "schema_version": "2.0.0",
-                        "engine_version": "1.29.0",
-                        "generated_at": "2026-10-29T18:03:21Z",
+                        "engine_version": "1.30.0",
+                        "generated_at": "2026-10-30T10:42:13Z",
                         "request": {
                           "token": "NVDA",
                           "chain": "auto",

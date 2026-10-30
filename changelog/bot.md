@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.142.1] - 2026-10-30
+
+- Quai holder clusters are more accurate: large fundings are now read
+  correctly, and busy exchange-style wallets no longer join unrelated holders
+  into one cluster.
+
 ## [2.142.0] - 2026-10-29
 
 - Quai Network is supported: paste a Quai token's contract address to get
