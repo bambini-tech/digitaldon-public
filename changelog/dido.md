@@ -3,6 +3,17 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.40.0] - 2026-10-30
+
+- Drag the chart's price scale up or down to stretch or squeeze the price,
+  and drag the time axis left or right to show more or fewer candles, like
+  on the big screeners. Double-click either one to reset it.
+- Candles now have soft green and red tints, so rising and falling moves
+  read at a glance.
+- Your own buys and sells made in DiDo show on the chart as small green and
+  red markers at the price you filled, once you are signed in; hover the
+  candle to see the amount.
+
 ## [0.39.0] - 2026-10-30
 
 - The DiDo chart is easier to read: wider, sharper candles sized to the
