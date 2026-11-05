@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.144.0] - 2026-11-05
+
+- Holder maps on EVM chains finish faster, and the funding of every top-100
+  holder is now traced, so smaller wallets can show up in clusters too.
+- Wallet scans are a little faster, and very busy wallets get more of their
+  history read for the profit and loss.
+
 ## [2.143.0] - 2026-10-30
 
 - Internal tooling only: the operator can see what the bot stores and keep
