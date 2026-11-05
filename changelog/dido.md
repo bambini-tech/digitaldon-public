@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.40.1] - 2026-11-05
+
+- Tokens that trade against another token now show their real price and
+  market cap, live, instead of a stale price from a nearly empty pool.
+
 ## [0.40.0] - 2026-10-30
 
 - Drag the chart's price scale up or down to stretch or squeeze the price,

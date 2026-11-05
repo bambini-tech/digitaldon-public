@@ -3,6 +3,11 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.9.4] - 2026-11-05
+
+- Tokens that trade against another token now show their real price and
+  market cap instead of a stale price from a nearly empty pool.
+
 ## [1.9.3] - 2026-10-29
 
 - Internal changes only.

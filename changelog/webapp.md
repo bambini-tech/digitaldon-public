@@ -3,6 +3,12 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.9.4] - 2026-11-05
+
+- Tokens that trade against another token now show their real price and
+  market cap instead of a stale price from a nearly empty pool; liquidity
+  and volume read n/a for them.
+
 ## [2.9.3] - 2026-10-29
 
 - Internal preparation for Quai Network; nothing changes in the analyzer yet.

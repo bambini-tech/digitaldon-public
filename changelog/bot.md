@@ -3,6 +3,14 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.144.1] - 2026-11-05
+
+- Tokens that trade against another token (not SOL, ETH or a stablecoin)
+  now get their real price and market cap, converted through the paired
+  token, instead of a stale price from a nearly empty pool.
+- For such tokens, liquidity and volume show as n/a, and the card names the
+  token they trade against.
+
 ## [2.144.0] - 2026-11-05
 
 - Holder maps on EVM chains finish faster, and the funding of every top-100
