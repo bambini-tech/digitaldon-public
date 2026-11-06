@@ -3,6 +3,21 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.41.0] - 2026-11-06
+
+- DiDo shows a token's live buys and sells under the chart: a slim strip by
+  default that grows into a full list, or folds away. Buys in green, sells
+  in red, like the candles.
+- Big buys and sells are flagged as they land, even with the list folded.
+- The live trades refresh in the background and give way to whatever you
+  load yourself, so charts and searches stay quick and the free data
+  allowance is never used up by the trades alone.
+- Each trade shows the wallet behind it and its role on the holder map;
+  click a trade to find that wallet on the map, or open its transaction on
+  the chain's block explorer.
+- Clearer window buttons on the chart and panels: full screen, minimise,
+  size and close are now easy-to-read icons with plain-word tooltips.
+
 ## [0.40.1] - 2026-11-05
 
 - Tokens that trade against another token now show their real price and
