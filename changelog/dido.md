@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.42.0] - 2026-11-06
+
+- Cleaner window controls on the chart and panels: three small dots that
+  show their symbols when you point at the title bar, with a tooltip that
+  names each one and its keyboard shortcut.
+
 ## [0.41.0] - 2026-11-06
 
 - DiDo shows a token's live buys and sells under the chart: a slim strip by
