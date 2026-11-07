@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.43.0] - 2026-11-07
+
+- Sharper window controls: crisp glass dots and symbols at every screen
+  density.
+- The chart and the trades list now open at the same size, move together
+  smoothly, and never cover each other.
+
 ## [0.42.0] - 2026-11-06
 
 - Cleaner window controls on the chart and panels: three small dots that
