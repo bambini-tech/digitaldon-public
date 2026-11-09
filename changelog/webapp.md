@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.10.0] - 2026-11-09
+
+- New chain: Elysium. Search, score, chart, entry and exit zones and the
+  holder map work for Elysium tokens.
+
 ## [2.9.4] - 2026-11-05
 
 - Tokens that trade against another token now show their real price and

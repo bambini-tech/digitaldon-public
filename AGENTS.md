@@ -51,7 +51,7 @@ Rules that matter:
    `mount()` gives callbacks.
 2. **Options** (the same names as `data-*` attributes or `mount()` keys):
    `chain` (`solana` `ethereum` `base` `bsc` `robinhood` `arbitrum` `mantle`
-   `arc`), `address`, `q` (search on load), `tools` (`analysis,holders` |
+   `arc` `elysium`), `address`, `q` (search on load), `tools` (`analysis,holders` |
    `analysis` | `holders`), `view` (`analysis` | `holders`), `theme`
    (`light` | `dark` | `auto`), `search` (`1` | `0`), `height` (px).
 3. **Single-page apps:** mount once, then call

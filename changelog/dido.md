@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.46.0] - 2026-11-09
+
+- New chain: Elysium. Elysium tokens open in DiDo with their chart, zones
+  and holder map, and their trades link to the Elysium explorer.
+
 ## [0.45.3] - 2026-11-09
 
 - Moving the linked chart and trades list together no longer stretches the

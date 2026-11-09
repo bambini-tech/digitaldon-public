@@ -3,6 +3,11 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.10.0] - 2026-11-09
+
+- New chain: Elysium. `data-chain="elysium"` (or `ely`) pins an Elysium
+  token, and search finds them.
+
 ## [1.9.4] - 2026-11-05
 
 - Tokens that trade against another token now show their real price and

@@ -3,6 +3,10 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.2.0] - 2026-11-09
+
+- Elysium is now listed among the supported chains.
+
 ## [2.1.0] - 2026-10-10
 
 - The site footer now shows our live HEY Research Lab builder badge: whether

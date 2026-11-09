@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.147.0] - 2026-11-09
+
+- New chain: Elysium. `/don`, group auto-scan, the API and MCP find and
+  score Elysium tokens (tag ELY), with holder analysis: concentration,
+  wallet quality, the launcher wallet and shared-funder clusters.
+- Wallet scans do not cover Elysium yet.
+
 ## [2.146.0] - 2026-11-09
 
 - Internal reliability work on token security facts and holder maps.
