@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.146.0] - 2026-11-09
+
+- Internal reliability work on token security facts and holder maps.
+
 ## [2.145.0] - 2026-11-09
 
 - Fewer gaps in security facts and holder maps when a data provider limits
