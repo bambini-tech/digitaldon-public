@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.145.0] - 2026-11-09
+
+- Fewer gaps in security facts and holder maps when a data provider limits
+  us: the bot backs off faster and recovers without a burst.
+
 ## [2.144.1] - 2026-11-05
 
 - Tokens that trade against another token (not SOL, ETH or a stablecoin)
