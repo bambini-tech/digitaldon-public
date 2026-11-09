@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.45.1] - 2026-11-09
+
+- No visible change: groundwork for DiDo's first test trades.
+
 ## [0.45.0] - 2026-11-09
 
 - The chart and the trades list now stick together as one window: move or

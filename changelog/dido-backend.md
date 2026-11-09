@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.6.1] - 2026-11-09
+
+- No visible change: groundwork for DiDo's first test trades.
+
 ## [0.6.0] - 2026-10-29
 
 - DiDo's trading service now names the two networks it trades at launch,
