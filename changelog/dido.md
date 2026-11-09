@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.44.0] - 2026-11-09
+
+- The trades panel now resizes from its corners, just like the chart.
+  Pull it up to open the full list, the chart moves up with it.
+
 ## [0.43.0] - 2026-11-07
 
 - Sharper window controls: crisp glass dots and symbols at every screen
