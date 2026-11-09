@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.45.0] - 2026-11-09
+
+- The chart and the trades list now stick together as one window: move or
+  resize one and the other follows, edges and corners aligned.
+- A small link button between them unlinks the two to move them
+  separately; drag the list back under the chart and it snaps into place.
+- Drag the line between the chart and the list to give either more room.
+
 ## [0.44.0] - 2026-11-09
 
 - The trades panel now resizes from its corners, just like the chart.
