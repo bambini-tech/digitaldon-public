@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.45.3] - 2026-11-09
+
+- Moving the linked chart and trades list together no longer stretches the
+  list while it is being dragged.
+
 ## [0.45.2] - 2026-11-09
 
 - The buy button no longer ignores a click right after you change the
