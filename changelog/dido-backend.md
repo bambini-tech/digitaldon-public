@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.8.0] - 2026-11-10
+
+- DiDo's trading service is ready for Ethereum and Base next to Robinhood
+  Chain.
+
 ## [0.7.2] - 2026-11-10
 
 - No visible change for DiDo's users.
