@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.7.2] - 2026-11-10
+
+- No visible change for DiDo's users.
+
 ## [0.7.1] - 2026-11-10
 
 - Security updates to DiDo's trading service.
