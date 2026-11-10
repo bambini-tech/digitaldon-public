@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.150.0] - 2026-11-09
+
+- Holder analysis: Wallet Quality now rates each top holder by what the
+  wallet holds outside the token you scanned (its SOL, ETH or BNB and its
+  other valuable tokens). Before, it counted the position in the scanned token
+  itself, so most cards showed every top holder as a whale.
+
 ## [2.149.0] - 2026-11-09
 
 - Internal reliability work on token security facts and holder maps.
