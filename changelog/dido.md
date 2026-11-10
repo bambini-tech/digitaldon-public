@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.46.1] - 2026-11-10
+
+- The field's zoom keeps its pace on slower computers instead of dragging.
+
 ## [0.46.0] - 2026-11-09
 
 - New chain: Elysium. Elysium tokens open in DiDo with their chart, zones
