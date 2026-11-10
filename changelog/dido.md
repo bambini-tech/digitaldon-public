@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.46.2] - 2026-11-10
+
+- No visible change: groundwork for trading on Ethereum and Base.
+
 ## [0.46.1] - 2026-11-10
 
 - The field's zoom keeps its pace on slower computers instead of dragging.
