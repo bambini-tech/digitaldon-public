@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.7.0] - 2026-11-10
+
+- No visible change for DiDo's users.
+
 ## [0.6.2] - 2026-11-09
 
 - Fewer "no way to trade this" answers on fresh Solana tokens.
