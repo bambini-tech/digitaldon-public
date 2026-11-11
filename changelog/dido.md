@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.46.4] - 2026-11-11
+
+- On the home field, the bubble under your pointer stops drifting, so
+  clicking it always opens its menu instead of sometimes zooming into the
+  empty field beside it.
+
 ## [0.46.3] - 2026-11-10
 
 - Moving the chart no longer leaves a holder bubble wedged half under it.
