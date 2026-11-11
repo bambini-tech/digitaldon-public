@@ -3,6 +3,11 @@
 Tags: `webapp/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.10.1] - 2026-11-10
+
+- No visible change here; the shared holder map no longer lets a bubble
+  get stuck between two panes laid close together (seen in DiDo).
+
 ## [2.10.0] - 2026-11-09
 
 - New chain: Elysium. Search, score, chart, entry and exit zones and the

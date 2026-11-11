@@ -3,6 +3,10 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.10.1] - 2026-11-10
+
+- No visible change.
+
 ## [1.10.0] - 2026-11-09
 
 - New chain: Elysium. `data-chain="elysium"` (or `ely`) pins an Elysium
