@@ -3,6 +3,20 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.48.0] - 2026-11-12
+
+- Slippage on the trade sheet: one slim line, automatic by default, that
+  opens to set your own from 0.1 % to 20 %, with a clear warning when it is
+  low, high, or open to front-running on a network with a public mempool.
+  Your own setting and any warning always show on the line.
+- Type a buy in dollars or in the network's own coin (ETH on Robinhood
+  Chain, Base and Ethereum) with a one-tap switch; the other unit shows
+  beside it.
+- The quote's details say how much selling right back would return, and
+  the sheet warns about tokens that keep a lot on every trade.
+- DiDo checks the quote's guaranteed minimum against the slippage you chose
+  before your wallet is asked.
+
 ## [0.47.0] - 2026-11-12
 
 - Connecting a wallet now opens a chooser that lists every wallet installed

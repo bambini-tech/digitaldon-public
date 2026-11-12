@@ -3,6 +3,14 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.9.0] - 2026-11-12
+
+- Trades can use automatic slippage (tighter on networks with a public
+  mempool) or your own setting from 0.1 % to 20 %.
+- A buy's quote now says how much selling right back would return, so a
+  token that keeps a lot on every trade (a tax or a thin pool) is visible
+  before you buy.
+
 ## [0.8.3] - 2026-11-12
 
 - Trading in DiDo works again on Robinhood Chain, Ethereum and Base after
