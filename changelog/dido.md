@@ -3,6 +3,18 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.47.0] - 2026-11-12
+
+- Connecting a wallet now opens a chooser that lists every wallet installed
+  in your browser, with its logo, so you pick the one you want.
+- Click your connected wallet to see its address (with a copy button), the
+  cash you can trade with on each network, and switch wallet or disconnect.
+- On a phone without a wallet, DiDo offers to open itself inside MetaMask,
+  Coinbase Wallet or Trust Wallet.
+- Safer connections: a lookalike wallet extension is flagged instead of
+  being picked, and if you switch account in your wallet, DiDo asks you to
+  connect again before anything is signed.
+
 ## [0.46.5] - 2026-11-12
 
 - No visible change yet: groundwork for trading through Relay's current

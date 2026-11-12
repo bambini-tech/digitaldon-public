@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.8.3] - 2026-11-12
+
+- Trading in DiDo works again on Robinhood Chain, Ethereum and Base after
+  a change at our swap provider.
+
 ## [0.8.2] - 2026-11-12
 
 - No visible change yet: groundwork for trading through Relay's current
