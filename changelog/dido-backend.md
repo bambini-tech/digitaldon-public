@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.8.2] - 2026-11-12
+
+- No visible change yet: groundwork for trading through Relay's current
+  contracts.
+
 ## [0.8.1] - 2026-11-10
 
 - No visible change: groundwork for trading on Ethereum and Base in DiDo.

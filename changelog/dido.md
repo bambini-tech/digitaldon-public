@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.46.5] - 2026-11-12
+
+- No visible change yet: groundwork for trading through Relay's current
+  contracts.
+
 ## [0.46.4] - 2026-11-11
 
 - On the home field, the bubble under your pointer stops drifting, so
