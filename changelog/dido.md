@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.48.1] - 2026-11-12
+
+- The wallet chooser shows each wallet's logo in its real colours, Phantom's
+  official logo included.
+- The list of networks above the wallets is easier to read.
+
 ## [0.48.0] - 2026-11-12
 
 - Slippage on the trade sheet: one slim line, automatic by default, that
