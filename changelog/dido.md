@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.49.0] - 2026-11-12
+
+- The security strip shows a pool's own trade fee beside the token's tax,
+  so a token with a 0 % tax that still costs 1.5 % a trade says so.
+
 ## [0.48.2] - 2026-11-12
 
 - Your wallet's menu now shows your budget to trade with: the stable coin and

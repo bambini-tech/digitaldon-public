@@ -3,6 +3,14 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.151.0] - 2026-11-12
+
+- Token security on Robinhood Chain, Base and Ethereum no longer flags
+  tokens as able to mint or freeze when they cannot; those checks now come
+  from the token's own contract flags.
+- A pool that takes its own fee on every trade (a launchpad hook) now shows
+  that fee beside the token's tax.
+
 ## [2.150.0] - 2026-11-09
 
 - Holder analysis: Wallet Quality now rates each top holder by what the
