@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.48.2] - 2026-11-12
+
+- Your wallet's menu now shows your budget to trade with: the stable coin and
+  the network's own coin (ETH on Robinhood Chain, Base and Ethereum) at the
+  market price, per network and in total.
+- A cleaner wallet menu: tap the address to copy it, and switch wallet or
+  disconnect from a simple list.
+
 ## [0.48.1] - 2026-11-12
 
 - The wallet chooser shows each wallet's logo in its real colours, Phantom's
