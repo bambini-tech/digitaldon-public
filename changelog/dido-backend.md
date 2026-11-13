@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.13.1] - 2026-11-13
+
+- Arc is switched on for trading in DiDo.
+
 ## [0.13.0] - 2026-11-13
 
 - Arc joins the networks DiDo trades on: buy Arc tokens with USDC on Arc, or
