@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.50.0] - 2026-11-13
+
+- The trade sheet shows the whole cost of a trade, not only DiDo's fee:
+  DiDo's fee, the route's fee, what the pools take (including a token's own
+  pool fee) and the network fee, before you confirm.
+
 ## [0.49.0] - 2026-11-12
 
 - The security strip shows a pool's own trade fee beside the token's tax,

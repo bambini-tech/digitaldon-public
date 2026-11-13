@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.10.0] - 2026-11-13
+
+- Quotes now state the route's own fee alongside DiDo's, so the full cost of
+  a trade can be shown before it is confirmed.
+
 ## [0.9.0] - 2026-11-12
 
 - Trades can use automatic slippage (tighter on networks with a public
