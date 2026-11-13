@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.55.0] - 2026-11-13
+
+- Trading on Arc: pay with USDC on Arc, or buy Arc tokens with ETH from
+  Robinhood Chain. Your wallet card shows Arc's USDC once.
+
 ## [0.54.0] - 2026-11-13
 
 - Your wallet's card has a "Full portfolio" button: everything you hold
