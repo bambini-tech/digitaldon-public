@@ -3,6 +3,14 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.12.0] - 2026-11-13
+
+- Buy a token on Base or Ethereum with the ETH you hold on Robinhood Chain,
+  in one signature. If the purchase cannot complete, your
+  deposit is refunded on the network that paid.
+- The token is checked for a way back out on its own network before you
+  sign, as for any buy.
+
 ## [0.11.0] - 2026-11-13
 
 - Trade one token for another in a single transaction: pay for a token with

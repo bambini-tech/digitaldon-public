@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.53.0] - 2026-11-13
+
+- Pro mode can pay for a token from another network: buy on Base or
+  Ethereum with what you hold on Robinhood Chain, in one signature.
+- The quote shows the route across networks, and a purchase that cannot
+  complete is refunded on the network that paid.
+
 ## [0.52.0] - 2026-11-13
 
 - Pro mode can pay for a token with another token you hold, or take a sale's
