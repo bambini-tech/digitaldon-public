@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.54.0] - 2026-11-13
+
+- Your wallet's card has a "Full portfolio" button: everything you hold
+  across networks, what it is worth and your profit or loss.
+- Messages no longer hide behind the Buy · Sell buttons after you have
+  moved between tokens and wallets.
+
 ## [0.53.0] - 2026-11-13
 
 - Pro mode can pay for a token from another network: buy on Base or
