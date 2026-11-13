@@ -3,6 +3,13 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.11.0] - 2026-11-13
+
+- Trade one token for another in a single transaction: pay for a token with
+  another token you hold, or take a sale's proceeds in a token, from $5.
+- The same 1 % fee, charged once, and the token you receive is checked for a
+  way back out before you sign.
+
 ## [0.10.0] - 2026-11-13
 
 - Quotes now state the route's own fee alongside DiDo's, so the full cost of

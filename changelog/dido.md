@@ -3,6 +3,24 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.52.0] - 2026-11-13
+
+- Pro mode can pay for a token with another token you hold, or take a sale's
+  proceeds in a token, in one transaction from $5. Paste the token's address
+  under Pay with or Receive.
+- The quote says how much of your token leaves the wallet and what it is
+  worth before you confirm.
+
+## [0.51.0] - 2026-11-13
+
+- The trade sheet has an Easy and a Pro mode. Easy keeps it to the amount,
+  the cost and one button; Pro shows every option and the full quote.
+- In Pro you choose the coin you pay with or receive (ETH or the USD
+  stablecoin), separately from whether you type the amount in $ or ETH.
+- DiDo picks the coin you hold more of by default, and if a coin runs short
+  it offers the other one in one tap instead of switching silently.
+- Long trade sheets now scroll instead of running off the screen.
+
 ## [0.50.1] - 2026-11-13
 
 - The Buy · Sell buttons sit above the trail at the foot of the page with a
