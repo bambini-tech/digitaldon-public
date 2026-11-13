@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.50.1] - 2026-11-13
+
+- The Buy · Sell buttons sit above the trail at the foot of the page with a
+  clean gap, instead of covering it.
+- Selling shows the right payout: the coin you receive (USD stablecoin or
+  ETH, following the $ / ETH switch) and its dollar value on the button.
+
 ## [0.50.0] - 2026-11-13
 
 - The trade sheet shows the whole cost of a trade, not only DiDo's fee:
