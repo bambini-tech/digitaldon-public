@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.14.0] - 2026-11-13
+
+- DiDo can list the tokens you hold on a network, so you pick the one to pay
+  with or be paid in rather than pasting its address.
+
 ## [0.13.1] - 2026-11-13
 
 - Arc is switched on for trading in DiDo.

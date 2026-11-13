@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.56.0] - 2026-11-13
+
+- Paying with a token, DiDo lists the tokens you hold with their value: pick
+  one instead of pasting its address.
+- Pay with a share of a token: 25 %, 50 % or all of it.
+
 ## [0.55.0] - 2026-11-13
 
 - Trading on Arc: pay with USDC on Arc, or buy Arc tokens with ETH from
