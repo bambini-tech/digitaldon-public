@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.57.0] - 2026-11-14
+
+- A refresh button in the wallet view scans the wallet again, so a trade you
+  just made shows at once.
+- Each network's tab keeps tokens under a dollar in one line, shown on
+  asking, and says how many copycat tokens were hidden.
+
 ## [0.56.0] - 2026-11-13
 
 - Paying with a token, DiDo lists the tokens you hold with their value: pick

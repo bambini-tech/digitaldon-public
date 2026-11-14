@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.153.0] - 2026-11-14
+
+- Wallet scans hide airdropped copies of well-known tokens (fake dollar
+  stablecoins, fake stock tokens) and say how many they hid.
+
 ## [2.152.0] - 2026-11-13
 
 - Holder analysis stays fast when a data provider cannot be reached, instead
