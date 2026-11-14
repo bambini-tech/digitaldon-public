@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.14.1] - 2026-11-14
+
+- Listing your tokens never slows down wallet scans.
+
 ## [0.14.0] - 2026-11-13
 
 - DiDo can list the tokens you hold on a network, so you pick the one to pay
