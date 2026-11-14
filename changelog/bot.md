@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.152.0] - 2026-11-13
+
+- Holder analysis stays fast when a data provider cannot be reached, instead
+  of waiting on it for every call.
+
 ## [2.151.0] - 2026-11-12
 
 - Token security on Robinhood Chain, Base and Ethereum no longer flags
