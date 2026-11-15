@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.59.0] - 2026-11-15
+
+- Pay for a cross-chain buy with the stablecoin you hold on another network.
+  When nothing on the token's network covers it, DiDo picks that first.
+- Gas for later: buying on a network where you hold too little of its coin
+  to sell, DiDo brings some along, sized from that network's current gas
+  price. One tap turns it off.
+
 ## [0.58.0] - 2026-11-14
 
 - One trade sheet for everyone: no more Easy and Pro. Paying from another
