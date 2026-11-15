@@ -3,6 +3,12 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.18.0] - 2026-11-15
+
+- Buying on Arc from another network can now include a little USDC for
+  network fees, so you can sell later without topping up first.
+- When no trade route can be found, the trade sheet now says why.
+
 ## [0.17.0] - 2026-11-15
 
 - Sell a token and be paid out in USDC on another network, in one
