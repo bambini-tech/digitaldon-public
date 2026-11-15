@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.61.0] - 2026-11-15
+
+- On a wide screen the DiDo start page now shows your watchlist and the
+  tokens you opened lately on the left, and the wallet you connected last
+  on the right: its worth, its holdings and their profit or loss.
+- A token you buy through DiDo joins your watchlist by itself.
+- "Since you were here" lists what changed on your tokens since your last
+  visit; a first visit gets a short introduction instead.
+- One button hides every amount on the wallet card.
+
 ## [0.60.1] - 2026-11-15
 
 - The DiDo logo at the top left looks right again.
