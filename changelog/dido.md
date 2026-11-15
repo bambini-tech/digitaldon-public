@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.60.1] - 2026-11-15
+
+- The DiDo logo at the top left looks right again.
+
 ## [0.60.0] - 2026-11-15
 
 - Pay for a cross-chain buy with a token you hold on another network. DiDo
