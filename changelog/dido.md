@@ -3,6 +3,18 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.58.0] - 2026-11-14
+
+- One trade sheet for everyone: no more Easy and Pro. Paying from another
+  network and paying with a token you hold are there for every trader.
+- DiDo picks the coin that pays, from every network your wallet holds coins
+  on, and says which and why; one tap shows everything you hold, by value,
+  to choose another.
+- The details (route, full cost, minimum, slippage) fold under the quote;
+  a setting of your own always shows on the sheet.
+- The button says the whole trade, and a cross-chain buy shows its steps
+  while it lands.
+
 ## [0.57.0] - 2026-11-14
 
 - A refresh button in the wallet view scans the wallet again, so a trade you
