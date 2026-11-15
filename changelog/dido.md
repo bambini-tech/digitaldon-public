@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.60.0] - 2026-11-15
+
+- Pay for a cross-chain buy with a token you hold on another network. DiDo
+  lists them in the picker; it never picks one for you.
+
 ## [0.59.0] - 2026-11-15
 
 - Pay for a cross-chain buy with the stablecoin you hold on another network.

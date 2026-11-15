@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.16.0] - 2026-11-15
+
+- A cross-chain buy can now be paid with a token you hold on another
+  network, swapped and sent in one transaction.
+
 ## [0.15.0] - 2026-11-15
 
 - A cross-chain buy can now be paid with the stablecoin you hold on another
