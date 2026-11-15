@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.62.0] - 2026-11-15
+
+- Sell a token for USDC on another network in one step: pick where the
+  money should arrive. DiDo never picks another network for you.
+
 ## [0.61.0] - 2026-11-15
 
 - On a wide screen the DiDo start page now shows your watchlist and the
