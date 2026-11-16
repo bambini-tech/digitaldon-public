@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.66.1] - 2026-11-16
+
+- Ready for trades routed through the second routing service.
+
 ## [0.66.0] - 2026-11-16
 
 - The home's field shows a countdown to the next market read, and says when
