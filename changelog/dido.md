@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.65.1] - 2026-11-16
+
+- Prepares the trade sheet for a second routing service: nothing changes
+  until it is switched on.
+
+## [0.65.0] - 2026-11-16
+
+- Buy in one tap from the token page: $10, $50 or $100 beside Buy opens the
+  trade ready to confirm. Your wallet still asks before anything is sent.
+
 ## [0.64.1] - 2026-11-16
 
 - Token logos stay on screen while the home refreshes, instead of turning

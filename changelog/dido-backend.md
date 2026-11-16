@@ -3,6 +3,12 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.20.0] - 2026-11-16
+
+- Every trade on the same network now compares two routing services and
+  takes the one that gives you more, about 0.15 % more on most trades
+  recorded. If one service is down, the other still trades.
+
 ## [0.19.0] - 2026-11-15
 
 - Tokens you bought in DiDo now show their profit and loss on the home's
