@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.21.0] - 2026-11-16
+
+- The trade sheet's details now show which routing services were compared
+  for your trade, and why the other one was not used.
+
 ## [0.20.1] - 2026-11-16
 
 - The second routing service is cleared for use on six networks; it starts

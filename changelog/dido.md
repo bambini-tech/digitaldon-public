@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.67.0] - 2026-11-16
+
+- The trade sheet's details show which routing services were compared for
+  your trade, and why the other one was not used.
+
 ## [0.66.2] - 2026-11-16
 
 - Tokens dropped into your wallet unasked, with only a tiny market behind
