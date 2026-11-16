@@ -3,6 +3,13 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.22.0] - 2026-11-16
+
+- A trade no longer stops with "Trading is paused" when one routing service
+  is busy: the other one is checked and used.
+- Fewer calls to the routing services per quote, so quotes stay available
+  when many people trade at once.
+
 ## [0.21.0] - 2026-11-16
 
 - The trade sheet's details now show which routing services were compared
