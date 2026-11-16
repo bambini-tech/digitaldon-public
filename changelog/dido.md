@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.64.1] - 2026-11-16
+
+- Token logos stay on screen while the home refreshes, instead of turning
+  into initials for a moment.
+- The watchlist now has the most room on the home's left side; recently
+  opened tokens take less.
+
 ## [0.64.0] - 2026-11-15
 
 - Tokens you bought in DiDo now show their profit and loss on the home's
