@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.154.0] - 2026-11-16
+
+- DiDo's home picks are refreshed every 2 hours instead of every 4, and each
+  refresh looks at a fuller list of trending and high-volume tokens.
+
 ## [2.153.0] - 2026-11-14
 
 - Wallet scans hide airdropped copies of well-known tokens (fake dollar
