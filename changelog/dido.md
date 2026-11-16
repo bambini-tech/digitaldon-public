@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.66.2] - 2026-11-16
+
+- Tokens dropped into your wallet unasked, with only a tiny market behind
+  them, no longer show in "Pay with" or count as money you can spend: a
+  balance now shows only when its market could actually pay for it.
+
 ## [0.66.1] - 2026-11-16
 
 - Ready for trades routed through the second routing service.
