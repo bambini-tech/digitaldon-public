@@ -3,6 +3,13 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.19.0] - 2026-11-15
+
+- Tokens you bought in DiDo now show their profit and loss on the home's
+  wallet card, once you sign in with your wallet.
+- The gas top-up on a cross-chain buy now says when it is a standard amount
+  because today's gas price could not be read.
+
 ## [0.18.0] - 2026-11-15
 
 - Buying on Arc from another network can now include a little USDC for
