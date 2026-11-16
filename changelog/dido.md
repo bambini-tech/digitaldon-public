@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.69.0] - 2026-11-16
+
+- An open trade sheet stops refreshing its price while you are away and
+  picks up again the moment you are back.
+
 ## [0.68.0] - 2026-11-16
 
 - The token band now shows how old the token's pool is (e.g. "age 3d"),
