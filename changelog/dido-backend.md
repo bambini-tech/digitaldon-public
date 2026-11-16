@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.23.1] - 2026-11-16
+
+- Buying a token on another network with USDC on Arc works.
+
 ## [0.23.0] - 2026-11-16
 
 - When many people trade at once, a routing service at its limit is skipped

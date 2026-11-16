@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.69.1] - 2026-11-16
+
+- Buying a token on another network with USDC on Arc works.
+
 ## [0.69.0] - 2026-11-16
 
 - An open trade sheet stops refreshing its price while you are away and
