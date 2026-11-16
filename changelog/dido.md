@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.68.0] - 2026-11-16
+
+- The token band now shows how old the token's pool is (e.g. "age 3d"),
+  with the exact creation date on hover.
+- Opening a wallet from the map no longer leaves the wallet window mostly
+  off screen when it was last moved near the bottom: it now grows upward
+  and stays fully in view.
+
 ## [0.67.1] - 2026-11-16
 
 - The trade sheet says when the trading services did not answer, instead of
