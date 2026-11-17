@@ -3,6 +3,15 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.156.0] - 2026-11-17
+
+- Wallet scans hide tokens that were airdropped unasked to many wallets at
+  once, or that advertise themselves as an airdrop, and say how many they
+  left out.
+- A token bought moments ago now shows up in a wallet scan even when the
+  block explorer has not caught up with it yet.
+- The Global Dollar (USDG) on Robinhood Chain shows its own logo.
+
 ## [2.155.0] - 2026-11-17
 
 - Holder maps on Base, Ethereum and Robinhood Chain tokens finish much faster
