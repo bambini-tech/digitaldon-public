@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.72.0] - 2026-11-17
+
+- The home wallet card lists your network coins (ETH, USDC on Arc, ...) among
+  your holdings.
+- Tokens bought through DiDo show their entry and profit or loss on the home
+  wallet card without signing in.
+
 ## [0.71.0] - 2026-11-17
 
 - In regions where trading is not offered, the trade sheet says so right

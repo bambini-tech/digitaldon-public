@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.158.0] - 2026-11-17
+
+- Wallet scans show the entry price and profit or loss of tokens bought
+  through DiDo and other routed swaps, cross-chain buys included, without
+  signing in.
+
 ## [2.157.0] - 2026-11-17
 
 - Wallet scans use a second block explorer for Base, Ethereum and Arbitrum,
