@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.25.1] - 2026-11-17
+
+- More headroom for trading when many people trade at once.
+
 ## [0.25.0] - 2026-11-17
 
 - Where trading is offered is kept up to date automatically.
