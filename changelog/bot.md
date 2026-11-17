@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.155.0] - 2026-11-17
+
+- Holder maps on Base, Ethereum and Robinhood Chain tokens finish much faster
+  when a data provider is slow, instead of waiting it out on every wallet.
+- Opening a token's holder analysis no longer fails with "could not reach the
+  holder intelligence service" while other people are mapping tokens.
+
 ## [2.154.0] - 2026-11-16
 
 - DiDo's home picks are refreshed every 2 hours instead of every 4, and each
