@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.157.0] - 2026-11-17
+
+- Wallet scans use a second block explorer for Base, Ethereum and Arbitrum,
+  so a recent purchase shows even when the first explorer has not recorded
+  it yet.
+
 ## [2.156.1] - 2026-11-17
 
 - A token bought on Base now shows up in a wallet scan even when the block
