@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.73.0] - 2026-11-17
+
+- A cleaner top bar: it fades into the map instead of sitting on a strip,
+  with the token on top and its numbers and safety checks on a second line.
+- Every number (price, 24h, market cap, liquidity, volume, age) and every
+  safety check now shows in full on a normal screen, and the price is back
+  on phones.
+
 ## [0.72.0] - 2026-11-17
 
 - The home wallet card lists your network coins (ETH, USDC on Arc, ...) among
