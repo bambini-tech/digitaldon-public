@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.71.0] - 2026-11-17
+
+- In regions where trading is not offered, the trade sheet says so right
+  away; charts, holder maps and security checks stay open to everyone.
+
 ## [0.70.0] - 2026-11-16
 
 - The full wallet says how many unsolicited airdrops it left out.

@@ -3,6 +3,12 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.24.0] - 2026-11-17
+
+- Trading is not offered in sanctioned and excluded regions. DiDo's analysis
+  stays open everywhere; the trade sheet says so before a wallet is
+  connected.
+
 ## [0.23.1] - 2026-11-16
 
 - Buying a token on another network with USDC on Arc works.
