@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.156.1] - 2026-11-17
+
+- A token bought on Base now shows up in a wallet scan even when the block
+  explorer's own record of the wallet is missing it.
+
 ## [2.156.0] - 2026-11-17
 
 - Wallet scans hide tokens that were airdropped unasked to many wallets at
