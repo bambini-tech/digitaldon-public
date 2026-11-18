@@ -3,6 +3,17 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.76.0] - 2026-11-18
+
+- Clicking your connected wallet on any token now shows your whole
+  portfolio right there: total value, open profit and loss, and every token
+  you hold with its value and PnL. Click a token to open it.
+- Your budget to trade with is one total across networks; the breakdown per
+  network is one tap away.
+- New "Trade history": every buy and sell you made in DiDo, with what paid
+  for it, where, its value, fee and transaction link. Export it as CSV or
+  JSON for your own bookkeeping. Only your wallet can open it.
+
 ## [0.75.0] - 2026-11-18
 
 - "Since you were here" now tells you what changed since your last visit:

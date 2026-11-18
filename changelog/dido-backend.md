@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.26.0] - 2026-11-18
+
+- Your DiDo trade history is now available to your wallet: every buy and
+  sell with what paid for it, where, its value, fee and transaction.
+
 ## [0.25.1] - 2026-11-17
 
 - More headroom for trading when many people trade at once.
