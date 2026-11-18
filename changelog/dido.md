@@ -3,6 +3,17 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.75.0] - 2026-11-18
+
+- "Since you were here" now tells you what changed since your last visit:
+  your watched tokens reaching their buy zone or sell level, your wallet's
+  change, new tokens on the board, the ones that left and why, what came and
+  went while you were away, and how the last picks did.
+- It shows over the field on every screen, as a chip on phones, and the
+  board marks the tokens that are new since your visit. "got it" clears it.
+- A watched token that sits on the board now reads the board's latest plan
+  everywhere, not the one from when you last opened it.
+
 ## [0.74.0] - 2026-11-18
 
 - Bubbles moved up toward the top bar now slide under it like behind frosted
