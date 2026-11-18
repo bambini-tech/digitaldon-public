@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.73.2] - 2026-11-18
+
+- A token now loads over the full-screen background instead of a dark panel.
+- The loading animation shows the token's logo as soon as it is known.
+
 ## [0.73.1] - 2026-11-18
 
 - The background now runs over the whole screen, top bar included, with no
