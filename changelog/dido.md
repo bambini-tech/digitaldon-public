@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.77.0] - 2026-11-18
+
+- The trade history now shows your trading volume: everything you bought and
+  sold in DiDo, together.
+- Profit and loss is coloured everywhere: green with ▲ for a gain, red with
+  ▼ for a loss, in the trade bar, your position, the wallet view and your
+  portfolio.
+- The trade bar shows your position as a wallet icon, its value and its
+  PnL, on one tidy line.
+
 ## [0.76.0] - 2026-11-18
 
 - Clicking your connected wallet on any token now shows your whole
