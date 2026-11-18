@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.73.1] - 2026-11-18
+
+- The background now runs over the whole screen, top bar included, with no
+  dark strip or line under it.
+- With a token open, the search sits in the middle of the top bar, between
+  the token's numbers and its safety checks.
+
 ## [0.73.0] - 2026-11-17
 
 - A cleaner top bar: it fades into the map instead of sitting on a strip,
