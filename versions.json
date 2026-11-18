@@ -21,8 +21,8 @@
       "changelog": "changelog/widget.md"
     },
     "dido": {
-      "version": "0.73.2",
-      "tag": "dido/v0.73.2",
+      "version": "0.74.0",
+      "tag": "dido/v0.74.0",
       "changelog": "changelog/dido.md"
     },
     "dido-backend": {

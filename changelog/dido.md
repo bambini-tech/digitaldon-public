@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.74.0] - 2026-11-18
+
+- Bubbles moved up toward the top bar now slide under it like behind frosted
+  glass, instead of being cut off, while the bar stays readable.
+
 ## [0.73.2] - 2026-11-18
 
 - A token now loads over the full-screen background instead of a dark panel.
