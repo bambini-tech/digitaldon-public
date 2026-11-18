@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.158.1] - 2026-11-18
+
+- Wallet scans on Arc list USDC once, as the network coin, instead of twice,
+  and the wallet's total no longer counts it twice.
+
 ## [2.158.0] - 2026-11-17
 
 - Wallet scans show the entry price and profit or loss of tokens bought
