@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.80.0] - 2026-11-19
+
+- The highlighted picks on the home's field are larger glass spheres, so
+  they stand out from the rest of the field.
+- A ring of light around each pick shows how much of its planned move is
+  still ahead at today's price. It shrinks as the price climbs toward the
+  sell level and grows back on a dip. Hovering a pick gives the number.
+- Picks no longer slide under the "since you were here" note at the top of
+  the field.
+
 ## [0.79.0] - 2026-11-19
 
 - The watchlist stays in view on the home: "since you were here" now stops at
