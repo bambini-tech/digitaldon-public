@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.78.0] - 2026-11-18
+
+- Your wallet signature now keeps your trade history and PnL open on this
+  device for 7 days, instead of asking again on every visit or reload.
+
 ## [0.77.0] - 2026-11-18
 
 - The trade history now shows your trading volume: everything you bought and
