@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.79.0] - 2026-11-19
+
+- The watchlist stays in view on the home: "since you were here" now stops at
+  a set height and scrolls, and "opened lately" takes the least room.
+- Portfolio rows (the wallet card on the home and the portfolio under the
+  wallet chip) show how many tokens you hold, beside each position's share.
+
 ## [0.78.0] - 2026-11-18
 
 - Your wallet signature now keeps your trade history and PnL open on this
