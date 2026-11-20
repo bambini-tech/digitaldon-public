@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.81.0] - 2026-11-19
+
+- Hovering a token on the home's field shows its logo in the corner of the
+  card, and the card is now frosted glass, so the field shows through it.
+
 ## [0.80.0] - 2026-11-19
 
 - The highlighted picks on the home's field are larger glass spheres, so
