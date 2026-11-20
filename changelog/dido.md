@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.83.0] - 2026-11-20
+
+- The home page runs much smoother: the field of picks and the frosted
+  background now take a fraction of the work to draw, on phones and on
+  large screens, with the same look.
+- The ring of light around a pick is drawn as one smooth fade.
+
 ## [0.82.0] - 2026-11-20
 
 - DiDo's beta can be opened to $DON holders: hold 10,000,000 $DON, prove it
