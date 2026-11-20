@@ -3,6 +3,12 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.27.0] - 2026-11-19
+
+- DiDo's holder beta: hold 10,000,000 $DON in up to three wallets, prove it
+  with one free signature, and trade from any wallet. Holdings are checked
+  again every few hours, with two days of grace if they dip below the line.
+
 ## [0.26.0] - 2026-11-18
 
 - Your DiDo trade history is now available to your wallet: every buy and

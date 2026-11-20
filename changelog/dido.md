@@ -3,6 +3,17 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.82.0] - 2026-11-20
+
+- DiDo's beta can be opened to $DON holders: hold 10,000,000 $DON, prove it
+  once with the wallet that holds it (one free signature, nothing is sent),
+  and trade from any wallet you like.
+- Up to three wallets add up, a phone can sign for your computer by QR code,
+  and team invites open DiDo without a holding.
+- DiDo remembers your browser: coming back opens straight in, and your pass
+  number sits in the top bar with its card (wallets, devices, add a phone,
+  leave).
+
 ## [0.81.0] - 2026-11-19
 
 - Hovering a token on the home's field shows its logo in the corner of the
