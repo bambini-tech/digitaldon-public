@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.88.0] - 2026-11-22
+
+- Buy a Solana token with ETH or USDC from another network, received in your
+  Solana wallet: pick the network under "Pay with".
+
 ## [0.87.0] - 2026-11-22
 
 - The wallet card shows the holdings at once; PnL fills in after.
