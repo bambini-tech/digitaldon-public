@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.29.0] - 2026-11-22
+
+- Internal changes only.
+
 ## [0.28.0] - 2026-11-22
 
 - Buy a Solana token with ETH or USDC from Robinhood Chain, Base, Ethereum or
