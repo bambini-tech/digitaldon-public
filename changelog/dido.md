@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.85.0] - 2026-11-22
+
+- Your Solana wallet now has a portfolio in DiDo: holdings, value, NFTs,
+  entries and PnL, on the home and under the wallet chip.
+- With an EVM and a Solana wallet connected, DiDo shows one combined
+  portfolio, and a filter shows either wallet on its own.
+- Solana holders on the holder map open as a wallet, like EVM ones.
+
 ## [0.84.0] - 2026-11-22
 
 - Connect an EVM wallet and a Solana wallet at the same time: DiDo uses the

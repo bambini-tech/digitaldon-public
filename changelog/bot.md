@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.160.0] - 2026-11-22
+
+- The wallet scan reads Solana wallets too: holdings, value, NFTs, entries and
+  PnL, with the same spam filters as on EVM chains.
+- An EVM and a Solana wallet can be read as one portfolio: one total, one
+  list of holdings sorted by value.
+
 ## [2.159.0] - 2026-11-18
 
 - The entry board now remembers what it showed over the last day, so DiDo
