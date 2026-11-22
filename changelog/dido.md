@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.86.0] - 2026-11-22
+
+- Add your Solana wallet beside MetaMask straight from the home's wallet card
+  or the wallet menu, and pick any Solana wallet (Phantom, Solflare, …).
+
 ## [0.85.0] - 2026-11-22
 
 - Your Solana wallet now has a portfolio in DiDo: holdings, value, NFTs,
