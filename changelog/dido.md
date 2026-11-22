@@ -3,6 +3,14 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.84.0] - 2026-11-22
+
+- Connect an EVM wallet and a Solana wallet at the same time: DiDo uses the
+  right one for the token on screen, with no reconnecting or switching.
+- Phantom and other multichain wallets connect their Solana side from the
+  wallet card in one click.
+- Signing in to see your PnL with one wallet keeps the other signed in.
+
 ## [0.83.0] - 2026-11-20
 
 - The home page runs much smoother: the field of picks and the frosted
