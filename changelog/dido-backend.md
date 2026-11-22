@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.27.1] - 2026-11-20
+
+- Internal changes only.
+
 ## [0.27.0] - 2026-11-19
 
 - DiDo's holder beta: hold 10,000,000 $DON in up to three wallets, prove it
