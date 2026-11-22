@@ -3,6 +3,10 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.160.1] - 2026-11-22
+
+- Solana wallets with a long history are read faster.
+
 ## [2.160.0] - 2026-11-22
 
 - The wallet scan reads Solana wallets too: holdings, value, NFTs, entries and

@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.87.0] - 2026-11-22
+
+- The wallet card shows the holdings at once; PnL fills in after.
+- Solana tokens bought in DiDo show their PnL on the home's wallet card.
+
 ## [0.86.0] - 2026-11-22
 
 - Add your Solana wallet beside MetaMask straight from the home's wallet card
