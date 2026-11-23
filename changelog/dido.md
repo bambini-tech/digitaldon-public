@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.92.5] - 2026-11-23
+
+- The trade sheet is calmer: the essentials at a glance, the route and the
+  fine detail one tap away under Details.
+
 ## [0.92.4] - 2026-11-23
 
 - Buying an EVM token with a Solana token or SOL no longer stops with
