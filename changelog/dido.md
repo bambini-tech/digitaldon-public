@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.91.0] - 2026-11-23
+
+- Internal changes only.
+
 ## [0.90.0] - 2026-11-22
 
 - With a Solana wallet connected beside your EVM wallet, "Pay with" on a
