@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.92.2] - 2026-11-23
+
+- Cross-chain buys paid with a token no longer need a custom slippage.
+
 ## [0.92.1] - 2026-11-23
 
 - "Pay with" names tokens like FARTCOIN by their symbol, not their address.
