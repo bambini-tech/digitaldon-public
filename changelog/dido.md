@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.92.3] - 2026-11-23
+
+- Wallet cards show the logos of Robinhood Chain tokens like $DON, and SOL's
+  own logo.
+- "Pay with" shows every coin's and token's logo.
+
 ## [0.92.2] - 2026-11-23
 
 - Cross-chain buys paid with a token no longer need a custom slippage.

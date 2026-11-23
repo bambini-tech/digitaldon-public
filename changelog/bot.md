@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.160.2] - 2026-11-23
+
+- In a wallet scan, SOL now shows Solana's own logo, and the biggest
+  holdings show their current logo.
+
 ## [2.160.1] - 2026-11-22
 
 - Solana wallets with a long history are read faster.
