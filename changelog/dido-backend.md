@@ -3,6 +3,12 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.32.0] - 2026-11-23
+
+- Buy a token on Robinhood Chain, Base, Ethereum or Arc with any token in
+  your Solana wallet (for example FARTCOIN into $DON), delivered to your
+  EVM wallet, in one transaction.
+
 ## [0.31.0] - 2026-11-23
 
 - Internal changes only.

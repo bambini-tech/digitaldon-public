@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.92.0] - 2026-11-23
+
+- "Pay with" on a token from Robinhood Chain, Base, Ethereum or Arc lists
+  the tokens in your connected Solana wallet: pick one, sign once in your
+  Solana wallet, and the token arrives in your EVM wallet.
+
 ## [0.91.0] - 2026-11-23
 
 - Internal changes only.
