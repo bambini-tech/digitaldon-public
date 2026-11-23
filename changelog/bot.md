@@ -3,6 +3,11 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.160.3] - 2026-11-23
+
+- A wallet scan that could not read a network reads it again on the next
+  look instead of showing it as not scanned for minutes.
+
 ## [2.160.2] - 2026-11-23
 
 - In a wallet scan, SOL now shows Solana's own logo, and the biggest
