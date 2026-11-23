@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.92.1] - 2026-11-23
+
+- "Pay with" names tokens like FARTCOIN by their symbol, not their address.
+
 ## [0.92.0] - 2026-11-23
 
 - "Pay with" on a token from Robinhood Chain, Base, Ethereum or Arc lists
