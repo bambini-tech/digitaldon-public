@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.92.4] - 2026-11-23
+
+- Buying an EVM token with a Solana token or SOL no longer stops with
+  "doesn't match the quote".
+
 ## [0.92.3] - 2026-11-23
 
 - Wallet cards show the logos of Robinhood Chain tokens like $DON, and SOL's
