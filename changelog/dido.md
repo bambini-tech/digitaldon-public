@@ -3,6 +3,16 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.94.0] - 2026-11-24
+
+- Tokens handed to your wallet that you never bought, the way most scam
+  tokens arrive, no longer show up as your money: they are left out of your
+  portfolio total and never offered to pay with or receive in a trade.
+- Your full portfolio lists them on asking. If one is yours (a gift, an
+  exchange withdrawal), mark it as trusted and it counts like any holding.
+- A token DiDo could not check is marked "not checked" where you pick what
+  to pay with.
+
 ## [0.93.1] - 2026-11-24
 
 - Trading on Arbitrum, once it is switched on.

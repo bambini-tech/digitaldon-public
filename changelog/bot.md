@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.161.0] - 2026-11-24
+
+- Wallet scans now say how each token reached the wallet: bought or
+  swapped by the wallet itself, or handed to it unasked, the way most scam
+  tokens arrive. Apps built on the scan can keep those out of a wallet's
+  totals.
+
 ## [2.160.3] - 2026-11-23
 
 - A wallet scan that could not read a network reads it again on the next
