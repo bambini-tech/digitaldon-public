@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.93.1] - 2026-11-24
+
+- Trading on Arbitrum, once it is switched on.
+
 ## [0.93.0] - 2026-11-24
 
 - Before your first trade, DiDo shows a short beta notice in plain words

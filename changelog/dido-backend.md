@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.33.1] - 2026-11-24
+
+- No visible change: the last piece for trading on Arbitrum in DiDo.
+
 ## [0.33.0] - 2026-11-24
 
 - Trading on Arbitrum is ready to be switched on in DiDo.
