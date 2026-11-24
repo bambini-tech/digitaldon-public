@@ -3,6 +3,12 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.93.0] - 2026-11-24
+
+- Before your first trade, DiDo shows a short beta notice in plain words
+  (what the beta is, that every trade is yours to sign, the risks, where
+  trading is not offered). Agree once and it is not asked again.
+
 ## [0.92.5] - 2026-11-23
 
 - The trade sheet is calmer: the essentials at a glance, the route and the

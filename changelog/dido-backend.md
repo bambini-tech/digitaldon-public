@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.33.0] - 2026-11-24
+
+- Trading on Arbitrum is ready to be switched on in DiDo.
+
 ## [0.32.2] - 2026-11-23
 
 - A cross-chain buy is no longer refused as "cannot be sold" because of a
