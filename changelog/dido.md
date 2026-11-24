@@ -3,6 +3,17 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.95.0] - 2026-11-24
+
+- DiDo on phones, revised: the chart, the trades strip, the Buy · Sell bar
+  and the holder map now stack cleanly instead of covering each other, and
+  every chart control is in thumb reach.
+- Turn your phone sideways for a two-column view: the map on the left, the
+  chart full height on the right.
+- Press and hold on the chart to read a candle's open, high, low and close.
+- Fixes on phones: the search keeps its field on the home page, a page that
+  could not open has a way home, and tooltips no longer stick after a tap.
+
 ## [0.94.0] - 2026-11-24
 
 - Tokens handed to your wallet that you never bought, the way most scam
