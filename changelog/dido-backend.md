@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.33.4] - 2026-11-26
+
+- Fixed: some token purchases stopped with an internal error before the wallet was asked; they go through now.
+
 ## [0.33.3] - 2026-11-26
 
 - Team wallets can now open DiDo's holder beta like any holder's wallet.
