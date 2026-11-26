@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.96.1] - 2026-11-26
+
+- DiDo's browser tab now shows the DigitalDon icon and the name "DiDo - DeFi Platform".
+
 ## [0.96.0] - 2026-11-26
 
 - The holders' beta opens with a glass pop-up in front of DiDo's home, blurred behind it.
