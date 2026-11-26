@@ -3,6 +3,10 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.33.2] - 2026-11-26
+
+- The token list behind "Pay with" loads reliably when several people open it at the same moment.
+
 ## [0.33.1] - 2026-11-24
 
 - No visible change: the last piece for trading on Arbitrum in DiDo.
