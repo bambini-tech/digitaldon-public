@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.97.0] - 2026-11-27
+
+- You can now connect a wallet with WalletConnect: scan a QR code with your phone's wallet app, or open it from the phone itself. It sits beside the browser wallets DiDo finds on its own, in the wallet chooser and on the holder-beta page.
+- WalletConnect covers EVM wallets for now; Solana wallets connect as before.
+
 ## [0.96.1] - 2026-11-26
 
 - DiDo's browser tab now shows the DigitalDon icon and the name "DiDo - DeFi Platform".
