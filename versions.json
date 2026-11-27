@@ -11,8 +11,8 @@
       "changelog": "changelog/webapp.md"
     },
     "website": {
-      "version": "2.2.0",
-      "tag": "site/v2.2.0",
+      "version": "2.3.0",
+      "tag": "site/v2.3.0",
       "changelog": "changelog/website.md"
     },
     "widget": {

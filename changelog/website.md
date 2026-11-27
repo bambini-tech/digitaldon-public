@@ -3,6 +3,14 @@
 Tags: `site/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.3.0] - 2026-11-27
+
+- New: **hub.digitaldon.net**, every official DigitalDon link on one page:
+  DiDo, the website, the Web Analyzer, the Telegram bot, $DON, the builder
+  docs and the community.
+- The page shows the live $DON price and copies the official contract
+  address in one tap.
+
 ## [2.2.0] - 2026-11-09
 
 - Elysium is now listed among the supported chains.
