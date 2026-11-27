@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.98.0] - 2026-11-27
+
+- The trades list under the chart keeps every trade it has seen while a token
+  is open, up to 2,000, instead of only the latest 150. Older ones are a
+  "show more" away, and the filters search all of them.
+- The foot of the list says how many trades it holds and how far back they go.
+
 ## [0.97.2] - 2026-11-27
 
 - A token with a fake pool (quoted in a thin coin with an inflated price, so it
