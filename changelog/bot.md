@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.161.1] - 2026-11-27
+
+- A token with a fake pool (quoted in a thin coin with an inflated price, so it
+  lists a huge but worthless liquidity) no longer shows that pool's price and
+  market cap: the scan reads the pool its real trading agrees on.
+
 ## [2.161.0] - 2026-11-24
 
 - Wallet scans now say how each token reached the wallet: bought or
