@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.98.1] - 2026-11-28
+
+- On a phone, WalletConnect's wallet list now fits the screen: it no longer
+  runs off the right edge after you tap WalletConnect.
+- The wallet chooser's "continue in WalletConnect…" line no longer overlaps
+  the wallet's name on small screens.
+
 ## [0.98.0] - 2026-11-27
 
 - The trades list under the chart keeps every trade it has seen while a token
