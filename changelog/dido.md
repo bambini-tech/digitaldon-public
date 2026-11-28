@@ -3,6 +3,10 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.99.1] - 2026-11-28
+
+- The holder beta's gate now shows the 5,000,000 $DON line.
+
 ## [0.99.0] - 2026-11-28
 
 - The security strip has a new contract cell. Click it for a card with what

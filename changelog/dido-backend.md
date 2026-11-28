@@ -3,6 +3,11 @@
 Tags: `dido-backend/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.34.0] - 2026-11-28
+
+- DiDo's holder beta is now open from 5,000,000 $DON, added up over up to
+  three wallets.
+
 ## [0.33.4] - 2026-11-26
 
 - Fixed: some token purchases stopped with an internal error before the wallet was asked; they go through now.
