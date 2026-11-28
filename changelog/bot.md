@@ -3,6 +3,12 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.163.0] - 2026-11-28
+
+- Holder maps on EVM chains name the holders the chain's explorer knows: an
+  ENS name, a known fund or service, a multisig. Hover a bubble or open a
+  wallet to see the name and where it comes from.
+
 ## [2.162.0] - 2026-11-28
 
 - New for EVM tokens: what a token's contract says about itself (source

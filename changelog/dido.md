@@ -3,6 +3,11 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.99.2] - 2026-11-28
+
+- The holder map names known holders (ENS names, known funds and services,
+  multisigs) in its tooltips, cluster lists and wallet cards.
+
 ## [0.99.1] - 2026-11-28
 
 - The holder beta's gate now shows the 5,000,000 $DON line.

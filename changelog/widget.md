@@ -3,6 +3,11 @@
 Tags: `widget/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [1.10.3] - 2026-11-28
+
+- The holder map names known holders (ENS names, known funds and services,
+  multisigs) where the chain's explorer knows them.
+
 ## [1.10.2] - 2026-11-27
 
 - A token with a fake pool (quoted in a thin coin with an inflated price, so it
