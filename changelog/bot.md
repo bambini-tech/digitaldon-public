@@ -3,6 +3,13 @@
 Tags: `bot/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [2.162.0] - 2026-11-28
+
+- New for EVM tokens: what a token's contract says about itself (source
+  published or not, upgradeable or not, which owner functions it has) and
+  who deployed it (wallet age, how many contracts it deployed before), read
+  from the chain's explorer.
+
 ## [2.161.1] - 2026-11-27
 
 - A token with a fake pool (quoted in a thin coin with an inflated price, so it

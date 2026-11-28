@@ -3,6 +3,13 @@
 Tags: `dido/vX.Y.Z`. Versioned independently of the other components; see `versions.json` for the current set.
 Each release lists what changed for users and integrators.
 
+## [0.99.0] - 2026-11-28
+
+- The security strip has a new contract cell. Click it for a card with what
+  the token's contract says about itself and who deployed it: source
+  published or not, upgradeable or not, its owner functions, the deployer's
+  wallet age and how many contracts it deployed before.
+
 ## [0.98.1] - 2026-11-28
 
 - On a phone, WalletConnect's wallet list now fits the screen: it no longer
